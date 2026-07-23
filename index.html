@@ -242,8 +242,10 @@
   // Use geoIdentity: mapshaper-simplified geojson has winding issues
   // that break d3.geoMercator's fitSize. Identity treats coords as plane —
   // fine for a country-scale choropleth. reflectY flips lat.
-  const ISLAND_EXCLUDE = new Set(['Andaman and Nicobar','Lakshadweep']);
-  const mainland = { type: 'FeatureCollection', features: geo.features.filter(f => !ISLAND_EXCLUDE.has(f.properties.NAME_1)) };
+  const ISLAND_EXCLUDE = new Set(['ANDAMAN & NICOBAR','LAKSHADWEEP']);
+  const displayNames = bundle.display_names || {};
+  const displayName = n => displayNames[n] || n;
+  const mainland = { type: 'FeatureCollection', features: geo.features.filter(f => !ISLAND_EXCLUDE.has(f.properties.STNAME)) };
   const projection = d3.geoIdentity().reflectY(true).fitSize([W, H-20], mainland);
   const path = d3.geoPath(projection);
   const renderable = mainland.features;
@@ -255,11 +257,11 @@
     .join('path')
     .attr('class','map-state')
     .attr('d', path)
-    .attr('fill', d => `var(${scale(counts[d.properties.NAME_1]||0).replace('var(','').replace(')','')})`)
+    .attr('fill', d => `var(${scale(counts[d.properties.STNAME]||0).replace('var(','').replace(')','')})`)
     .on('mousemove', function(ev, d){
-      const name = d.properties.NAME_1;
+      const name = d.properties.STNAME;
       const c = counts[name] || 0;
-      tt.textContent = `${name}: ${c} ${c===1?'incident':'incidents'}`;
+      tt.textContent = `${displayName(name)}: ${c} ${c===1?'incident':'incidents'}`;
       const rect = mapCard.getBoundingClientRect();
       tt.style.left = (ev.clientX - rect.left + 12) + 'px';
       tt.style.top = (ev.clientY - rect.top + 12) + 'px';
@@ -269,7 +271,7 @@
     .on('click', function(ev, d){
       d3.selectAll('.map-state').classed('selected', false);
       d3.select(this).classed('selected', true);
-      showState(d.properties.NAME_1);
+      showState(d.properties.STNAME);
     });
 
   // Legend
@@ -325,7 +327,7 @@
     const confirmed = incs.filter(i=>i.status==='confirmed').length;
     const accused = incs.filter(i=>i.status==='accused').length;
     document.getElementById('panel').innerHTML = `
-      <h3>${escapeHtml(name)}</h3>
+      <h3>${escapeHtml(displayName(name))}</h3>
       <div class="panel-stats">
         <span><b>${incs.length}</b> ${incs.length===1?'incident':'incidents'}</span>
         ${confirmed ? `<span><b>${confirmed}</b> confirmed</span>` : ''}
