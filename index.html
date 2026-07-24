@@ -34,8 +34,10 @@
     --saffron:    #e8a628;   /* mustard — warnings, "accused" */
     --moss:       #4a6741;   /* deep green — occasional positive */
 
-    /* Choropleth ramp — hand-picked, feels like risograph */
-    --scale-0:    #ebe4d4;
+    /* Choropleth ramp — hand-picked, feels like risograph.
+       scale-0 must be clearly distinct from paper background so 0-incident
+       states remain fully visible — the full country is always intact. */
+    --scale-0:    #d6c9ac;
     --scale-1:    #ecd3b5;
     --scale-2:    #e8b489;
     --scale-3:    #d9825a;
@@ -65,9 +67,9 @@
       --saffron:    #f0bc4a;
       --moss:       #82a274;
 
-      --scale-0:    #1f1b14;
-      --scale-1:    #3d2a1a;
-      --scale-2:    #6d3f21;
+      --scale-0:    #3a3226;
+      --scale-1:    #4d3720;
+      --scale-2:    #7a4622;
       --scale-3:    #a35a2b;
       --scale-4:    #d17842;
       --scale-5:    #f0a55f;
@@ -196,12 +198,14 @@
   #map { width: 100%; height: auto; display: block; }
   .map-state {
     cursor: pointer;
-    stroke: var(--paper);
-    stroke-width: 0.5;
+    stroke: var(--ink);
+    stroke-width: 0.7;
+    stroke-linejoin: round;
+    vector-effect: non-scaling-stroke;
     transition: filter .12s;
   }
-  .map-state:hover { filter: brightness(1.08) contrast(1.1); }
-  .map-state.selected { stroke: var(--ink); stroke-width: 1.8; }
+  .map-state:hover { filter: brightness(1.08) contrast(1.05); }
+  .map-state.selected { stroke: var(--ink); stroke-width: 2.4; }
 
   .map-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; font-family: 'Departure Mono', monospace; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); }
   .map-legend {
@@ -241,16 +245,100 @@
     color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.05em;
   }
   .panel-stats b { color: var(--ink); font-weight: 400; }
-  .reset-btn, .more-btn {
+  .reset-btn, .more-btn, .share-btn {
     display: inline-block; background: transparent;
     border: var(--border-w) solid var(--ink); color: var(--ink);
-    padding: 6px 14px; margin-top: 14px;
+    padding: 6px 14px;
     font-family: 'Departure Mono', monospace; font-size: 10px;
     text-transform: uppercase; letter-spacing: 0.08em;
     cursor: pointer; transition: all .1s;
   }
-  .reset-btn:hover, .more-btn:hover { background: var(--ink); color: var(--paper); }
+  .reset-btn:hover, .more-btn:hover, .share-btn:hover { background: var(--ink); color: var(--paper); }
   .more-btn { width: 100%; margin-top: 20px; padding: 12px; }
+  .reset-btn { margin-top: 14px; }
+  .share-btn {
+    background: var(--paprika); color: var(--paper); border-color: var(--paprika);
+    margin-top: 14px; margin-right: 8px;
+    padding: 8px 14px;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .share-btn:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .share-btn svg { width: 12px; height: 12px; }
+  .panel-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+  .panel-actions .reset-btn, .panel-actions .share-btn { margin-top: 0; }
+
+  /* Share modal */
+  #share-modal {
+    display: none; position: fixed; inset: 0; z-index: 100;
+    align-items: center; justify-content: center;
+    padding: 20px;
+  }
+  #share-modal.open { display: flex; }
+  .share-backdrop {
+    position: absolute; inset: 0;
+    background: rgba(20,17,13,0.72);
+    backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+  }
+  .share-panel {
+    position: relative; background: var(--paper);
+    border: var(--border-w) solid var(--ink);
+    max-width: 480px; width: 100%;
+    max-height: 92vh; overflow-y: auto;
+    padding: 22px 22px 20px;
+    box-shadow: 6px 6px 0 var(--paprika);
+  }
+  .share-close {
+    position: absolute; top: 10px; right: 10px;
+    background: transparent; border: none; color: var(--ink);
+    font-size: 26px; line-height: 1; cursor: pointer;
+    padding: 4px 10px;
+  }
+  .share-close:hover { color: var(--paprika); }
+  .share-panel h4 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 26px; font-weight: 400; letter-spacing: -0.02em;
+    margin: 0 0 4px;
+  }
+  .share-panel .share-sub {
+    font-family: 'Departure Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--ink-faint); margin-bottom: 16px;
+  }
+  .share-preview-wrap {
+    background: var(--paper-2); border: var(--border-w) solid var(--ink);
+    aspect-ratio: 1080 / 1920;
+    margin-bottom: 14px;
+    position: relative; overflow: hidden;
+  }
+  #share-preview {
+    width: 100%; height: 100%; display: block; object-fit: contain;
+    opacity: 0; transition: opacity .2s;
+  }
+  #share-preview.ready { opacity: 1; }
+  .share-loading {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Departure Mono', monospace; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--ink-faint);
+  }
+  .share-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .share-actions button {
+    padding: 12px;
+    font-family: 'Departure Mono', monospace; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    border: var(--border-w) solid var(--ink); cursor: pointer;
+    transition: all .1s;
+  }
+  .share-actions .primary { background: var(--paprika); color: var(--paper); border-color: var(--paprika); }
+  .share-actions .primary:hover { background: var(--ink); border-color: var(--ink); }
+  .share-actions .secondary { background: var(--paper); color: var(--ink); }
+  .share-actions .secondary:hover { background: var(--ink); color: var(--paper); }
+  .share-note {
+    margin: 12px 0 0; font-family: 'Departure Mono', monospace; font-size: 9px;
+    text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-faint);
+    text-align: center;
+  }
 
   /* Incident cards */
   .incident { padding: 18px 0; border-top: var(--border-w) solid var(--paper-3); }
@@ -355,6 +443,24 @@
   <div class="toprule">
     <span>Public Transparency Project</span>
     <span class="stamp">Vol. 01 · 2024</span>
+  </div>
+
+  <div id="share-modal" role="dialog" aria-modal="true" aria-labelledby="share-title">
+    <div class="share-backdrop" onclick="__closeShare()"></div>
+    <div class="share-panel">
+      <button class="share-close" onclick="__closeShare()" aria-label="Close">×</button>
+      <h4 id="share-title">Share as Story</h4>
+      <div class="share-sub" id="share-subtitle">Preparing card…</div>
+      <div class="share-preview-wrap">
+        <img id="share-preview" alt="Share card preview" />
+        <div class="share-loading" id="share-loading">Rendering 1080 × 1920…</div>
+      </div>
+      <div class="share-actions">
+        <button class="primary" id="share-native-btn" onclick="__nativeShare()">Share ↗</button>
+        <button class="secondary" onclick="__downloadShare()">Download PNG</button>
+      </div>
+      <p class="share-note" id="share-note">On mobile, tap Share and pick Instagram → Story · On desktop, download then upload to Story</p>
+    </div>
   </div>
 
   <div id="loading">Loading dataset…</div>
@@ -586,10 +692,22 @@
         ${accused ? `<span><b>${accused}</b> accused</span>` : ''}
       </div>
       ${incs.length ? renderIncidents(incs) : '<p style="color:var(--ink-faint);padding:20px 0;font-style:italic">No documented incidents in the dataset for this state.</p>'}
-      <button class="reset-btn" onclick="showAll()">← Back to all</button>
+      <div class="panel-actions">
+        <button class="reset-btn" onclick="showAll()">← Back to all</button>
+        ${incs.length ? `<button class="share-btn" onclick="__openShare('${name.replace(/'/g,"\\'")}')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+          Share as Story
+        </button>` : ''}
+      </div>
     `;
     document.getElementById('panel').scrollTop = 0;
   }
+
+  // Expose data needed by the share renderer
+  window.__shareData = {
+    bundle, mainland, scale,
+    displayName,
+  };
 
   function renderIncidents(incs){
     return incs.map(i => `
@@ -738,6 +856,270 @@ function fmtNewsDate(iso){
 function escNews(s){
   return String(s||'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
+
+/* ============================================================
+   SHARE CARD  —  1080×1920 canvas → PNG → Web Share / download
+   ============================================================ */
+const SHARE = {
+  W: 1080, H: 1920,
+  colors: {
+    paper: '#f2ece0',
+    paper2: '#ebe4d4',
+    ink:   '#14110d',
+    inkDim:'#4a453b',
+    inkFaint:'#857e6f',
+    paprika: '#c73e1d',
+    saffron: '#e8a628',
+    ramp: ['#d6c9ac','#ecd3b5','#e8b489','#d9825a','#c14a1e','#7d1d0e'],
+  },
+  currentFile: null,
+  currentBlobURL: null,
+};
+function shareRampColor(c){
+  if (c === 0) return SHARE.colors.ramp[0];
+  if (c === 1) return SHARE.colors.ramp[1];
+  if (c <= 3)  return SHARE.colors.ramp[2];
+  if (c <= 5)  return SHARE.colors.ramp[3];
+  if (c <= 8)  return SHARE.colors.ramp[4];
+  return SHARE.colors.ramp[5];
+}
+function slugify(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,''); }
+function drawWrappedText(ctx, text, x, y, maxW, lineH){
+  const words = text.split(' ');
+  let line = '';
+  let cursorY = y;
+  for (let i = 0; i < words.length; i++){
+    const test = line ? line + ' ' + words[i] : words[i];
+    if (ctx.measureText(test).width > maxW && line){
+      ctx.fillText(line, x, cursorY);
+      line = words[i];
+      cursorY += lineH;
+    } else {
+      line = test;
+    }
+  }
+  if (line) ctx.fillText(line, x, cursorY);
+  return cursorY;
+}
+
+async function renderShareCanvas(stateName){
+  const { bundle, mainland, displayName } = window.__shareData;
+  await document.fonts.ready;
+
+  const canvas = document.createElement('canvas');
+  canvas.width = SHARE.W; canvas.height = SHARE.H;
+  const ctx = canvas.getContext('2d');
+
+  const c = SHARE.colors;
+  const counts = bundle.state_counts;
+  const incs = (bundle.state_incidents[stateName] || []).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  const confirmed = incs.filter(i=>i.status==='confirmed').length;
+  const accused = incs.filter(i=>i.status==='accused').length;
+  const total = incs.length;
+  const latest = incs[0];
+  const label = displayName(stateName);
+
+  /* ---- Background ---- */
+  ctx.fillStyle = c.paper;
+  ctx.fillRect(0, 0, SHARE.W, SHARE.H);
+
+  // subtle grid dots
+  ctx.fillStyle = 'rgba(20,17,13,0.03)';
+  for (let x = 0; x < SHARE.W; x += 24)
+    for (let y = 0; y < SHARE.H; y += 24)
+      ctx.fillRect(x, y, 2, 2);
+
+  /* ---- Top ink strip ---- */
+  ctx.fillStyle = c.ink;
+  ctx.fillRect(0, 0, SHARE.W, 100);
+  ctx.fillStyle = c.paper;
+  ctx.font = '20px "Departure Mono", monospace';
+  ctx.textBaseline = 'middle';
+  ctx.textAlign = 'left';
+  ctx.fillText('PUBLIC TRANSPARENCY PROJECT', 60, 50);
+  ctx.textAlign = 'right';
+  ctx.fillText('VOL. 01 · 2024', SHARE.W - 60, 50);
+
+  /* ---- Kicker ---- */
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillStyle = c.paprika;
+  ctx.font = '22px "Departure Mono", monospace';
+  ctx.fillText('§ 01 · GEOGRAPHY', 60, 180);
+
+  /* ---- State name ---- */
+  ctx.fillStyle = c.ink;
+  ctx.font = '112px "Instrument Serif", serif';
+  const nameY = drawWrappedText(ctx, label + '.', 60, 290, 960, 118);
+
+  /* ---- Divider ---- */
+  ctx.strokeStyle = c.ink;
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(60, nameY + 40);
+  ctx.lineTo(SHARE.W - 60, nameY + 40);
+  ctx.stroke();
+
+  /* ---- Map ---- */
+  const mapY = nameY + 80;
+  const mapH = 640;
+  const mapW = 960;
+  const mapProj = d3.geoIdentity().reflectY(true).fitSize([mapW, mapH - 40], mainland);
+  ctx.save();
+  ctx.translate(60, mapY);
+  const path = d3.geoPath(mapProj, ctx);
+  for (const f of mainland.features){
+    const name = f.properties.STNAME;
+    const isSel = name === stateName;
+    const cnt = counts[name] || 0;
+    ctx.beginPath();
+    path(f);
+    ctx.fillStyle = isSel ? c.paprika : shareRampColor(cnt);
+    ctx.fill();
+    ctx.strokeStyle = c.ink;
+    ctx.lineWidth = isSel ? 3 : 1;
+    ctx.stroke();
+  }
+  ctx.restore();
+
+  // Map caption
+  ctx.fillStyle = c.inkFaint;
+  ctx.font = '18px "Departure Mono", monospace';
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText('FIG. — ' + label.toUpperCase() + ' HIGHLIGHTED · N = ' + total, 60, mapY + mapH + 4);
+
+  /* ---- Big number block (centered) ---- */
+  const numBaseline = mapY + mapH + 250;
+  ctx.textAlign = 'center';
+  ctx.fillStyle = c.ink;
+  ctx.font = '220px "Departure Mono", monospace';
+  ctx.fillText(String(total), SHARE.W / 2, numBaseline);
+
+  ctx.font = '26px "Departure Mono", monospace';
+  ctx.fillStyle = c.ink;
+  ctx.fillText('DOCUMENTED PAPER LEAKS · 2014 — 2024', SHARE.W / 2, numBaseline + 55);
+
+  /* ---- Divider ---- */
+  ctx.strokeStyle = c.ink;
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(SHARE.W / 2 - 100, numBaseline + 95);
+  ctx.lineTo(SHARE.W / 2 + 100, numBaseline + 95);
+  ctx.stroke();
+
+  /* ---- Stat line (centered) ---- */
+  let subY = numBaseline + 150;
+  ctx.font = '28px "Departure Mono", monospace';
+  const cf = confirmed + ' CONFIRMED';
+  const ac = accused > 0 ? '  ·  ' + accused + ' ACCUSED' : '';
+  const cfW = ctx.measureText(cf).width;
+  const acW = ctx.measureText(ac).width;
+  const startX = SHARE.W / 2 - (cfW + acW) / 2;
+  ctx.textAlign = 'left';
+  ctx.fillStyle = c.paprika;
+  ctx.fillText(cf, startX, subY);
+  if (accused > 0){
+    ctx.fillStyle = c.saffron;
+    ctx.fillText(ac, startX + cfW, subY);
+  }
+
+  /* ---- Latest incident (centered) ---- */
+  if (latest){
+    ctx.textAlign = 'center';
+    ctx.fillStyle = c.inkFaint;
+    ctx.font = '18px "Departure Mono", monospace';
+    ctx.fillText('MOST RECENT · ' + (latest.date || ''), SHARE.W / 2, subY + 60);
+    ctx.fillStyle = c.ink;
+    ctx.font = 'italic 32px "Instrument Serif", serif';
+    // textAlign remains 'center' → pass canvas midpoint as x
+    const examLine = (latest.exam || '').replace(/\s+/g,' ').slice(0, 120);
+    drawWrappedText(ctx, examLine, SHARE.W / 2, subY + 100, 880, 40);
+  }
+  ctx.textAlign = 'left';
+
+  /* ---- Footer strip ---- */
+  ctx.fillStyle = c.ink;
+  ctx.fillRect(0, SHARE.H - 100, SHARE.W, 100);
+  ctx.fillStyle = c.paper;
+  ctx.font = '22px "Departure Mono", monospace';
+  ctx.textBaseline = 'middle';
+  ctx.textAlign = 'left';
+  ctx.fillText('royronit.github.io/india-paper-leaks-map', 60, SHARE.H - 62);
+  ctx.fillStyle = c.paprika;
+  ctx.font = '16px "Departure Mono", monospace';
+  ctx.fillText('SOURCE: KAGGLE / MAURYAN SHIVAM · CC BY-NC-SA 4.0', 60, SHARE.H - 32);
+
+  return canvas;
+}
+
+async function __openShare(stateName){
+  const modal = document.getElementById('share-modal');
+  const preview = document.getElementById('share-preview');
+  const loading = document.getElementById('share-loading');
+  const subtitle = document.getElementById('share-subtitle');
+  const nativeBtn = document.getElementById('share-native-btn');
+
+  modal.classList.add('open');
+  preview.classList.remove('ready');
+  preview.removeAttribute('src');
+  loading.style.display = 'flex';
+  loading.textContent = 'Rendering 1080 × 1920…';
+
+  const label = window.__shareData.displayName(stateName);
+  subtitle.textContent = label.toUpperCase() + ' · READY FOR STORY';
+
+  try {
+    const canvas = await renderShareCanvas(stateName);
+    const blob = await new Promise(r => canvas.toBlob(r, 'image/png', 0.95));
+    if (SHARE.currentBlobURL) URL.revokeObjectURL(SHARE.currentBlobURL);
+    SHARE.currentBlobURL = URL.createObjectURL(blob);
+    SHARE.currentFile = new File([blob], `paper-leaks-${slugify(label)}.png`, {type:'image/png'});
+    preview.src = SHARE.currentBlobURL;
+    preview.classList.add('ready');
+    loading.style.display = 'none';
+
+    // Hide native share button on browsers that can't share files
+    const canShareFile = navigator.canShare && navigator.canShare({files: [SHARE.currentFile]});
+    nativeBtn.style.display = canShareFile ? '' : 'none';
+    if (!canShareFile){
+      document.querySelector('.share-actions').style.gridTemplateColumns = '1fr';
+    } else {
+      document.querySelector('.share-actions').style.gridTemplateColumns = '1fr 1fr';
+    }
+  } catch (e){
+    console.error(e);
+    loading.textContent = 'Render failed — try again';
+  }
+}
+function __closeShare(){
+  document.getElementById('share-modal').classList.remove('open');
+}
+async function __nativeShare(){
+  if (!SHARE.currentFile) return;
+  try {
+    await navigator.share({
+      files: [SHARE.currentFile],
+      title: 'India Paper Leaks',
+      text: 'Every documented question-paper leak in India, mapped.',
+    });
+  } catch (e){
+    if (e.name !== 'AbortError') console.warn('share failed', e);
+  }
+}
+function __downloadShare(){
+  if (!SHARE.currentBlobURL || !SHARE.currentFile) return;
+  const a = document.createElement('a');
+  a.href = SHARE.currentBlobURL;
+  a.download = SHARE.currentFile.name;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+// Escape to close
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && document.getElementById('share-modal').classList.contains('open')) __closeShare();
+});
 </script>
 </body>
 </html>
