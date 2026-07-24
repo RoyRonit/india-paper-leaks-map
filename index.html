@@ -5,176 +5,400 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
 <title>India Paper Leaks — Public Transparency Map</title>
 <meta name="description" content="Every documented question-paper leak in India, 2014–2024. 66 incidents. Click a state to see the exams, the accused, and what happened next." />
-<meta name="theme-color" content="#0b0d10" />
+<meta name="theme-color" content="#f4efe4" />
 <meta property="og:title" content="India Paper Leaks — Public Transparency Map" />
-<meta property="og:description" content="66 documented question-paper leaks across India, mapped. Click any state to see the exams and outcomes." />
+<meta property="og:description" content="Every documented question-paper leak in India, mapped. 66 incidents. 73% confirmed. Only 3 chargesheets." />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%84%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Departure+Mono&family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+
 <style>
+  /* ============ DESIGN SYSTEM ============ */
   :root {
-    --bg: #0b0d10;
-    --surface: #14181d;
-    --surface-2: #1c2128;
-    --border: #262c34;
-    --text: #e8ecef;
-    --text-dim: #9aa4ad;
-    --text-faint: #6a747c;
-    --accent: #ff6b3d;
-    --accent-2: #ffb46b;
-    --confirmed: #ef4444;
-    --accused: #eab308;
-    --link: #7cc4ff;
-    --scale-0: #1e242b;
-    --scale-1: #4a2620;
-    --scale-2: #7a3320;
-    --scale-3: #b8471f;
-    --scale-4: #ff6b3d;
-    --scale-5: #ffb46b;
+    /* Ink-on-paper palette. Warm, editorial, unique. */
+    --paper:      #f2ece0;   /* bone */
+    --paper-2:    #ebe4d4;   /* deeper bone (card) */
+    --paper-3:    #e0d7c2;   /* border */
+    --ink:        #14110d;   /* near-black warm */
+    --ink-dim:    #4a453b;
+    --ink-faint:  #857e6f;
+
+    /* Accents — three carefully chosen, not the usual dashboard reds */
+    --paprika:    #c73e1d;   /* signal red — used for CTA & highest bucket */
+    --prussian:   #143642;   /* deep blue — hyperlinks & serious labels */
+    --saffron:    #e8a628;   /* mustard — warnings, "accused" */
+    --moss:       #4a6741;   /* deep green — occasional positive */
+
+    /* Choropleth ramp — hand-picked, feels like risograph */
+    --scale-0:    #ebe4d4;
+    --scale-1:    #ecd3b5;
+    --scale-2:    #e8b489;
+    --scale-3:    #d9825a;
+    --scale-4:    #c14a1e;
+    --scale-5:    #7d1d0e;
+
+    --confirmed:  var(--paprika);
+    --accused:    var(--saffron);
+    --link:       var(--prussian);
+
+    --radius:     0px;    /* editorial: sharp corners, no roundy webby feel */
+    --radius-sm:  2px;
+    --border-w:   1px;
   }
-  @media (prefers-color-scheme: light) {
+
+  @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #f7f6f2;
-      --surface: #ffffff;
-      --surface-2: #f0eee8;
-      --border: #dcd8ce;
-      --text: #1a1c1f;
-      --text-dim: #5c646e;
-      --text-faint: #8b939c;
-      --accent: #d94f1e;
-      --accent-2: #b8380a;
-      --confirmed: #c81d1d;
-      --accused: #a67a00;
-      --link: #0a5cc4;
-      --scale-0: #efece4;
-      --scale-1: #f5d5c4;
-      --scale-2: #f0a984;
-      --scale-3: #e37449;
-      --scale-4: #d94f1e;
-      --scale-5: #a83a12;
+      --paper:      #14110d;
+      --paper-2:    #1b1712;
+      --paper-3:    #2a251c;
+      --ink:        #f2ece0;
+      --ink-dim:    #beb5a2;
+      --ink-faint:  #7a7360;
+
+      --paprika:    #ef6a3c;
+      --prussian:   #8fb8c9;
+      --saffron:    #f0bc4a;
+      --moss:       #82a274;
+
+      --scale-0:    #1f1b14;
+      --scale-1:    #3d2a1a;
+      --scale-2:    #6d3f21;
+      --scale-3:    #a35a2b;
+      --scale-4:    #d17842;
+      --scale-5:    #f0a55f;
     }
   }
-  * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-  body { line-height: 1.5; }
-  a { color: var(--link); text-decoration: none; }
-  a:hover { text-decoration: underline; }
 
-  .wrap { max-width: 1200px; margin: 0 auto; padding: 24px 20px 80px; }
-
-  header.hero { padding: 40px 0 24px; border-bottom: 1px solid var(--border); }
-  .kicker { color: var(--accent); font-size: 12px; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
-  h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.1; margin: 8px 0 12px; letter-spacing: -0.02em; font-weight: 800; }
-  .lede { color: var(--text-dim); font-size: clamp(15px, 1.8vw, 17px); max-width: 720px; margin: 0; }
-
-  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 28px 0 8px; }
-  @media (max-width: 640px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
-  .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
-  .kpi .n { font-size: clamp(24px, 4vw, 32px); font-weight: 800; letter-spacing: -0.02em; color: var(--text); }
-  .kpi .l { font-size: 12px; color: var(--text-dim); margin-top: 4px; text-transform: uppercase; letter-spacing: .08em; }
-  .kpi .sub { font-size: 11px; color: var(--text-faint); margin-top: 2px; }
-
-  section { margin-top: 40px; }
-  h2 { font-size: 20px; margin: 0 0 12px; font-weight: 700; letter-spacing: -0.01em; }
-  .h2-note { color: var(--text-dim); font-size: 13px; margin: -6px 0 16px; }
-
-  .map-and-panel { display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; align-items: start; }
-  @media (max-width: 900px) { .map-and-panel { grid-template-columns: 1fr; } }
-
-  #map-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px; position: sticky; top: 12px; align-self: start; }
-  #map { width: 100%; height: auto; display: block; }
-  .map-state { cursor: pointer; stroke: var(--bg); stroke-width: 0.6; transition: filter .15s, opacity .15s; }
-  .map-state:hover { filter: brightness(1.25); }
-  .map-state.selected { stroke: var(--accent); stroke-width: 1.8; }
-  .map-legend { display: flex; align-items: center; gap: 8px; margin-top: 10px; font-size: 12px; color: var(--text-dim); flex-wrap: wrap; }
-  .legend-swatch { display: inline-flex; align-items: center; gap: 4px; }
-  .legend-swatch span:first-child { width: 14px; height: 14px; border-radius: 3px; display: inline-block; border: 1px solid var(--border); }
-  .tooltip {
-    position: absolute; pointer-events: none;
-    background: var(--surface-2); color: var(--text);
-    border: 1px solid var(--border); border-radius: 8px;
-    padding: 6px 10px; font-size: 13px; font-weight: 500;
-    box-shadow: 0 4px 20px rgba(0,0,0,.4);
-    opacity: 0; transition: opacity .1s;
-    white-space: nowrap;
+  /* ============ RESET & TYPOGRAPHY ============ */
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'ss01', 'cv11';
+    /* subtle paper grain */
+    background-image:
+      radial-gradient(rgba(0,0,0,.014) 1px, transparent 1px),
+      radial-gradient(rgba(0,0,0,.010) 1px, transparent 1px);
+    background-size: 4px 4px, 9px 9px;
+    background-position: 0 0, 2px 2px;
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-image:
+        radial-gradient(rgba(255,255,255,.02) 1px, transparent 1px),
+        radial-gradient(rgba(255,255,255,.012) 1px, transparent 1px);
+    }
   }
 
-  #panel { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; min-height: 400px; max-height: 80vh; overflow-y: auto; }
+  .mono, .num { font-family: 'Departure Mono', 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace; letter-spacing: 0; }
+  .serif { font-family: 'Instrument Serif', 'Times New Roman', serif; letter-spacing: -0.01em; }
+
+  a { color: var(--link); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color .12s; }
+  a:hover { border-bottom-color: var(--link); }
+
+  ::selection { background: var(--paprika); color: var(--paper); }
+
+  /* ============ LAYOUT ============ */
+  .wrap { max-width: 1260px; margin: 0 auto; padding: 24px 24px 80px; }
+
+  /* Kicker bar at very top */
+  .toprule {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 12px 0; border-bottom: var(--border-w) solid var(--ink);
+    font-family: 'Departure Mono', monospace; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink);
+  }
+  .toprule .stamp { padding: 3px 8px; background: var(--ink); color: var(--paper); }
+
+  /* Hero */
+  header.hero { padding: 44px 0 32px; border-bottom: var(--border-w) solid var(--ink); }
+  .kicker { font-family: 'Departure Mono', monospace; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-dim); }
+  h1.title {
+    font-family: 'Instrument Serif', serif;
+    font-size: clamp(40px, 7vw, 84px);
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    margin: 12px 0 20px;
+    font-weight: 400;
+  }
+  h1.title em { font-style: italic; color: var(--paprika); }
+  .lede { color: var(--ink-dim); font-size: clamp(16px, 1.6vw, 19px); max-width: 720px; margin: 0; }
+  .lede b { color: var(--ink); font-weight: 600; }
+
+  /* KPIs */
+  .kpis {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
+    margin: 40px 0 0;
+    border: var(--border-w) solid var(--ink);
+    background: var(--paper-2);
+  }
+  @media (max-width: 720px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+  .kpi { padding: 20px 22px; border-right: var(--border-w) solid var(--ink); }
+  .kpi:last-child { border-right: none; }
+  @media (max-width: 720px) {
+    .kpi:nth-child(2) { border-right: none; }
+    .kpi:nth-child(-n+2) { border-bottom: var(--border-w) solid var(--ink); }
+  }
+  .kpi .n {
+    font-family: 'Departure Mono', monospace;
+    font-size: clamp(40px, 6vw, 60px);
+    line-height: 1;
+    color: var(--ink);
+    font-feature-settings: 'tnum';
+    margin-bottom: 8px;
+  }
+  .kpi .l { font-family: 'Departure Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink); margin-bottom: 3px; }
+  .kpi .sub { font-size: 12px; color: var(--ink-faint); }
+
+  /* Sections */
+  section { margin-top: 52px; }
+  h2.section-title {
+    font-family: 'Instrument Serif', serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 0 6px;
+    letter-spacing: -0.02em;
+  }
+  .h2-num {
+    font-family: 'Departure Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--paprika);
+    margin-bottom: 6px;
+    display: block;
+  }
+  .h2-note { color: var(--ink-dim); font-size: 14px; margin: 4px 0 24px; max-width: 720px; }
+
+  /* Map + panel */
+  .map-and-panel { display: grid; grid-template-columns: 1.15fr 1fr; gap: 0; border: var(--border-w) solid var(--ink); background: var(--paper-2); }
+  @media (max-width: 900px) { .map-and-panel { grid-template-columns: 1fr; } }
+
+  #map-card {
+    padding: 20px 20px 16px;
+    border-right: var(--border-w) solid var(--ink);
+    position: sticky; top: 12px; align-self: start;
+    background: var(--paper-2);
+  }
+  @media (max-width: 900px) { #map-card { border-right: none; border-bottom: var(--border-w) solid var(--ink); position: static; } }
+  #map { width: 100%; height: auto; display: block; }
+  .map-state {
+    cursor: pointer;
+    stroke: var(--paper);
+    stroke-width: 0.5;
+    transition: filter .12s;
+  }
+  .map-state:hover { filter: brightness(1.08) contrast(1.1); }
+  .map-state.selected { stroke: var(--ink); stroke-width: 1.8; }
+
+  .map-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; font-family: 'Departure Mono', monospace; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); }
+  .map-legend {
+    display: flex; align-items: center; gap: 10px; margin-top: 8px;
+    font-family: 'Departure Mono', monospace; font-size: 10px;
+    color: var(--ink-faint); flex-wrap: wrap;
+  }
+  .legend-scale { display: flex; align-items: center; }
+  .legend-scale span.sw { width: 22px; height: 12px; display: inline-block; border: 0.5px solid var(--paper-3); }
+  .legend-scale span.n { padding: 0 4px; }
+
+  .tooltip {
+    position: absolute; pointer-events: none;
+    background: var(--ink); color: var(--paper);
+    padding: 6px 10px;
+    font-family: 'Departure Mono', monospace; font-size: 11px;
+    box-shadow: 3px 3px 0 var(--paprika);
+    opacity: 0; transition: opacity .1s;
+    white-space: nowrap; z-index: 20;
+  }
+
+  #panel {
+    padding: 20px 22px; min-height: 500px;
+    max-height: 82vh; overflow-y: auto;
+    background: var(--paper);
+  }
   #panel::-webkit-scrollbar { width: 8px; }
-  #panel::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
-  .more-btn { display: block; width: 100%; margin-top: 14px; background: var(--surface-2); border: 1px solid var(--border); color: var(--text); padding: 10px; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; }
-  .more-btn:hover { border-color: var(--accent); color: var(--accent); }
-  #panel h3 { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.01em; }
-  #panel .panel-stats { display: flex; gap: 16px; margin: 8px 0 16px; flex-wrap: wrap; font-size: 13px; color: var(--text-dim); }
-  #panel .panel-stats b { color: var(--text); font-weight: 700; }
-  .reset-btn { background: transparent; border: 1px solid var(--border); color: var(--text-dim); padding: 4px 10px; border-radius: 6px; font-size: 12px; cursor: pointer; margin-top: 12px; }
-  .reset-btn:hover { color: var(--text); border-color: var(--accent); }
+  #panel::-webkit-scrollbar-thumb { background: var(--paper-3); }
+  #panel h3 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 30px; font-weight: 400; letter-spacing: -0.02em;
+    margin: 0 0 6px;
+  }
+  .panel-stats {
+    display: flex; gap: 16px; margin-bottom: 20px; flex-wrap: wrap;
+    font-family: 'Departure Mono', monospace; font-size: 11px;
+    color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  .panel-stats b { color: var(--ink); font-weight: 400; }
+  .reset-btn, .more-btn {
+    display: inline-block; background: transparent;
+    border: var(--border-w) solid var(--ink); color: var(--ink);
+    padding: 6px 14px; margin-top: 14px;
+    font-family: 'Departure Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    cursor: pointer; transition: all .1s;
+  }
+  .reset-btn:hover, .more-btn:hover { background: var(--ink); color: var(--paper); }
+  .more-btn { width: 100%; margin-top: 20px; padding: 12px; }
 
-  .incident { padding: 14px 0; border-top: 1px solid var(--border); }
-  .incident:first-of-type { border-top: none; }
-  .inc-head { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
-  .inc-exam { font-weight: 700; color: var(--text); font-size: 15px; line-height: 1.35; flex: 1; }
-  .inc-date { font-size: 12px; color: var(--text-faint); font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .inc-body { font-size: 13px; color: var(--text-dim); margin: 4px 0 8px; }
+  /* Incident cards */
+  .incident { padding: 18px 0; border-top: var(--border-w) solid var(--paper-3); }
+  .incident:first-of-type { border-top: none; padding-top: 0; }
+  .inc-head { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; margin-bottom: 4px; }
+  .inc-exam { font-family: 'Instrument Serif', serif; font-size: 20px; line-height: 1.2; font-weight: 400; letter-spacing: -0.01em; flex: 1; color: var(--ink); }
+  .inc-date { font-family: 'Departure Mono', monospace; font-size: 11px; color: var(--ink-faint); font-variant-numeric: tabular-nums; white-space: nowrap; text-transform: uppercase; letter-spacing: 0.05em; }
+  .inc-body { font-size: 13px; color: var(--ink-dim); margin: 2px 0 10px; font-style: italic; }
   .badges { display: inline-flex; gap: 6px; flex-wrap: wrap; }
-  .badge { font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
-  .badge.confirmed { background: rgba(239,68,68,.15); color: var(--confirmed); border: 1px solid rgba(239,68,68,.3); }
-  .badge.accused { background: rgba(234,179,8,.15); color: var(--accused); border: 1px solid rgba(234,179,8,.3); }
-  .badge.body { background: var(--surface-2); color: var(--text-dim); border: 1px solid var(--border); }
-  .inc-notes { font-size: 13px; color: var(--text-dim); margin: 8px 0; }
-  .inc-notes b { color: var(--text); font-weight: 600; }
-  .inc-ref { font-size: 12px; }
+  .badge {
+    font-family: 'Departure Mono', monospace; font-size: 9px;
+    padding: 3px 7px; text-transform: uppercase; letter-spacing: 0.08em;
+    border: var(--border-w) solid;
+  }
+  .badge.confirmed { border-color: var(--paprika); color: var(--paprika); }
+  .badge.accused { border-color: var(--saffron); color: var(--saffron); }
+  .badge.body { border-color: var(--paper-3); color: var(--ink-dim); }
+  .inc-notes { font-size: 13.5px; color: var(--ink-dim); margin: 10px 0; line-height: 1.5; }
+  .inc-notes b { color: var(--ink); font-weight: 600; font-family: 'Departure Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; }
+  .inc-ref { font-size: 12px; color: var(--ink-faint); }
 
-  .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  /* Callout block */
+  .callout {
+    padding: 32px 28px;
+    background: var(--ink); color: var(--paper);
+    border: var(--border-w) solid var(--ink);
+    margin: 40px 0;
+    display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center;
+  }
+  @media (max-width: 640px) { .callout { grid-template-columns: 1fr; text-align: center; } }
+  .callout .big-num {
+    font-family: 'Departure Mono', monospace;
+    font-size: clamp(60px, 10vw, 96px);
+    line-height: 0.9; color: var(--paprika);
+  }
+  .callout .cta-text { font-family: 'Instrument Serif', serif; font-size: clamp(20px, 2.5vw, 28px); line-height: 1.25; letter-spacing: -0.01em; }
+  .callout .cta-text small { display: block; font-family: 'Departure Mono', monospace; font-size: 11px; margin-top: 8px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--paper); opacity: 0.6; }
+
+  /* News section */
+  .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0; border-top: var(--border-w) solid var(--ink); border-left: var(--border-w) solid var(--ink); }
+  .news-card {
+    padding: 18px 20px;
+    border-right: var(--border-w) solid var(--ink);
+    border-bottom: var(--border-w) solid var(--ink);
+    background: var(--paper-2);
+    display: flex; flex-direction: column; gap: 10px;
+    transition: background .1s;
+    min-height: 160px;
+  }
+  .news-card:hover { background: var(--paper-3); }
+  .news-src { font-family: 'Departure Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--paprika); display: flex; justify-content: space-between; }
+  .news-src .date { color: var(--ink-faint); }
+  .news-title { font-family: 'Instrument Serif', serif; font-size: 20px; line-height: 1.2; letter-spacing: -0.01em; color: var(--ink); text-decoration: none; border: none; margin: 0; flex: 1; }
+  .news-title:hover { color: var(--paprika); border: none; }
+  .news-arrow { font-family: 'Departure Mono', monospace; font-size: 11px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.08em; }
+  #news-loading, #news-error { padding: 40px; text-align: center; color: var(--ink-faint); font-family: 'Departure Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; border: var(--border-w) solid var(--ink); }
+
+  /* Charts */
+  .chart-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 0; border: var(--border-w) solid var(--ink); background: var(--paper-2); }
   @media (max-width: 900px) { .chart-grid { grid-template-columns: 1fr; } }
-  .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
-  .chart-card h3 { margin: 0 0 4px; font-size: 15px; font-weight: 700; }
-  .chart-card .h3-sub { font-size: 12px; color: var(--text-dim); margin-bottom: 16px; }
+  .chart-card { padding: 22px 24px; border-right: var(--border-w) solid var(--ink); }
+  .chart-card:last-child { border-right: none; }
+  @media (max-width: 900px) { .chart-card { border-right: none; border-bottom: var(--border-w) solid var(--ink); } .chart-card:last-child { border-bottom: none; } }
+  .chart-card h3 { font-family: 'Instrument Serif', serif; font-size: 22px; font-weight: 400; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .chart-card .h3-sub { font-family: 'Departure Mono', monospace; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 20px; }
 
-  .year-chart .bar { fill: var(--accent); }
-  .year-chart .bar:hover { fill: var(--accent-2); }
-  .year-chart text.axis { font-size: 11px; fill: var(--text-faint); font-family: inherit; }
-  .year-chart text.value { font-size: 11px; fill: var(--text); font-weight: 600; text-anchor: middle; }
+  .year-chart .bar { fill: var(--paprika); }
+  .year-chart .bar:hover { fill: var(--ink); }
+  .year-chart text.axis { font-family: 'Departure Mono', monospace; font-size: 10px; fill: var(--ink-faint); letter-spacing: 0.05em; }
+  .year-chart text.value { font-family: 'Departure Mono', monospace; font-size: 10px; fill: var(--ink); text-anchor: middle; }
 
-  .action-list li { list-style: none; padding: 8px 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; font-size: 14px; }
+  .action-list ul { margin: 0; padding: 0; list-style: none; }
+  .action-list li { padding: 10px 0; border-bottom: 1px solid var(--paper-3); display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 13px; }
   .action-list li:last-child { border-bottom: none; }
-  .action-list .bar-viz { flex: 1; margin: 0 12px; height: 6px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
-  .action-list .bar-viz > span { display: block; height: 100%; background: var(--accent); }
-  .action-list .count { font-variant-numeric: tabular-nums; color: var(--text-dim); font-weight: 600; min-width: 24px; text-align: right; }
-  .action-list ul { margin: 0; padding: 0; }
+  .action-list .label { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink-dim); }
+  .action-list .bar-viz { flex: 0 0 80px; height: 8px; background: var(--paper-3); }
+  .action-list .bar-viz > span { display: block; height: 100%; background: var(--paprika); }
+  .action-list .count { font-family: 'Departure Mono', monospace; font-size: 12px; color: var(--ink); font-variant-numeric: tabular-nums; min-width: 30px; text-align: right; }
 
-  footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text-faint); font-size: 12px; }
-  footer p { margin: 4px 0; }
-  .disclaimer { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; font-size: 12px; color: var(--text-dim); margin-top: 24px; }
-  .disclaimer b { color: var(--text); }
+  /* Footer */
+  .disclaimer {
+    padding: 20px 24px; border: var(--border-w) solid var(--ink);
+    background: var(--paper-2);
+    font-size: 13px; color: var(--ink-dim); margin-top: 40px;
+    line-height: 1.55;
+  }
+  .disclaimer b { color: var(--ink); }
+  footer.foot { margin-top: 50px; padding-top: 24px; border-top: var(--border-w) solid var(--ink); font-family: 'Departure Mono', monospace; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-faint); }
+  footer.foot p { margin: 6px 0; }
 
-  #loading { padding: 60px 0; text-align: center; color: var(--text-dim); }
+  /* Loading */
+  #loading { padding: 100px 0; text-align: center; color: var(--ink-faint); font-family: 'Departure Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+  /* Utility */
+  .num-hl { font-family: 'Departure Mono', monospace; color: var(--paprika); }
+  .row-spread { display: flex; justify-content: space-between; align-items: baseline; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div id="loading">Loading data…</div>
+
+  <div class="toprule">
+    <span>Public Transparency Project</span>
+    <span class="stamp">Vol. 01 · 2024</span>
+  </div>
+
+  <div id="loading">Loading dataset…</div>
   <div id="app" style="display:none">
 
     <header class="hero">
-      <div class="kicker">Public Transparency Project</div>
-      <h1>India's question-paper leaks, mapped.</h1>
-      <p class="lede">Every documented paper-leak incident from 2014 to August 2024 &mdash; the exam, the body responsible, and what happened next. Click a state.</p>
+      <div class="kicker">A record of Indian question-paper leaks · 2014 – 2024</div>
+      <h1 class="title">India's paper<br>leaks, <em>mapped.</em></h1>
+      <p class="lede">Every documented question-paper leak from June 2014 through August 2024 &mdash; the exam, the body responsible, the source article, and what happened next. <b>Click a state.</b></p>
 
       <div class="kpis">
-        <div class="kpi"><div class="n" id="kpi-total">–</div><div class="l">Documented leaks</div><div class="sub" id="kpi-range">–</div></div>
-        <div class="kpi"><div class="n" id="kpi-confirmed">–</div><div class="l">Confirmed</div><div class="sub" id="kpi-accused">– under accusation</div></div>
-        <div class="kpi"><div class="n" id="kpi-states">–</div><div class="l">States affected</div><div class="sub" id="kpi-national">– all-India exams</div></div>
-        <div class="kpi"><div class="n" id="kpi-orgs">–</div><div class="l">Bodies implicated</div><div class="sub" id="kpi-exams">– unique exams</div></div>
+        <div class="kpi">
+          <div class="n" id="kpi-total">–</div>
+          <div class="l">Documented leaks</div>
+          <div class="sub" id="kpi-range">–</div>
+        </div>
+        <div class="kpi">
+          <div class="n" id="kpi-confirmed">–</div>
+          <div class="l">Confirmed</div>
+          <div class="sub" id="kpi-accused">– under accusation</div>
+        </div>
+        <div class="kpi">
+          <div class="n" id="kpi-states">–</div>
+          <div class="l">States / UTs affected</div>
+          <div class="sub" id="kpi-national">– all-India exams</div>
+        </div>
+        <div class="kpi">
+          <div class="n" id="kpi-orgs">–</div>
+          <div class="l">Bodies implicated</div>
+          <div class="sub" id="kpi-exams">– unique exams</div>
+        </div>
       </div>
     </header>
 
     <section>
-      <h2>Where leaks happen</h2>
-      <p class="h2-note">Darker = more incidents. Click a state to see every documented leak there. Some incidents span multiple states; nationwide exams (UGC NET, CBSE, etc.) are listed separately.</p>
+      <span class="h2-num">§ 01 · Geography</span>
+      <h2 class="section-title">Where leaks happen.</h2>
+      <p class="h2-note">Darker = more incidents. Click any state to see every documented leak there, most recent first. Nationwide exams (UGC NET, CBSE, NEET-adjacent) are listed separately.</p>
       <div class="map-and-panel">
         <div id="map-card">
+          <div class="map-header">
+            <span>Fig. 01 — Incidents by state</span>
+            <span>n = 66</span>
+          </div>
           <svg id="map" viewBox="0 0 600 640"></svg>
           <div class="tooltip" id="tt"></div>
           <div class="map-legend" id="legend"></div>
@@ -183,88 +407,112 @@
       </div>
     </section>
 
+    <div class="callout">
+      <div class="big-num">03</div>
+      <div class="cta-text">
+        Of 66 documented leaks, only three ended with a chargesheet.
+        <small>&mdash; and zero recorded convictions in this dataset.</small>
+      </div>
+    </div>
+
     <section>
-      <h2>The pattern</h2>
+      <span class="h2-num">§ 02 · Live news</span>
+      <div class="row-spread" style="margin-bottom:6px">
+        <h2 class="section-title">The wire.</h2>
+        <span style="font-family:'Departure Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint)">Auto-refreshed</span>
+      </div>
+      <p class="h2-note">Latest paper-leak coverage from Indian outlets, aggregated live from Google News. Backlinks open the original article.</p>
+      <div id="news-container">
+        <div id="news-loading">Fetching latest…</div>
+      </div>
+    </section>
+
+    <section>
+      <span class="h2-num">§ 03 · Pattern</span>
+      <h2 class="section-title">The trajectory.</h2>
+      <p class="h2-note">Reported leaks rose ~4× in the last five years vs the prior five. 2024 covers only through August.</p>
       <div class="chart-grid">
         <div class="chart-card">
           <h3>Incidents per year</h3>
-          <div class="h3-sub">2024 covers through August only.</div>
+          <div class="h3-sub">Fig. 02 — 2014 → 2024</div>
           <svg id="year-chart" class="year-chart" viewBox="0 0 500 220" style="width:100%;height:auto"></svg>
         </div>
         <div class="chart-card">
           <h3>What happened after</h3>
-          <div class="h3-sub">The recorded institutional response.</div>
-          <ul class="action-list" id="action-list"></ul>
+          <div class="h3-sub">Fig. 03 — Institutional response</div>
+          <div class="action-list" id="action-list"></div>
         </div>
       </div>
     </section>
 
     <div class="disclaimer">
-      <b>About this data.</b> Compiled from public news reports by <a href="https://www.kaggle.com/datasets/mauryansshivam/india-question-paper-leaks-incidents-details" target="_blank" rel="noopener">Mauryan Shivam on Kaggle</a> (CC BY-NC-SA 4.0). Each incident links to its original news source. "Confirmed" means the leak was officially acknowledged; "Accused" means it was reported but not confirmed. This list is not exhaustive &mdash; if you know of a documented incident missing from the dataset, contact the dataset author.
+      <b>About this data.</b> Compiled from public news reports by <a href="https://www.kaggle.com/datasets/mauryansshivam/india-question-paper-leaks-incidents-details" target="_blank" rel="noopener">Mauryan Shivam on Kaggle</a> (CC BY-NC-SA 4.0). Each incident links to its source article. "Confirmed" means the leak was officially acknowledged; "Accused" means it was reported but not confirmed. This list is not exhaustive &mdash; know of a missing incident? Reach the dataset author on Kaggle.
     </div>
 
-    <footer>
-      <p>Data: 2014-06 through 2024-08. State-name normalization applied for map rendering. Two incidents lack a recorded "action taken" field.</p>
-      <p>Built to make paper-leak accountability visible &mdash; because 73% of alleged leaks turn out to be confirmed, and only 3 of 66 documented cases resulted in a chargesheet.</p>
+    <footer class="foot">
+      <p>Data window · 2014-06 → 2024-08 · State-name normalization applied for map rendering · Two incidents lack a recorded action-taken field.</p>
+      <p>Built to make paper-leak accountability visible &mdash; because 73% of alleged leaks turn out to be confirmed.</p>
+      <p>Source · <a href="https://github.com/RoyRonit/india-paper-leaks-map" target="_blank" rel="noopener">github.com/RoyRonit/india-paper-leaks-map</a></p>
     </footer>
 
   </div>
 </div>
 
 <script>
+/* ============================================================
+   BOOT
+   ============================================================ */
 (async function(){
   const [bundle, geo] = await Promise.all([
     fetch('app_bundle.json').then(r=>r.json()),
     fetch('india_states.geojson').then(r=>r.json()),
   ]);
 
-  // KPIs
-  document.getElementById('kpi-total').textContent = bundle.meta.total;
-  document.getElementById('kpi-range').textContent = fmtRange(bundle.meta.date_min, bundle.meta.date_max);
-  document.getElementById('kpi-confirmed').textContent = bundle.meta.confirmed;
-  document.getElementById('kpi-accused').textContent = bundle.meta.accused + ' under accusation';
-  document.getElementById('kpi-states').textContent = bundle.meta.states_affected;
-  document.getElementById('kpi-national').textContent = bundle.meta.national + ' all-India exams';
-  document.getElementById('kpi-orgs').textContent = bundle.meta.orgs;
-  document.getElementById('kpi-exams').textContent = bundle.meta.exams + ' unique exams';
+  /* ---------- KPIs ---------- */
+  const setText = (id, v) => document.getElementById(id).textContent = v;
+  setText('kpi-total', bundle.meta.total);
+  setText('kpi-range', fmtRange(bundle.meta.date_min, bundle.meta.date_max));
+  setText('kpi-confirmed', bundle.meta.confirmed);
+  setText('kpi-accused', bundle.meta.accused + ' under accusation');
+  setText('kpi-states', bundle.meta.states_affected);
+  setText('kpi-national', bundle.meta.national + ' all-India exams');
+  setText('kpi-orgs', bundle.meta.orgs);
+  setText('kpi-exams', bundle.meta.exams + ' unique exams');
 
-  // ============ MAP ============
+  /* ============================================================
+     MAP
+     ============================================================ */
   const svg = d3.select('#map');
   const W = 600, H = 640;
   const counts = bundle.state_counts;
-  const maxCount = Math.max(...Object.values(counts));
+  const displayNames = bundle.display_names || {};
+  const displayName = n => displayNames[n] || n;
 
-  // 6-step scale
   const scale = d3.scaleThreshold()
     .domain([1, 2, 4, 6, 9])
     .range(['var(--scale-0)','var(--scale-1)','var(--scale-2)','var(--scale-3)','var(--scale-4)','var(--scale-5)']);
 
-  // Use geoIdentity: mapshaper-simplified geojson has winding issues
-  // that break d3.geoMercator's fitSize. Identity treats coords as plane —
-  // fine for a country-scale choropleth. reflectY flips lat.
   const ISLAND_EXCLUDE = new Set(['ANDAMAN & NICOBAR','LAKSHADWEEP']);
-  const displayNames = bundle.display_names || {};
-  const displayName = n => displayNames[n] || n;
-  const mainland = { type: 'FeatureCollection', features: geo.features.filter(f => !ISLAND_EXCLUDE.has(f.properties.STNAME)) };
+  const mainland = { type:'FeatureCollection', features: geo.features.filter(f => !ISLAND_EXCLUDE.has(f.properties.STNAME)) };
   const projection = d3.geoIdentity().reflectY(true).fitSize([W, H-20], mainland);
   const path = d3.geoPath(projection);
-  const renderable = mainland.features;
+
   const tt = document.getElementById('tt');
   const mapCard = document.getElementById('map-card');
 
   svg.selectAll('path.map-state')
-    .data(renderable)
+    .data(mainland.features)
     .join('path')
     .attr('class','map-state')
     .attr('d', path)
-    .attr('fill', d => `var(${scale(counts[d.properties.STNAME]||0).replace('var(','').replace(')','')})`)
+    .style('fill', d => scale(counts[d.properties.STNAME] || 0))
     .on('mousemove', function(ev, d){
       const name = d.properties.STNAME;
       const c = counts[name] || 0;
-      tt.textContent = `${displayName(name)}: ${c} ${c===1?'incident':'incidents'}`;
+      tt.textContent = `${displayName(name).toUpperCase()} · ${c} ${c===1?'INC':'INCS'}`;
       const rect = mapCard.getBoundingClientRect();
-      tt.style.left = (ev.clientX - rect.left + 12) + 'px';
-      tt.style.top = (ev.clientY - rect.top + 12) + 'px';
+      tt.style.left = (ev.clientX - rect.left + 14) + 'px';
+      tt.style.top  = (ev.clientY - rect.top + 14) + 'px';
       tt.style.opacity = 1;
     })
     .on('mouseleave', ()=> tt.style.opacity = 0)
@@ -274,34 +522,27 @@
       showState(d.properties.STNAME);
     });
 
-  // Legend
   const legendEl = document.getElementById('legend');
   const buckets = [
     ['0','var(--scale-0)'],
     ['1','var(--scale-1)'],
-    ['2–3','var(--scale-2)'],
-    ['4–5','var(--scale-3)'],
-    ['6–8','var(--scale-4)'],
+    ['2-3','var(--scale-2)'],
+    ['4-5','var(--scale-3)'],
+    ['6-8','var(--scale-4)'],
     ['9+','var(--scale-5)'],
   ];
-  legendEl.innerHTML = '<span style="color:var(--text-faint)">Incidents:</span>' +
-    buckets.map(([l,c])=>`<span class="legend-swatch"><span style="background:${c}"></span>${l}</span>`).join('');
+  legendEl.innerHTML = '<span>Incidents →</span>' +
+    '<span class="legend-scale">' +
+    buckets.map(([l,c])=>`<span class="sw" style="background:${c}"></span><span class="n">${l}</span>`).join('') +
+    '</span>';
 
-  // ============ PANEL ============
-  function showNational(){
-    const incs = bundle.national_incidents;
-    document.getElementById('panel').innerHTML = `
-      <h3>All-India exams</h3>
-      <div class="panel-stats">
-        <span><b>${incs.length}</b> nationwide incidents</span>
-        <span>Includes UGC NET, CBSE, NEET-adjacent exams</span>
-      </div>
-      ${renderIncidents(incs)}
-      <button class="reset-btn" onclick="showAll()">← Show all incidents</button>
-    `;
-  }
+  /* ============================================================
+     PANEL
+     ============================================================ */
   const DEFAULT_LIMIT = 8;
-  function showAll(showAllRows){
+  const sortByDate = (a,b) => (b.date||'').localeCompare(a.date||'');
+
+  window.showAll = function(showAllRows){
     d3.selectAll('.map-state').classed('selected', false);
     const incs = bundle.all_incidents.slice().sort(sortByDate);
     const shown = showAllRows ? incs : incs.slice(0, DEFAULT_LIMIT);
@@ -311,21 +552,32 @@
         <span><b>${incs.length}</b> total</span>
         <span><b>${bundle.meta.confirmed}</b> confirmed</span>
         <span><b>${bundle.meta.accused}</b> accused</span>
-        <span><a href="#" onclick="event.preventDefault();showNational()">View ${bundle.meta.national} all-India exams →</a></span>
+        <span><a href="#" onclick="event.preventDefault();showNational()">View ${bundle.meta.national} all-India →</a></span>
       </div>
-      <p style="color:var(--text-dim);font-size:13px;margin:0 0 12px">Click any state on the map to filter. Most recent first.</p>
       ${renderIncidents(shown)}
       ${!showAllRows && incs.length > DEFAULT_LIMIT ? `<button class="more-btn" onclick="showAll(true)">Show all ${incs.length} incidents ↓</button>` : ''}
     `;
     document.getElementById('panel').scrollTop = 0;
-  }
-  window.showAll = showAll;
-  window.showNational = showNational;
+  };
+
+  window.showNational = function(){
+    const incs = bundle.national_incidents.slice().sort(sortByDate);
+    document.getElementById('panel').innerHTML = `
+      <h3>All-India exams</h3>
+      <div class="panel-stats">
+        <span><b>${incs.length}</b> nationwide incidents</span>
+        <span>UGC NET · CBSE · NEET-adjacent</span>
+      </div>
+      ${renderIncidents(incs)}
+      <button class="reset-btn" onclick="showAll()">← Show all incidents</button>
+    `;
+    document.getElementById('panel').scrollTop = 0;
+  };
 
   function showState(name){
-    const incs = bundle.state_incidents[name] || [];
+    const incs = (bundle.state_incidents[name] || []).slice().sort(sortByDate);
     const confirmed = incs.filter(i=>i.status==='confirmed').length;
-    const accused = incs.filter(i=>i.status==='accused').length;
+    const accused   = incs.filter(i=>i.status==='accused').length;
     document.getElementById('panel').innerHTML = `
       <h3>${escapeHtml(displayName(name))}</h3>
       <div class="panel-stats">
@@ -333,12 +585,11 @@
         ${confirmed ? `<span><b>${confirmed}</b> confirmed</span>` : ''}
         ${accused ? `<span><b>${accused}</b> accused</span>` : ''}
       </div>
-      ${incs.length ? renderIncidents(incs.slice().sort(sortByDate)) : '<p style="color:var(--text-dim);padding:20px 0">No documented incidents in the dataset for this state.</p>'}
-      <button class="reset-btn" onclick="showAll()">← Show all incidents</button>
+      ${incs.length ? renderIncidents(incs) : '<p style="color:var(--ink-faint);padding:20px 0;font-style:italic">No documented incidents in the dataset for this state.</p>'}
+      <button class="reset-btn" onclick="showAll()">← Back to all</button>
     `;
+    document.getElementById('panel').scrollTop = 0;
   }
-
-  function sortByDate(a,b){ return (b.date||'').localeCompare(a.date||''); }
 
   function renderIncidents(incs){
     return incs.map(i => `
@@ -353,54 +604,61 @@
           <span class="badge body">${escapeHtml(i.body_type)}</span>
           <span class="badge body">${escapeHtml(i.area)}</span>
         </div>
-        <div class="inc-notes"><b>What happened:</b> ${escapeHtml(i.incident_note)}</div>
-        <div class="inc-notes"><b>Response:</b> ${escapeHtml(i.action_note || i.action || '—')}</div>
+        <div class="inc-notes"><b>What happened —</b> ${escapeHtml(i.incident_note)}</div>
+        <div class="inc-notes"><b>Response —</b> ${escapeHtml(i.action_note || i.action || '—')}</div>
         <div class="inc-ref">${extractRef(i.ref)}</div>
       </div>
     `).join('');
   }
 
-  // ============ YEAR CHART ============
+  /* ============================================================
+     YEAR CHART
+     ============================================================ */
   const years = Object.keys(bundle.by_year).map(Number).sort();
   const yc = d3.select('#year-chart');
-  const YW = 500, YH = 220, ypad = { l: 32, r: 12, t: 16, b: 30 };
-  const yx = d3.scaleBand().domain(years).range([ypad.l, YW-ypad.r]).padding(0.15);
+  const YW = 500, YH = 220, ypad = { l: 32, r: 12, t: 20, b: 30 };
+  const yx = d3.scaleBand().domain(years).range([ypad.l, YW-ypad.r]).padding(0.2);
   const yMax = Math.max(...Object.values(bundle.by_year));
   const yy = d3.scaleLinear().domain([0, yMax]).range([YH-ypad.b, ypad.t]);
 
   yc.selectAll('rect.bar').data(years).join('rect')
     .attr('class','bar')
     .attr('x', d=>yx(d)).attr('width', yx.bandwidth())
-    .attr('y', d=>yy(bundle.by_year[d])).attr('height', d=>YH-ypad.b - yy(bundle.by_year[d]))
-    .attr('rx', 2);
+    .attr('y', d=>yy(bundle.by_year[d])).attr('height', d=>YH-ypad.b - yy(bundle.by_year[d]));
   yc.selectAll('text.value').data(years).join('text')
     .attr('class','value').attr('x', d=>yx(d)+yx.bandwidth()/2)
-    .attr('y', d=>yy(bundle.by_year[d])-4).text(d=>bundle.by_year[d]);
+    .attr('y', d=>yy(bundle.by_year[d])-6).text(d=>bundle.by_year[d]);
   yc.selectAll('text.axis').data(years).join('text')
     .attr('class','axis').attr('x', d=>yx(d)+yx.bandwidth()/2)
-    .attr('y', YH-10).attr('text-anchor','middle').text(d=>d);
+    .attr('y', YH-10).attr('text-anchor','middle').text(d=>String(d).slice(2));
 
-  // ============ ACTION LIST ============
+  /* ============================================================
+     ACTION LIST
+     ============================================================ */
   const actionEntries = Object.entries(bundle.by_action).sort((a,b)=>b[1]-a[1]);
   const actionMax = actionEntries[0][1];
   document.getElementById('action-list').innerHTML = '<ul>' + actionEntries.map(([k,v])=>`
     <li>
-      <span style="min-width:0;flex:0 0 auto;max-width:45%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${escapeHtml(k)}">${escapeHtml(k)}</span>
+      <span class="label" title="${escapeHtml(k)}">${escapeHtml(k)}</span>
       <span class="bar-viz"><span style="width:${(v/actionMax*100).toFixed(1)}%"></span></span>
       <span class="count">${v}</span>
     </li>`).join('') + '</ul>';
 
-  // Default panel view
   showAll();
-
   document.getElementById('loading').style.display = 'none';
   document.getElementById('app').style.display = 'block';
 
-  // ============ Helpers ============
+  /* ============================================================
+     LIVE NEWS  (Google News RSS via rss2json)
+     ============================================================ */
+  loadNews();
+
+  /* ---------- helpers ---------- */
   function fmtDate(s){
     if (!s) return '';
     const [y,m,d] = s.split('-');
-    return `${d}/${m}/${y}`;
+    const monthAbbr = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+    return `${d} ${monthAbbr[+m-1]} ${y}`;
   }
   function fmtRange(a,b){
     if (!a||!b) return '';
@@ -408,20 +666,78 @@
   }
   function escapeHtml(s){
     if (s===null || s===undefined) return '';
-    return String(s).replace(/[&<>"']/g, c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+    return String(s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   }
   function extractRef(ref){
     if (!ref) return '';
-    // Try to pull a domain out of parenthesised url or from a domain-like token
     const parenMatch = ref.match(/\(([^)]+\.[a-z]{2,})\)/i);
     const domain = parenMatch ? parenMatch[1] : (ref.match(/([a-z0-9-]+\.(?:com|in|org|net|co\.in|gov\.in|news|edu))/i)?.[1] || '');
     const title = ref.replace(/\s*\([^)]+\)\s*$/, '').trim();
     if (domain) {
-      return `<span style="color:var(--text-faint)">Source:</span> <a href="https://www.google.com/search?q=${encodeURIComponent(title)}" target="_blank" rel="noopener">${escapeHtml(title)}</a> <span style="color:var(--text-faint)">— ${escapeHtml(domain)}</span>`;
+      return `<span style="color:var(--ink-faint)">SOURCE:</span> <a href="https://www.google.com/search?q=${encodeURIComponent(title)}" target="_blank" rel="noopener">${escapeHtml(title)}</a> <span style="color:var(--ink-faint)">— ${escapeHtml(domain)}</span>`;
     }
-    return `<span style="color:var(--text-faint)">Source:</span> ${escapeHtml(ref)}`;
+    return `<span style="color:var(--ink-faint)">SOURCE:</span> ${escapeHtml(ref)}`;
   }
+
 })();
+
+/* ============================================================
+   NEWS LOADER  —  loads news.json (built by GitHub Actions cron)
+   ============================================================ */
+async function loadNews(){
+  const container = document.getElementById('news-container');
+  try {
+    const r = await fetch('news.json?ts=' + Math.floor(Date.now()/300000)); // 5-min cache-buster
+    if (!r.ok) throw new Error('news.json ' + r.status);
+    const data = await r.json();
+    if (!data.items || data.items.length === 0) throw new Error('no items');
+    renderNews(data.items, data.updated_at);
+  } catch (e) {
+    console.warn('News feed failed:', e);
+    container.innerHTML = `<div id="news-error">Live feed unavailable · try refreshing · or search directly on <a href="https://news.google.com/search?q=%22paper+leak%22+india+exam&hl=en-IN" target="_blank" rel="noopener">Google News</a></div>`;
+  }
+}
+
+function renderNews(items, updatedAt){
+  const html = items.slice(0, 12).map(it => {
+    const title = (it.title || '').trim().replace(/\s+/g,' ');
+    const domain = it.domain || '';
+    const dateStr = it.seendate ? fmtNewsDate(gdeltDateToISO(it.seendate)) : '';
+    return `
+      <a class="news-card" href="${escNews(it.url)}" target="_blank" rel="noopener" style="text-decoration:none;border-bottom:none">
+        <div class="news-src">
+          <span>${escNews(domain.toUpperCase())}</span>
+          <span class="date">${escNews(dateStr)}</span>
+        </div>
+        <div class="news-title">${escNews(title)}</div>
+        <div class="news-arrow">Read →</div>
+      </a>
+    `;
+  }).join('');
+  const updatedNote = updatedAt ? `<div style="font-family:'Departure Mono',monospace;font-size:10px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px">Feed updated ${fmtNewsDate(updatedAt)} · refreshed every 6h</div>` : '';
+  document.getElementById('news-container').innerHTML = updatedNote + `<div class="news-grid">${html}</div>`;
+}
+
+function gdeltDateToISO(s){
+  // "20260724T134500Z"  →  "2026-07-24T13:45:00Z"
+  if (!s || s.length < 15) return null;
+  return `${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}T${s.slice(9,11)}:${s.slice(11,13)}:${s.slice(13,15)}Z`;
+}
+function fmtNewsDate(iso){
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (isNaN(d)) return '';
+  const now = new Date();
+  const diff = (now - d) / 1000 / 60 / 60;
+  if (diff < 1) return `${Math.max(1,Math.round(diff*60))} MIN AGO`;
+  if (diff < 24) return `${Math.round(diff)} HR AGO`;
+  if (diff < 24*7) return `${Math.round(diff/24)} D AGO`;
+  const monthAbbr = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+  return `${String(d.getUTCDate()).padStart(2,'0')} ${monthAbbr[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
+}
+function escNews(s){
+  return String(s||'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
 </script>
 </body>
 </html>
