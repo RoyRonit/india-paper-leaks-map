@@ -962,7 +962,7 @@ async function renderShareCanvas(stateName){
 
   /* ---- Map ---- */
   const mapY = nameY + 80;
-  const mapH = 640;
+  const mapH = 580;
   const mapW = 960;
   const mapProj = d3.geoIdentity().reflectY(true).fitSize([mapW, mapH - 40], mainland);
   ctx.save();
@@ -989,54 +989,110 @@ async function renderShareCanvas(stateName){
   ctx.textBaseline = 'alphabetic';
   ctx.fillText('FIG. — ' + label.toUpperCase() + ' HIGHLIGHTED · N = ' + total, 60, mapY + mapH + 4);
 
-  /* ---- Big number block (centered) ---- */
-  const numBaseline = mapY + mapH + 250;
-  ctx.textAlign = 'center';
+  /* ---- Big number + label as one horizontal band ---- */
+  const bandY = mapY + mapH + 140;
   ctx.fillStyle = c.ink;
-  ctx.font = '220px "Departure Mono", monospace';
-  ctx.fillText(String(total), SHARE.W / 2, numBaseline);
+  ctx.font = '160px "Departure Mono", monospace';
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
+  const bigStr = String(total);
+  const bigW = ctx.measureText(bigStr).width;
+  ctx.fillText(bigStr, 60, bandY);
 
-  ctx.font = '26px "Departure Mono", monospace';
+  ctx.font = '24px "Departure Mono", monospace';
   ctx.fillStyle = c.ink;
-  ctx.fillText('DOCUMENTED PAPER LEAKS · 2014 — 2024', SHARE.W / 2, numBaseline + 55);
+  ctx.fillText('DOCUMENTED', 80 + bigW, bandY - 90);
+  ctx.fillText('PAPER LEAKS', 80 + bigW, bandY - 60);
+  ctx.fillStyle = c.paprika;
+  ctx.fillText(confirmed + ' CONFIRMED', 80 + bigW, bandY - 22);
+  if (accused > 0){
+    ctx.fillStyle = c.saffron;
+    ctx.fillText(accused + ' ACCUSED', 80 + bigW, bandY + 8);
+  }
 
-  /* ---- Divider ---- */
+  /* ---- Divider before chips ---- */
+  const dividerY = bandY + 60;
   ctx.strokeStyle = c.ink;
   ctx.lineWidth = 1;
   ctx.beginPath();
-  ctx.moveTo(SHARE.W / 2 - 100, numBaseline + 95);
-  ctx.lineTo(SHARE.W / 2 + 100, numBaseline + 95);
+  ctx.moveTo(60, dividerY);
+  ctx.lineTo(SHARE.W - 60, dividerY);
   ctx.stroke();
 
-  /* ---- Stat line (centered) ---- */
-  let subY = numBaseline + 150;
-  ctx.font = '28px "Departure Mono", monospace';
-  const cf = confirmed + ' CONFIRMED';
-  const ac = accused > 0 ? '  ·  ' + accused + ' ACCUSED' : '';
-  const cfW = ctx.measureText(cf).width;
-  const acW = ctx.measureText(ac).width;
-  const startX = SHARE.W / 2 - (cfW + acW) / 2;
-  ctx.textAlign = 'left';
+  /* ---- Exam chips ---- */
   ctx.fillStyle = c.paprika;
-  ctx.fillText(cf, startX, subY);
-  if (accused > 0){
-    ctx.fillStyle = c.saffron;
-    ctx.fillText(ac, startX + cfW, subY);
+  ctx.font = '20px "Departure Mono", monospace';
+  ctx.textAlign = 'left';
+  ctx.fillText('§ LEAKED EXAMS', 60, dividerY + 44);
+
+  // Build clean, dedup'd list of exam names for this state
+  const seenExams = new Set();
+  const examNames = [];
+  for (const i of incs){
+    const raw = (i.exam || '').replace(/\s+/g,' ').trim();
+    if (!raw) continue;
+    const key = raw.toLowerCase();
+    if (seenExams.has(key)) continue;
+    seenExams.add(key);
+    examNames.push(raw);
   }
 
-  /* ---- Latest incident (centered) ---- */
-  if (latest){
-    ctx.textAlign = 'center';
-    ctx.fillStyle = c.inkFaint;
-    ctx.font = '18px "Departure Mono", monospace';
-    ctx.fillText('MOST RECENT · ' + (latest.date || ''), SHARE.W / 2, subY + 60);
+  // Chip layout
+  const chipY0 = dividerY + 72;
+  const chipYMax = SHARE.H - 130;  // above footer
+  const chipXMin = 60;
+  const chipXMax = SHARE.W - 60;
+  const chipH = 52;
+  const gap = 10;
+  const padX = 20;
+
+  ctx.font = '19px "Departure Mono", monospace';
+  ctx.textBaseline = 'middle';
+  let cx = chipXMin, cy = chipY0;
+  let drawn = 0;
+  const totalExams = examNames.length;
+
+  for (let idx = 0; idx < examNames.length; idx++){
+    let text = examNames[idx].toUpperCase();
+    // Truncate very long chip text
+    if (ctx.measureText(text).width > 720){
+      while (text.length > 4 && ctx.measureText(text + '…').width > 720) text = text.slice(0, -1);
+      text += '…';
+    }
+    const w = ctx.measureText(text).width + padX * 2;
+    if (cx + w > chipXMax){
+      cx = chipXMin;
+      cy += chipH + gap;
+    }
+    // Check if room for this chip + a possible "+N more" chip after
+    const roomForMore = cy + chipH <= chipYMax;
+    if (!roomForMore) break;
+    // Draw chip
+    ctx.strokeStyle = c.ink;
+    ctx.lineWidth = 1.4;
+    ctx.strokeRect(cx, cy, w, chipH);
     ctx.fillStyle = c.ink;
-    ctx.font = 'italic 32px "Instrument Serif", serif';
-    // textAlign remains 'center' → pass canvas midpoint as x
-    const examLine = (latest.exam || '').replace(/\s+/g,' ').slice(0, 120);
-    drawWrappedText(ctx, examLine, SHARE.W / 2, subY + 100, 880, 40);
+    ctx.fillText(text, cx + padX, cy + chipH / 2 + 1);
+    cx += w + gap;
+    drawn++;
   }
+
+  // "+N more" chip if we ran out of space
+  const remaining = totalExams - drawn;
+  if (remaining > 0){
+    const moreText = '+' + remaining + ' MORE';
+    const w = ctx.measureText(moreText).width + padX * 2;
+    if (cx + w > chipXMax){ cx = chipXMin; cy += chipH + gap; }
+    if (cy + chipH <= chipYMax){
+      ctx.fillStyle = c.paprika;
+      ctx.fillRect(cx, cy, w, chipH);
+      ctx.fillStyle = c.paper;
+      ctx.fillText(moreText, cx + padX, cy + chipH / 2 + 1);
+    }
+  }
+
   ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
 
   /* ---- Footer strip ---- */
   ctx.fillStyle = c.ink;
