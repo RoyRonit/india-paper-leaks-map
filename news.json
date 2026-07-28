@@ -1,7 +1,77 @@
 {
-  "updated_at": "2026-07-28T08:48:14Z",
+  "updated_at": "2026-07-28T14:28:50Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Bill cannot be a certificate of innocence : TMC MP Abhishek Banerjee hits out at Govt in Lok Sabha",
+      "url": "https://www.tribuneindia.com/news/india/bill-cannot-be-a-certificate-of-innocence-tmc-mp-abhishek-banerjee-hits-out-at-govt-in-lok-sabha/",
+      "domain": "tribuneindia.com",
+      "seendate": "20260728T133000Z",
+      "image": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWZmOWM4ZmQwLThhODUtMTFmMS1iM2M4LTBmNWEyOThmZjA3MC5qcGc="
+    },
+    {
+      "title": "Like Pradhan , Punjab education minister resignation too is non - negotiable : State Congress chief | Chandigarh News",
+      "url": "https://indianexpress.com/article/cities/chandigarh/congress-punjab-pharmacy-exam-leak-aap-gen-z-2027-polls-10807592/",
+      "domain": "indianexpress.com",
+      "seendate": "20260728T131500Z",
+      "image": "https://images.indianexpress.com/2026/07/Amarinder-Singh-Raja-Warring_.jpg"
+    },
+    {
+      "title": "DMK Calls for Abolishing NEET Exam , Opposes Anti - paper Leak Bill in Lok Sabha",
+      "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/dmk-calls-for-abolishing-neet-exam-dayanidhi-maran-opposes-anti-paper-leak-bill-in-lok-sabha-1974629",
+      "domain": "deccanchronicle.com",
+      "seendate": "20260728T124500Z",
+      "image": "https://www.deccanchronicle.com/h-upload/2026/07/28/2069496-dayanidhi.jpg"
+    },
+    {
+      "title": "Bill cannot erase  12 years of incompetence  and government failure : Abhishek Banerjee",
+      "url": "https://aninews.in/news/national/politics/bill-cannot-erase-12-years-of-incompetence-and-governments-failure-abhishek-banerjee20260728164926/",
+      "domain": "aninews.in",
+      "seendate": "20260728T120000Z",
+      "image": null
+    },
+    {
+      "title": "YSRCP launches statewide student - youth agitation over Mega DSC scam",
+      "url": "https://aninews.in/news/national/general-news/ysrcp-launches-statewide-student-youth-agitation-over-mega-dsc-scam20260728170225/",
+      "domain": "aninews.in",
+      "seendate": "20260728T120000Z",
+      "image": null
+    },
+    {
+      "title": "Anti - Paper Leak Bill : Jitendra Singh Milestone for Student Welfare",
+      "url": "https://www.newkerala.com/news/a/bill-reaffirmation-govts-commitment-students-welfare-jitendra-singh-557.htm",
+      "domain": "newkerala.com",
+      "seendate": "20260728T104500Z",
+      "image": "https://one.newkerala.com/images/t/newkerala-com-news250.webp"
+    },
+    {
+      "title": "Human Integrity , Not Tech , Is Main Issue : IIT Madras Director On Paper Leaks",
+      "url": "https://cobrapost.com/blog/human-integrity-not-tech-is-main-issue-iit-madras-director-on-paper-leaks",
+      "domain": "cobrapost.com",
+      "seendate": "20260728T101500Z",
+      "image": "https://admin.cobrapost.com/uploads/1785226091376-4.jpg"
+    },
+    {
+      "title": "NCPI MPs Attend Their 1st NDA Parliamentary Party Meet",
+      "url": "https://www.dailyexcelsior.com/ncpi-mps-attend-their-1st-nda-parliamentary-party-meet/",
+      "domain": "dailyexcelsior.com",
+      "seendate": "20260728T094500Z",
+      "image": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYTQwNGUxNzgwLThhNWMtMTFmMS1iM2M4LTBmNWEyOThmZjA3MC5qcGc="
+    },
+    {
+      "title": "Ex - TMC MPs make first appearance at NDA parliamentary party meeting with PM Modi",
+      "url": "https://www.orissapost.com/ex-tmc-mps-make-first-appearance-at-nda-parliamentary-party-meeting-with-pm-modi/",
+      "domain": "orissapost.com",
+      "seendate": "20260728T083000Z",
+      "image": "https://www.orissapost.com/wp-content/uploads/2026/07/NDA-@narhari_amin.jpg"
+    },
+    {
+      "title": "BJP leaders step up Instagram activity after PM call for digital outreach",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/bjp-leaders-step-up-instagram-activity-after-pms-call-for-digital-outreach/articleshow/132678778.cms",
+      "domain": "economictimes.indiatimes.com",
+      "seendate": "20260728T083000Z",
+      "image": "https://img.etimg.com/thumb/msid-132678855,width-1200,height-630,imgsize-187768,overlay-economictimes/articleshow.jpg"
+    },
     {
       "title": "CJI on police excess , pellet gun claims and message for protesting  cockroache | 5 top quotes",
       "url": "https://www.hindustantimes.com/india-news/cji-surya-kant-police-excess-cjp-protest-pellet-gun-claims-message-protesting-cockroaches-5-top-quotes-101785222711547.html",
@@ -15,76 +85,6 @@
       "domain": "indianexpress.com",
       "seendate": "20260728T073000Z",
       "image": "https://images.indianexpress.com/2026/07/Jairam-Ramesh_20260510235638_20260610000316_20260728065240.jpg"
-    },
-    {
-      "title": "NDA  Mangal Milan  today : NCPI invited for first time",
-      "url": "http://www.indiagazette.com/news/279212909/nda-mangal-milan-today-ncpi-invited-for-first-time",
-      "domain": "indiagazette.com",
-      "seendate": "20260728T073000Z",
-      "image": "https://image.chitra.live/api/v1/wps/75cda64/57144b40-4dd4-45a7-978a-a3382a8071d6/0/ANI-20260728041418-600x315.jpg"
-    },
-    {
-      "title": "Nandan Nilekani - Rohini Nilekani love story : How the IIT Bombay alumnus won the quiz but  lost his heart  to his wife",
-      "url": "https://timesofindia.indiatimes.com/relationships/nandan-nilekani-rohini-nilekanis-love-story-how-the-iit-bombay-alumnus-won-the-quiz-but-lost-his-heart-to-his-wife/articleshow/132676992.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260728T071500Z",
-      "image": "https://static.toiimg.com/thumb/msid-132677246,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "Lok Sabha 6 - Hour Debate on Anti - Paper Leak Bill",
-      "url": "https://www.newkerala.com/news/a/lok-sabha-hold-6-hour-debate-anti-paper-leak-bill-486.htm",
-      "domain": "newkerala.com",
-      "seendate": "20260728T063000Z",
-      "image": "https://one.newkerala.com/images/t/newkerala-com-news250.webp"
-    },
-    {
-      "title": "Nandan Nilekani  Billionaire Street  home in Bengaluru is an informal high - profile meeting venue : A look inside his abode |",
-      "url": "https://timesofindia.indiatimes.com/life-style/home-garden/nandan-nilekanis-billionaires-street-home-in-bengaluru-is-an-informal-high-profile-meeting-venue-a-look-inside-his-abode/articleshow/132675650.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260728T054500Z",
-      "image": "https://static.toiimg.com/thumb/msid-132675717,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "DMK MP Tiruchi Siva submits Suspension of Business Notice demanding immediate discussion on NEET abolition",
-      "url": "https://aninews.in/news/national/general-news/dmk-mp-tiruchi-siva-submits-suspension-of-business-notice-demanding-immediate-discussion-on-neet-abolition20260728083047/",
-      "domain": "aninews.in",
-      "seendate": "20260728T043000Z",
-      "image": null
-    },
-    {
-      "title": "Daily Briefing : How Dharmendra Pradhan resignation set off a political chain reaction across three states | Live News",
-      "url": "https://indianexpress.com/article/live-news/top-news-today-daily-briefing-10806578/",
-      "domain": "indianexpress.com",
-      "seendate": "20260728T041500Z",
-      "image": "https://images.indianexpress.com/2026/07/Newsletter-morning-expresso-Final-1600x900-16_20260727032429_20260728033708.jpg"
-    },
-    {
-      "title": "Parliament deadlock ends over NEET protests , anti - paper leak Bill to be discussed in Lok Sabha today",
-      "url": "https://www.moneycontrol.com/news/india/parliament-deadlock-ends-over-neet-protests-anti-paper-leak-bill-to-be-discussed-today-13985083.html",
-      "domain": "moneycontrol.com",
-      "seendate": "20260728T033000Z",
-      "image": "https://images.moneycontrol.com/static-mcnews/2023/09/Lok-Sabha.jpeg"
-    },
-    {
-      "title": "Gujarat Ayurveda University orders probe into alleged BAMS exam paper leak",
-      "url": "https://www.hindustantimes.com/india-news/gujarat-ayurveda-university-orders-probe-into-alleged-bams-exam-paper-leak-101785203993287.html",
-      "domain": "hindustantimes.com",
-      "seendate": "20260728T024500Z",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/07/28/550x309/The-Gujarat-Ayurved-University-campus-in-Jamnagar-_1785203987094.jpg"
-    },
-    {
-      "title": "Parliament to debate tougher anti - paper leak bill today after days of Opposition protests",
-      "url": "https://www.hindustantimes.com/india-news/parliament-to-debate-tougher-anti-paper-leak-bill-today-after-days-of-opposition-protests-101785199114915.html",
-      "domain": "hindustantimes.com",
-      "seendate": "20260728T024500Z",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/07/28/550x309/PTI07-27-2026-000329B-0_1785199195942_1785199205865_c8384f89-19ba-4136-885e-dee426d9c2b3.jpg"
-    },
-    {
-      "title": "Celebrating destruction of children future : Rahul Gandhi hits out at BJP grand welcome to Dharmendra Pradhan",
-      "url": "https://www.hindustantimes.com/india-news/celebrating-destruction-of-childrens-futures-rahul-gandhi-slams-bjps-grand-welcome-to-dharmendra-pradhan-neet-protests-101785202490802.html",
-      "domain": "hindustantimes.com",
-      "seendate": "20260728T024500Z",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/07/28/550x309/PTI07-27-2026-000120B-0_1785204256684_1785204289497_bb9f2527-acd9-4a3f-a70c-d00181adc609.jpg"
     }
   ]
 }
