@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-29T03:27:22Z",
+  "updated_at": "2026-07-29T08:52:35Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
     {
-      "title": "Neet Controversy : NEET has flaw in design , it is not necessary : DMK Dayanidhi Maran | India News",
-      "url": "https://timesofindia.indiatimes.com/india/neet-has-flaw-in-design-it-is-not-necessary-dmks-dayanidhi-maran/articleshow/132697551.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260729T023000Z",
-      "image": "https://static.toiimg.com/thumb/msid-132697589,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+      "title": "Govt summons Meta global head after PM Modi Facebook reel removed",
+      "url": "https://www.hindustantimes.com/india-news/govt-summons-metas-global-head-after-pm-modis-facebook-reel-removed-101785288490551.html",
+      "domain": "hindustantimes.com",
+      "seendate": "20260729T043000Z",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/07/29/550x309/META-EARNS-0_1785288900052_1785288906452_55965dba-c2e4-4472-88ac-5066879a4b20.jpg"
     },
     {
       "title": "Shashi Tharoor questions anti - paper leak Bill :  Success is not the number of people we send to prison",
@@ -15,6 +15,13 @@
       "domain": "livemint.com",
       "seendate": "20260729T023000Z",
       "image": "https://www.livemint.com/lm-img/img/2026/07/29/600x338/ANI-20260317028-0_1780360886802_1780360908257_042b3f41-ab80-4b37-8692-940c9b0d3e00_1785289416619_756ab86a-4b66-4950-8f96-ab140c4d433c.jpg"
+    },
+    {
+      "title": "Neet Controversy : NEET has flaw in design , it is not necessary : DMK Dayanidhi Maran | India News",
+      "url": "https://timesofindia.indiatimes.com/india/neet-has-flaw-in-design-it-is-not-necessary-dmks-dayanidhi-maran/articleshow/132697551.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260729T023000Z",
+      "image": "https://static.toiimg.com/thumb/msid-132697589,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
     },
     {
       "title": "Govt bill focus must be on preventing paper leaks : Tharoor",
@@ -78,13 +85,6 @@
       "domain": "indiagazette.com",
       "seendate": "20260728T194500Z",
       "image": "https://image.chitra.live/api/v1/wps/c460d83/c2eba5a2-01f3-402e-9f22-36376e220a22/0/ANI-20260728095546-600x315.jpg"
-    },
-    {
-      "title": "Bill a reaffirmation to Govt commitment to student welfare : Jitendra Singh moves anti - paper leak Bill in Lok Sabha",
-      "url": "http://www.indiagazette.com/news/279213578/bill-a-reaffirmation-to-govt-commitment-to-students-welfare-jitendra-singh-moves-anti-paper-leak-bill-in-lok-sabha",
-      "domain": "indiagazette.com",
-      "seendate": "20260728T194500Z",
-      "image": "https://image.chitra.live/api/v1/wps/9939883/89d0febd-0c53-4148-bf18-34eccefcd24f/0/ANI-20260728101220-600x315.jpg"
     }
   ]
 }
