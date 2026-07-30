@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-07-30T03:14:18Z",
+  "updated_at": "2026-07-30T08:42:53Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Why was former Punjab CM Charanjit Singh Channi missing during Rahul Gandhi Lok Sabha address ?",
+      "url": "https://www.theweek.in/news/india/2026/07/30/why-was-former-punjab-cm-charanjit-singh-channi-missing-during-rahul-gandhis-lok-sabha-address.html",
+      "domain": "theweek.in",
+      "seendate": "20260730T071500Z",
+      "image": "https://img.theweek.in/content/dam/week/en/archive/news/india/images/2026/7/30/Channi-Warring.jpg"
+    },
+    {
+      "title": "Punjab paper leak row : BJP Kewal Singh Dhillon demands resignation of Health , Education Ministers",
+      "url": "http://www.indiagazette.com/news/279215855/punjab-paper-leak-row-bjp-kewal-singh-dhillon-demands-resignation-of-health-education-ministers",
+      "domain": "indiagazette.com",
+      "seendate": "20260730T063000Z",
+      "image": "https://image.chitra.live/api/v1/wps/94d8d8f/bc542758-8117-4712-8eb0-87b0b3a8de64/0/ANI-20260730030723-600x315.jpg"
+    },
+    {
+      "title": "Daily Briefing : Stormy Parliament clears anti - paper leak , Vande Mataram bills ; Gulveer Singh scripts history at CWG 2026",
+      "url": "https://indianexpress.com/article/live-news/daily-briefing-top-news-today-10809841/",
+      "domain": "indianexpress.com",
+      "seendate": "20260730T043000Z",
+      "image": "https://images.indianexpress.com/2026/07/Newsletter-morning-expresso-Final-1600x900-18.jpg"
+    },
     {
       "title": "NEP 2020 at Six : Bridging Educational Divides and Realising Constitutional Vision",
       "url": "https://dailypioneer.com/news/indias-education-system-needs-its-next-leap",
@@ -64,27 +85,6 @@
       "domain": "indianexpress.com",
       "seendate": "20260729T180000Z",
       "image": "https://images.indianexpress.com/2026/07/paper-leak.jpg"
-    },
-    {
-      "title": "Bihar to get 3 FTCs for speedy trial in paper leak cases",
-      "url": "https://www.hindustantimes.com/cities/patna-news/bihar-to-get-3-ftcs-for-speedy-trial-in-paper-leak-cases-101785345124033.html",
-      "domain": "hindustantimes.com",
-      "seendate": "20260729T174500Z",
-      "image": null
-    },
-    {
-      "title": "Will continue our protests if FIRs against students are not withdrawn : CJP",
-      "url": "https://aninews.in/news/national/general-news/will-continue-our-protests-if-firs-against-students-are-not-withdrawn-cjp20260729222633/",
-      "domain": "aninews.in",
-      "seendate": "20260729T171500Z",
-      "image": null
-    },
-    {
-      "title": "UDF govt . hounding students who protested against Centre , says Pinarayi",
-      "url": "https://www.thehindu.com/news/national/kerala/udf-govt-hounding-students-who-protested-against-centre-says-pinarayi/article71281550.ece",
-      "domain": "thehindu.com",
-      "seendate": "20260729T150000Z",
-      "image": "https://th-i.thgim.com/public/incoming/jc2ff8/article71282307.ece/alternates/LANDSCAPE_1200/PinarayiVijayan03.JPG"
     }
   ]
 }
