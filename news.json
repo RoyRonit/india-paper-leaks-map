@@ -1,90 +1,90 @@
 {
-  "updated_at": "2026-07-30T19:44:47Z",
+  "updated_at": "2026-07-31T03:42:05Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "NEET and the Reform - Daily Excelsior",
+      "url": "https://www.dailyexcelsior.com/neet-and-the-reform/",
+      "domain": "dailyexcelsior.com",
+      "seendate": "20260731T030000Z",
+      "image": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYTVhYjM0Y2UwLThjNmQtMTFmMS1iM2M4LTBmNWEyOThmZjA3MC5qcGc="
+    },
+    {
+      "title": "Gen Z caught the BJP off guard . Can the Opposition make it count ?",
+      "url": "https://indianexpress.com/article/political-pulse/gen-z-cjp-protests-bjp-opposition-education-reforms-10811164/",
+      "domain": "indianexpress.com",
+      "seendate": "20260731T021500Z",
+      "image": "https://images.indianexpress.com/2026/07/cjp-zen-z-protest.jpg"
+    },
+    {
+      "title": "Anti - Paper Leak Bill : Anti - paper leak bill clears Parliament ; PM Modi says it will build a credible exam system | India News",
+      "url": "https://timesofindia.indiatimes.com/india/anti-paper-leak-bill-clears-parliament-pm-modi-says-it-will-build-a-credible-exam-system/articleshow/132750522.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260730T224500Z",
+      "image": "https://static.toiimg.com/thumb/msid-132751204,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
+    {
+      "title": "Figuratively , Dubai 15th district of Kerala , says Brittas as JDU MP alleges  foreign role  in Jantar Mantar stir | India News",
+      "url": "https://indianexpress.com/article/india/figuratively-dubai-15th-district-of-kerala-says-brittas-as-jdu-mp-alleges-foreign-role-in-jantar-mantar-stir-10811222/",
+      "domain": "indianexpress.com",
+      "seendate": "20260730T214500Z",
+      "image": "https://images.indianexpress.com/2026/07/CPI-M-MP-John-Brittas-in-Rajya-Sabha-on-Tuesday.-ANI_20260730204103.jpg"
+    },
+    {
+      "title": "Priyanka Gandhi Vadra : 215 academicians slam Priyanka for  gaumutra  remark | India News",
+      "url": "https://timesofindia.indiatimes.com/india/215-academicians-slam-priyanka-for-gaumutra-remark/articleshow/132750192.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260730T213000Z",
+      "image": "https://static.toiimg.com/thumb/msid-132750202,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
+    {
+      "title": "Parliament passes Public Examinations Amendment Bill , 2026 amid protest by opposition – The Indian Awaaz",
+      "url": "https://theindianawaaz.com/parliament-passes-public-examinations-amendment-bill-2026-amid-protest-by-opposition/",
+      "domain": "theindianawaaz.com",
+      "seendate": "20260730T204500Z",
+      "image": null
+    },
+    {
+      "title": "Daily News Wrap – BILKULONLINE - Bilkul Online",
+      "url": "https://bilkulonline.com/2026/07/30/daily-news-wrap-bilkulonline-47/",
+      "domain": "bilkulonline.com",
+      "seendate": "20260730T203000Z",
+      "image": "https://bilkulonline.com/wp-content/uploads/2026/07/Daily-News-Wrap-BO-Ai.png"
+    },
+    {
+      "title": "Rajya Sabha Passes Anti - Paper Leak Amendment By Voice Vote ; Govt Promises Stronger Protection For Students",
+      "url": "https://www.freepressjournal.in/education/rajya-sabha-passes-anti-paper-leak-amendment-by-voice-vote-govt-promises-stronger-protection-for-students",
+      "domain": "freepressjournal.in",
+      "seendate": "20260730T193000Z",
+      "image": "https://media.assettype.com/freepressjournal/2025-08-21/7nyvsc0i/Rajya-Sabha"
+    },
+    {
+      "title": "Anti - Paper Leak Bill India : A New Era for Exams - Pragativadi I Latest Odisha News in English I Breaking News",
+      "url": "https://pragativadi.com/pm-modi-vows-crackdown-on-exam-mafias-as-anti-paper-leak-bill-clears-parliament/",
+      "domain": "pragativadi.com",
+      "seendate": "20260730T193000Z",
+      "image": "https://pragativadi.com/wp-content/uploads/2026/07/modi-2.png"
+    },
+    {
+      "title": "PM Modi welcomes passage of anti - paper leak Bill by Parliament , says will make examination system more  robust",
+      "url": "https://ianslive.in/pm-modi-welcomes-passage-of-anti-paper-leak-bill-by-both-houses-of-parliament--20260730235615",
+      "domain": "ianslive.in",
+      "seendate": "20260730T193000Z",
+      "image": "https://d2lnbwhcsmj8tp.cloudfront.net/ianslive_watermark/202607313885293.jpg"
+    },
+    {
+      "title": "PM Modi Welcomes Anti - Paper Leak Bill for Robust Exams",
+      "url": "https://www.newkerala.com/news/a/pm-modi-welcomes-passage-anti-paper-leak-bill-parliament-385.htm",
+      "domain": "newkerala.com",
+      "seendate": "20260730T193000Z",
+      "image": "https://one.newkerala.com/images/t/newkerala-com-news250.webp"
+    },
     {
       "title": "Where is Home Miniser Shah ? Opposition walk out of Rajya Sabha",
       "url": "https://www.siasat.com/where-is-home-miniser-shah-opposition-walk-out-of-rajya-sabha-3515886/",
       "domain": "siasat.com",
       "seendate": "20260730T173000Z",
       "image": "https://cdn.siasat.com/wp-content/uploads/2026/07/Untitled-design-2026-07-30T223039.710.jpg"
-    },
-    {
-      "title": "Reclaiming The Right To Protest And The Right To Public Spaces",
-      "url": "https://www.freepressjournal.in/analysis/reclaiming-the-right-to-protest-and-the-right-to-public-spaces",
-      "domain": "freepressjournal.in",
-      "seendate": "20260730T163000Z",
-      "image": "https://media.assettype.com/freepressjournal/2026-07-30/5mnx30pk/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Queen-Of-All-Mayhem-2026-07-30T214143.687.jpg"
-    },
-    {
-      "title": "Delhi Govt says  no adverse legal action  against student protesters , but no protection for those with  criminal antecedents",
-      "url": "https://news.webindia123.com/news/Articles/India/20260730/4481196.html",
-      "domain": "news.webindia123.com",
-      "seendate": "20260730T154500Z",
-      "image": null
-    },
-    {
-      "title": "Delhi : Clash erupts between Delhi Police , BJP during protest outside AAP office",
-      "url": "http://www.indiagazette.com/news/279216377/delhi-clash-erupts-between-delhi-police-bjp-during-protest-outside-aap-office",
-      "domain": "indiagazette.com",
-      "seendate": "20260730T153000Z",
-      "image": "https://image.chitra.live/api/v1/wps/1984feb/da222407-834c-4621-9196-e434c94d9903/0/ANI-20260730073023-600x315.jpg"
-    },
-    {
-      "title": "Maharashtra TET Paper Leak : Bhiwandi Court Sends 14 Accused To Police Custody Till August 3",
-      "url": "https://www.freepressjournal.in/education/maharashtra-tet-paper-leak-bhiwandi-court-sends-14-accused-to-police-custody-till-august-3-2",
-      "domain": "freepressjournal.in",
-      "seendate": "20260730T150000Z",
-      "image": "https://media.assettype.com/freepressjournal/2026-07-30/l1ofe2nz/1003318576.jpg"
-    },
-    {
-      "title": "I Am Very Proud of Indian Railway : Sonam Wangchuk Praises Vande Bharat Journey",
-      "url": "https://www.oneindia.com/india/i-am-very-proud-of-indian-railways-sonam-wangchuk-praises-vande-bharat-journey-8161505.html",
-      "domain": "oneindia.com",
-      "seendate": "20260730T130000Z",
-      "image": "https://imagesvs.oneindia.com/img/2026/07/sonamwangchuk-15701785401491.jpg"
-    },
-    {
-      "title": "Democracy Is Not Mann Ki baat : TMC MP Sagarika Ghose Slams Centre Over NEET Paper Leak , Calls Cancelled Exam As A Failure",
-      "url": "https://www.oneindia.com/india/democracy-is-not-mann-ki-baat-tmc-mp-sagarika-ghose-slams-centre-over-neet-paper-leak-calls-canc-8161681.html",
-      "domain": "oneindia.com",
-      "seendate": "20260730T130000Z",
-      "image": "https://imagesvs.oneindia.com/img/2026/07/sagarika-87281785410361.jpg"
-    },
-    {
-      "title": "Amit Shah ordered use of force against students , he must quit : Dipke",
-      "url": "https://www.rediff.com/news/report/amit-shah-ordered-use-of-force-against-students-he-must-quit-dipke/20260730.htm",
-      "domain": "rediff.com",
-      "seendate": "20260730T113000Z",
-      "image": "https://im.rediff.com/1200-630/news/2026/jul/21-cjp-protest12.jpg"
-    },
-    {
-      "title": "Heavy security outside AAP office amid likely BJP protest ; Akali Dal MP Harsimrat Kaur Badal demands CBI probe in alleged exam scams in Punjab",
-      "url": "http://www.indiagazette.com/news/279216021/heavy-security-outside-aap-office-amid-likely-bjp-protest-akali-dal-mp-harsimrat-kaur-badal-demands-cbi-probe-in-alleged-exam-scams-in-punjab",
-      "domain": "indiagazette.com",
-      "seendate": "20260730T111500Z",
-      "image": "https://image.chitra.live/api/v1/wps/6f91386/eb089007-9a67-4b9c-914f-311f6181919b/0/ANI-20260730052703-600x315.jpg"
-    },
-    {
-      "title": "Shah must have issued orders to use force on students on July 20 in Delhi , he should quit : Dipke",
-      "url": "https://www.dailyexcelsior.com/shah-must-have-issued-orders-to-use-force-on-students-on-july-20-in-delhi-he-should-quit-dipke/",
-      "domain": "dailyexcelsior.com",
-      "seendate": "20260730T111500Z",
-      "image": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYWJmMjM3YWMwLThjMDMtMTFmMS1iM2M4LTBmNWEyOThmZjA3MC5qcGc="
-    },
-    {
-      "title": "Shah Ordered Force on Students on July 20 , Must Resign : Dipke",
-      "url": "https://www.deccanchronicle.com/nation/july-20-student-crackdown-dipke-holds-shah-responsible-demands-resignation-1975195",
-      "domain": "deccanchronicle.com",
-      "seendate": "20260730T111500Z",
-      "image": "https://www.deccanchronicle.com/h-upload/2026/07/30/2070301-untitled-design-2026-07-30t160332360.jpg"
-    },
-    {
-      "title": "Centre 2026 exam bill ramps up penalties , fast - track courts to crack down on paper leaks and fraud",
-      "url": "https://www.sentinelassam.com/more-news/national-news/centres-2026-exam-bill-ramps-up-penalties-fast-track-courts-to-crack-down-on-paper-leaks-and-fraud",
-      "domain": "sentinelassam.com",
-      "seendate": "20260730T101500Z",
-      "image": "https://media.assettype.com/sentinelassam-english%2F2026-07-28%2Ff2vkzxa8%2FParliament.webp?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
     }
   ]
 }
