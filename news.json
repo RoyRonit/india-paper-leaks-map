@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-01T03:42:42Z",
+  "updated_at": "2026-08-01T08:31:35Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "DMK says it remains in Opposition , but no longer part of INDIA bloc :  Congress betrayed us",
+      "url": "https://www.moneycontrol.com/news/india/dmk-says-it-remains-in-opposition-but-no-longer-part-of-india-bloc-congress-betrayed-us-13990685.html",
+      "domain": "moneycontrol.com",
+      "seendate": "20260801T043000Z",
+      "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260619131623_Rahul-Stalin-image.jpg"
+    },
     {
       "title": "Cancer is not cured by Crocin , Paper Leak is not cured by soundbites : Raghav Chadha on his  silence  over exam paper leaks",
       "url": "https://www.ibtimes.co.in/cancer-not-cured-by-crocin-paper-leak-not-cured-by-soundbites-raghav-chadha-his-silence-over-904336",
@@ -78,13 +85,6 @@
       "domain": "deccanchronicle.com",
       "seendate": "20260731T083000Z",
       "image": "https://www.deccanchronicle.com/h-upload/2026/07/31/2070642-saayoni-ghosj.jpg"
-    },
-    {
-      "title": "A generation in waiting : Uttar Pradesh govt . job aspirants are losing their prime years in waiting",
-      "url": "https://www.thehindu.com/news/national/uttar-pradesh/a-generation-in-waiting-uttar-pradeshs-govt-job-aspirants-are-losing-their-prime-years-in-waiting/article71285458.ece",
-      "domain": "thehindu.com",
-      "seendate": "20260731T080000Z",
-      "image": "https://th-i.thgim.com/public/incoming/6xgj9/article71285464.ece/alternates/LANDSCAPE_1200/6744_30_7_2026_12_34_39_1_PRAYAGRAJ1.JPG"
     }
   ]
 }
