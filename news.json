@@ -1,13 +1,41 @@
 {
-  "updated_at": "2026-08-02T13:45:09Z",
+  "updated_at": "2026-08-02T19:22:09Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
     {
+      "title": "Looked like the student movement in Bangladesh , says Bangladeshi author Taslima Nasreen on CJP protest",
+      "url": "http://www.indiagazette.com/news/279219874/looked-like-the-student-movement-in-bangladesh-says-bangladeshi-author-taslima-nasreen-on-cjp-protest",
+      "domain": "indiagazette.com",
+      "seendate": "20260802T184500Z",
+      "image": "https://image.chitra.live/api/v1/wps/f7192c2/618d41cb-d8b1-4f2d-a150-0df1f893318e/0/ANI-20260802141006-600x315.jpg"
+    },
+    {
       "title": "Indian Youth Congress organise  Chhatron Ki Goonj  marathon in Srinagar against paper leaks , exam delays",
-      "url": "https://aninews.in/news/national/politics/indian-youth-congress-organise-chhatron-ki-goonj-marathon-in-srinagar-against-paper-leaks-exam-delays20260802162226/",
-      "domain": "aninews.in",
-      "seendate": "20260802T120000Z",
-      "image": null
+      "url": "http://www.calcuttanews.net/news/279219726/indian-youth-congress-organise-chhatron-ki-goonj-marathon-in-srinagar-against-paper-leaks-exam-delays",
+      "domain": "calcuttanews.net",
+      "seendate": "20260802T161500Z",
+      "image": "https://image.chitra.live/api/v1/wps/e45ec79/b0e0c006-fe8b-4af3-bd0d-669554ff8706/0/ANI-20260802105216-600x315.jpg"
+    },
+    {
+      "title": "PM Speaks Of Forgiving Students ; Govt Owes Them Justice , Apology : Rahul Gandhi",
+      "url": "https://www.deccanchronicle.com/nation/politics/pm-speaks-of-forgiving-students-govt-owes-them-justice-apology-rahul-1976014",
+      "domain": "deccanchronicle.com",
+      "seendate": "20260802T160000Z",
+      "image": "https://www.deccanchronicle.com/h-upload/2026/08/02/2071488-rahultamilnadu.jpg"
+    },
+    {
+      "title": "PM Modi speaks of  forgiving  students ; govt owes them justice , apology : Rahul Gandhi",
+      "url": "https://www.tribuneindia.com/news/india/pm-modi-speaks-of-forgiving-students-govt-owes-them-justice-apology-rahul-gandhi/",
+      "domain": "tribuneindia.com",
+      "seendate": "20260802T154500Z",
+      "image": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTM5ZDNlNDAwLThlN2QtMTFmMS1iNmVmLTk1MTQwZTcyYzNlZi5qcGc="
+    },
+    {
+      "title": "Why not a have a GRE - style NEET exam ? - The HinduBusinessLine",
+      "url": "https://www.thehindubusinessline.com/opinion/why-not-a-have-a-gre-style-neet-exam/article71298267.ece",
+      "domain": "thehindubusinessline.com",
+      "seendate": "20260802T151500Z",
+      "image": "https://bl-i.thgim.com/public/incoming/4qqkzx/article71298283.ece/alternates/LANDSCAPE_1200/20260621617L.jpg"
     },
     {
       "title": "Dissent is fine , but should stay within constitutional limits : Author Amish on Gen Z protests",
@@ -57,34 +85,6 @@
       "domain": "indiagazette.com",
       "seendate": "20260801T110000Z",
       "image": "https://image.chitra.live/api/v1/wps/1b7b131/68a553f3-6c83-4a02-8d25-de6d1b13bd69/0/ANI-20260801045847-600x315.jpg"
-    },
-    {
-      "title": "Lives could have been saved : Congres Hanumantha Rao targets Central govt over NEET protests",
-      "url": "http://www.indiagazette.com/news/279218356/lives-could-have-been-saved-congress-hanumantha-rao-targets-central-govt-over-neet-protests",
-      "domain": "indiagazette.com",
-      "seendate": "20260801T110000Z",
-      "image": "https://image.chitra.live/api/v1/wps/a557f7b/db78d168-bd8f-47c5-8421-22886180da0c/0/ANI-20260801043149-600x315.jpg"
-    },
-    {
-      "title": "DMK says it remains in Opposition , but no longer part of INDIA bloc :  Congress betrayed us",
-      "url": "https://www.moneycontrol.com/news/india/dmk-says-it-remains-in-opposition-but-no-longer-part-of-india-bloc-congress-betrayed-us-13990685.html",
-      "domain": "moneycontrol.com",
-      "seendate": "20260801T043000Z",
-      "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260619131623_Rahul-Stalin-image.jpg"
-    },
-    {
-      "title": "Cancer is not cured by Crocin , Paper Leak is not cured by soundbites : Raghav Chadha on his  silence  over exam paper leaks",
-      "url": "https://www.ibtimes.co.in/cancer-not-cured-by-crocin-paper-leak-not-cured-by-soundbites-raghav-chadha-his-silence-over-904336",
-      "domain": "ibtimes.co.in",
-      "seendate": "20260731T190000Z",
-      "image": "https://data1.ibtimes.co.in/en/full/835370/questions-were-my-weapon-now-solutions-are-my-duty-raghav-chadha-paper-leak-issue.jpg"
-    },
-    {
-      "title": "Bollywood Roundup : Rashmika Mandanna , Adah Sharma , Karisma Kapoor , and more ...",
-      "url": "https://indianewengland.com/bollywood-roundup-rashmika-mandanna-adah-sharma-karisma-kapoor-and-more/",
-      "domain": "indianewengland.com",
-      "seendate": "20260731T190000Z",
-      "image": "https://indianewengland.com/wp-content/uploads/2026/07/Rashmika-Mandanna.png"
     }
   ]
 }
