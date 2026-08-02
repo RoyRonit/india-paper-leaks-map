@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-02T08:34:17Z",
+  "updated_at": "2026-08-02T13:45:09Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Indian Youth Congress organise  Chhatron Ki Goonj  marathon in Srinagar against paper leaks , exam delays",
+      "url": "https://aninews.in/news/national/politics/indian-youth-congress-organise-chhatron-ki-goonj-marathon-in-srinagar-against-paper-leaks-exam-delays20260802162226/",
+      "domain": "aninews.in",
+      "seendate": "20260802T120000Z",
+      "image": null
+    },
     {
       "title": "Dissent is fine , but should stay within constitutional limits : Author Amish on Gen Z protests",
       "url": "https://economictimes.indiatimes.com/news/india/dissent-is-fine-but-should-stay-within-constitutional-limits-author-amish-on-gen-z-protests/articleshow/132800316.cms",
@@ -78,13 +85,6 @@
       "domain": "indianewengland.com",
       "seendate": "20260731T190000Z",
       "image": "https://indianewengland.com/wp-content/uploads/2026/07/Rashmika-Mandanna.png"
-    },
-    {
-      "title": "PM Modi says he forgives students for abusive remarks :  Let guide the misguided",
-      "url": "https://www.livemint.com/news/india/pm-modi-says-he-forgives-students-for-abusive-remarks-let-s-guide-the-misguided-jantar-mantar-instagram-reel-gen-z-11785520914045.html",
-      "domain": "livemint.com",
-      "seendate": "20260731T190000Z",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/31/600x338/PTI07-04-2026-000426B-0_1783170712737_178317119285_1785521354440_1785521354542_b2dfcf10-83f9-48fd-a7f6-ae0554a2ed45.jpg"
     }
   ]
 }
