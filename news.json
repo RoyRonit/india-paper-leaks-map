@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-02T03:41:46Z",
+  "updated_at": "2026-08-02T08:34:17Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Dissent is fine , but should stay within constitutional limits : Author Amish on Gen Z protests",
+      "url": "https://economictimes.indiatimes.com/news/india/dissent-is-fine-but-should-stay-within-constitutional-limits-author-amish-on-gen-z-protests/articleshow/132800316.cms",
+      "domain": "economictimes.indiatimes.com",
+      "seendate": "20260802T050000Z",
+      "image": "https://img.etimg.com/thumb/msid-132800412,width-1200,height-630,imgsize-138960,overlay-economictimes/articleshow.jpg"
+    },
     {
       "title": "MCC NEET UG 2026 AIQ Counselling Schedule Published",
       "url": "https://www.ummid.com/news/2026/8/1/mcc-neet-ug-2026-aiq-counselling-schedule-published.html",
@@ -78,13 +85,6 @@
       "domain": "livemint.com",
       "seendate": "20260731T190000Z",
       "image": "https://www.livemint.com/lm-img/img/2026/07/31/600x338/PTI07-04-2026-000426B-0_1783170712737_178317119285_1785521354440_1785521354542_b2dfcf10-83f9-48fd-a7f6-ae0554a2ed45.jpg"
-    },
-    {
-      "title": "Govt met all exam leak demands , says BJP MP Mayank Nayak ; slams opposition of using youth agitation for political gain",
-      "url": "https://aninews.in/news/national/general-news/govt-met-all-exam-leak-demands-says-bjp-mp-mayank-nayak-slams-opposition-of-using-youth-agitation-for-political-gain20260731214512/",
-      "domain": "aninews.in",
-      "seendate": "20260731T173000Z",
-      "image": null
     }
   ]
 }
