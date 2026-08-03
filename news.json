@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-08-03T10:01:41Z",
+  "updated_at": "2026-08-03T15:09:04Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "My US studies funded by ...: Abhijeet Dipke on funding row",
+      "url": "https://www.rediff.com/news/report/my-us-studies-funded-by-abhijeet-dipke-on-funding-row/20260803.htm",
+      "domain": "rediff.com",
+      "seendate": "20260803T123000Z",
+      "image": "https://im.rediff.com/1200-630/news/2026/aug/03abhijit-dipke.jpg"
+    },
+    {
+      "title": "ABVP to Submit Exam Reforms to High - Powered Committee",
+      "url": "https://www.newkerala.com/news/a/abvp-push-institutional-reforms-before-centres-high-powered-committee-942.htm",
+      "domain": "newkerala.com",
+      "seendate": "20260803T123000Z",
+      "image": "https://one.newkerala.com/images/t/newkerala-com-news250.webp"
+    },
     {
       "title": "My U . S . studies funded by scholarship , education loan : CJP founder Abhijeet Dipke",
       "url": "https://www.thehindu.com/news/national/my-us-studies-funded-by-scholarship-education-loan-cjp-founder-abhijeet-dipke/article71300209.ece",
@@ -71,20 +85,6 @@
       "domain": "ibtimes.co.in",
       "seendate": "20260802T224500Z",
       "image": "https://data1.ibtimes.co.in/en/full/833896/neet-ug-2026-re-exam-nta-says-dont-spread-rumours-about-paper-leak-warns-legal-action.jpg"
-    },
-    {
-      "title": "Will make govt come to its knees : Student leader Devendra Nath Mahto begins indefinite hunger strike over exam irregularities in Jharkhand",
-      "url": "https://aninews.in/news/national/general-news/will-make-govt-come-to-its-knees-student-leader-devendra-nath-mahto-begins-indefinite-hunger-strike-over-exam-irregularities-in-jharkhand20260802230525/",
-      "domain": "aninews.in",
-      "seendate": "20260802T194500Z",
-      "image": null
-    },
-    {
-      "title": "Looked like the student movement in Bangladesh , says Bangladeshi author Taslima Nasreen on CJP protest",
-      "url": "http://www.indiagazette.com/news/279219874/looked-like-the-student-movement-in-bangladesh-says-bangladeshi-author-taslima-nasreen-on-cjp-protest",
-      "domain": "indiagazette.com",
-      "seendate": "20260802T184500Z",
-      "image": "https://image.chitra.live/api/v1/wps/f7192c2/618d41cb-d8b1-4f2d-a150-0df1f893318e/0/ANI-20260802141006-600x315.jpg"
     }
   ]
 }
