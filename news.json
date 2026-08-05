@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-05T14:27:46Z",
+  "updated_at": "2026-08-05T19:47:26Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Jharkhand JPSC - JSSC protest enters Day 12 ; govt invites students for talks , JLKM leader Mahato ends hunger strike",
+      "url": "https://aninews.in/news/national/politics/jharkhand-jpsc-jssc-protest-enters-day-12-govt-invites-students-for-talks-jlkm-leader-mahato-ends-hunger-strike20260805214030/",
+      "domain": "aninews.in",
+      "seendate": "20260805T171500Z",
+      "image": null
+    },
     {
       "title": "CJP backs Jharkhand student protest , to act as  pressure group  for accountability",
       "url": "https://sahilonline.org/cjp-backs-jharkhand-student-protest-to-act-as-pressure-group-for-accountability",
@@ -24,20 +31,6 @@
       "image": "https://www.deccanchronicle.com/h-upload/2026/07/25/2068338-cjp-founder-abhijit-dipke.jpg"
     },
     {
-      "title": "UGC - NET Results Delayed : JNUSU Seeks Answer Key , Timeline",
-      "url": "https://www.newkerala.com/news/a/ugc-net-delay-leaves-aspirants-limbo-jnusu-writes-ugc-515.htm",
-      "domain": "newkerala.com",
-      "seendate": "20260805T091500Z",
-      "image": "https://one.newkerala.com/images/t/newkerala-com-news250.webp"
-    },
-    {
-      "title": "Will work as ...: Abhijeet Dipke reveals Cockroach Party plan",
-      "url": "https://www.rediff.com/news/report/will-work-as-abhijeet-dipke-reveals-cockroach-partys-plan/20260805.htm",
-      "domain": "rediff.com",
-      "seendate": "20260805T091500Z",
-      "image": "https://im.rediff.com/1200-630/news/2026/aug/05abhijit-dipke.jpg"
-    },
-    {
       "title": "MCC NEET UG 2026 AIQ Counselling Starts : Link , Steps to Apply",
       "url": "https://www.ummid.com/news/2026/8/5/mcc-neet-ug-2026-aiq-counselling-starts-steps-link-to-apply.html",
       "domain": "ummid.com",
@@ -50,6 +43,20 @@
       "domain": "aninews.in",
       "seendate": "20260805T091500Z",
       "image": null
+    },
+    {
+      "title": "UGC - NET Results Delayed : JNUSU Seeks Answer Key , Timeline",
+      "url": "https://www.newkerala.com/news/a/ugc-net-delay-leaves-aspirants-limbo-jnusu-writes-ugc-515.htm",
+      "domain": "newkerala.com",
+      "seendate": "20260805T091500Z",
+      "image": "https://one.newkerala.com/images/t/newkerala-com-news250.webp"
+    },
+    {
+      "title": "Will work as ...: Abhijeet Dipke reveals Cockroach Party plan",
+      "url": "https://www.rediff.com/news/report/will-work-as-abhijeet-dipke-reveals-cockroach-partys-plan/20260805.htm",
+      "domain": "rediff.com",
+      "seendate": "20260805T091500Z",
+      "image": "https://im.rediff.com/1200-630/news/2026/aug/05abhijit-dipke.jpg"
     },
     {
       "title": "NEET Paper Leak : Rs 7 . 5 Cr Tender Floated To Provide 24 * 7 Security Of NTA Offices - Trak . in - Indian Business of Tech , Mobile & Startups",
@@ -78,13 +85,6 @@
       "domain": "timesofindia.indiatimes.com",
       "seendate": "20260804T223000Z",
       "image": "https://static.toiimg.com/thumb/msid-132875636,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "NEET is flawed to the core - The Tribune",
-      "url": "https://www.tribuneindia.com/news/comment/neet-is-flawed-to-the-core/",
-      "domain": "tribuneindia.com",
-      "seendate": "20260804T210000Z",
-      "image": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTM2NDZlNzkwLTkwM2MtMTFmMS1iNmVmLTk1MTQwZTcyYzNlZi5qcGc="
     }
   ]
 }
