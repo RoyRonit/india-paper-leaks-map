@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-08-06T03:26:06Z",
+  "updated_at": "2026-08-06T14:32:19Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Denied  meeting with CJP , youth protest outside Dipke home",
+      "url": "https://www.siasat.com/denied-meeting-with-cjp-youth-protest-outside-dipkes-home-3519827/",
+      "domain": "siasat.com",
+      "seendate": "20260806T111500Z",
+      "image": "https://cdn.siasat.com/wp-content/uploads/2026/08/Protester-outside-Dipkes-residence.jpg"
+    },
+    {
+      "title": "Why are the students protesting in Ranchi ? | Explained",
+      "url": "https://www.thehindu.com/news/national/jharkhand/why-are-the-students-protesting-in-jharkhand-ranchi-explained/article71312517.ece",
+      "domain": "thehindu.com",
+      "seendate": "20260806T090000Z",
+      "image": "https://th-i.thgim.com/public/incoming/9j9pt8/article71312725.ece/alternates/LANDSCAPE_1200/20260805483L.jpg"
+    },
+    {
+      "title": "NEET - UG Exam : CBT mode on hold until Nandan Nilekani task force submits recommendations",
+      "url": "https://www.hindustantimes.com/education/news/neetug-exam-cbt-mode-on-hold-until-nandan-nilekani-task-force-submits-recommendations-101786002913632.html",
+      "domain": "hindustantimes.com",
+      "seendate": "20260806T090000Z",
+      "image": null
+    },
+    {
+      "title": "Dipke backs Jkhand student protest",
+      "url": "https://www.thehitavada.com/Encyc/2026/8/6/dipke-backs-jkhand-students-protest.html",
+      "domain": "thehitavada.com",
+      "seendate": "20260806T073000Z",
+      "image": "https://www.thehitavada.com/Encyc/2026/8/6/Dipke-backs-Jkhand-students-protest_202608061154563449_H@@IGHT_720_W@@IDTH_1240.jpg"
+    },
+    {
+      "title": "CJP to act as pressure group for now : Abhijeet Dipke",
+      "url": "https://kashmirreader.com/2026/08/06/cjp-to-act-as-pressure-group-for-now-abhijeet-dipke/",
+      "domain": "kashmirreader.com",
+      "seendate": "20260806T051500Z",
+      "image": null
+    },
     {
       "title": "Jharkhand JPSC - JSSC protest enters Day 12 ; govt invites students for talks , JLKM leader Mahato ends hunger strike",
       "url": "https://aninews.in/news/national/politics/jharkhand-jpsc-jssc-protest-enters-day-12-govt-invites-students-for-talks-jlkm-leader-mahato-ends-hunger-strike20260805214030/",
@@ -50,41 +85,6 @@
       "domain": "newkerala.com",
       "seendate": "20260805T091500Z",
       "image": "https://one.newkerala.com/images/t/newkerala-com-news250.webp"
-    },
-    {
-      "title": "Will work as ...: Abhijeet Dipke reveals Cockroach Party plan",
-      "url": "https://www.rediff.com/news/report/will-work-as-abhijeet-dipke-reveals-cockroach-partys-plan/20260805.htm",
-      "domain": "rediff.com",
-      "seendate": "20260805T091500Z",
-      "image": "https://im.rediff.com/1200-630/news/2026/aug/05abhijit-dipke.jpg"
-    },
-    {
-      "title": "NEET Paper Leak : Rs 7 . 5 Cr Tender Floated To Provide 24 * 7 Security Of NTA Offices - Trak . in - Indian Business of Tech , Mobile & Startups",
-      "url": "https://trak.in/stories/neet-paper-leak-rs-7-5-cr-tender-floated-to-provide-247-security-of-nta-offices/",
-      "domain": "trak.in",
-      "seendate": "20260805T051500Z",
-      "image": "https://trak.in/stories/wp-content/uploads/2026/08/Untitled-design-26-1-1280x720-1-2-1-1024x576-1.jpg"
-    },
-    {
-      "title": "NEET - UG 2026 : Supreme Court to Hear Plea Over Alleged OMR Sheet Discrepancies",
-      "url": "https://dailypioneer.com/news/six-neet-ug-candidates-move-sc-over-alleged-discrepancies-in-omr-sheets",
-      "domain": "dailypioneer.com",
-      "seendate": "20260805T040000Z",
-      "image": "https://dailypioneer.com/uploads/2026/story/images/big/six-neet-ug-candidates-move-sc-over-alleged-discrepancies-in-omr-sheets-2026-08-05.jpg"
-    },
-    {
-      "title": "Computer - based NEET ? Govt tells SC decision after Nilekani report",
-      "url": "https://timesofindia.indiatimes.com/india/computer-based-neet-govt-tells-sc-decision-after-nilekani-report/articleshow/132879773.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260805T000000Z",
-      "image": "https://static.toiimg.com/thumb/msid-132879864,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "BJP attacks Cong  double standard on students stirs",
-      "url": "https://timesofindia.indiatimes.com/india/bjp-attacks-cong-double-standards-on-students-stirs/articleshow/132875636.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260804T223000Z",
-      "image": "https://static.toiimg.com/thumb/msid-132875636,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
     }
   ]
 }
