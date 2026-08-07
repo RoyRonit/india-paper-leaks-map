@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-07T07:36:26Z",
+  "updated_at": "2026-08-07T13:21:11Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Gen Z doesnt need certificate from Bhagwat : Priyanka Gandhi",
+      "url": "https://economictimes.indiatimes.com/news/india/gen-z-doesnt-need-certificate-from-bhagwat-priyanka-gandhi/articleshow/133026506.cms",
+      "domain": "economictimes.indiatimes.com",
+      "seendate": "20260807T080000Z",
+      "image": "https://img.etimg.com/thumb/msid-133026532,width-1200,height-630,imgsize-166746,overlay-economictimes/articleshow.jpg"
+    },
     {
       "title": "Narendra Modi Instagram Outreach : Prime Messaging on Exam Reforms , Youth Anger and Vision for Viksit Bharat",
       "url": "https://openthemagazine.com/india/prime-messaging-narendra-modi-revalidated-a-hopeful-vision-of-the-future",
@@ -78,13 +85,6 @@
       "domain": "sahilonline.org",
       "seendate": "20260805T133000Z",
       "image": "http://sahilonline.org/storage/2026/aug26/hozo-4bxcaavgcz.jpg"
-    },
-    {
-      "title": "Will go to Jharkhand to back students protesting exam irregularities : Dipke",
-      "url": "https://dailypioneer.com/news/cjp-dipke-jharkhand-students-exam-protest-support",
-      "domain": "dailypioneer.com",
-      "seendate": "20260805T104500Z",
-      "image": "https://dailypioneer.com/uploads/2026/story/images/big/cjp-heads-to-jharkhand--backs-students-over-jpsc-row--dipke-2026-08-05.jpg"
     }
   ]
 }
