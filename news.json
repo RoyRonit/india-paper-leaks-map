@@ -1,7 +1,35 @@
 {
-  "updated_at": "2026-08-07T13:21:11Z",
+  "updated_at": "2026-08-07T19:08:28Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Rahul Gandhi  Chhatron Ki Goonj  in Prayagraj tomorrow : Congress steps up youth outreach over paper leaks , jobs crisis",
+      "url": "https://aninews.in/news/national/politics/rahul-gandhis-chhatron-ki-goonj-in-prayagraj-tomorrow-congress-steps-up-youth-outreach-over-paper-leaks-jobs-crisis20260807220517/",
+      "domain": "aninews.in",
+      "seendate": "20260807T181500Z",
+      "image": null
+    },
+    {
+      "title": "Jharkhand Student Protest : Rahul Kranti Hospitalised Amid Hunger Strike Over Recruitment Exam Irregularities",
+      "url": "https://www.oneindia.com/india/jharkhand-students-protest-rahul-kranti-hospitalised-amid-hunger-strike-over-recruitment-exam-irre-8169717.html",
+      "domain": "oneindia.com",
+      "seendate": "20260807T134500Z",
+      "image": "https://imagesvs.oneindia.com/img/2026/08/cbseresultreleased-2026-08-07t185736-686-59441786109054.jpg"
+    },
+    {
+      "title": "Jharkhand : AISA joins student protest in Ranchi , warns CM Hemant Soren",
+      "url": "http://www.indiagazette.com/news/279226167/jharkhand-aisa-joins-students-protest-in-ranchi-warns-cm-hemant-soren",
+      "domain": "indiagazette.com",
+      "seendate": "20260807T134500Z",
+      "image": "https://image.chitra.live/api/v1/wps/cb7d8ca/8be559d6-dd6e-41e3-847c-b7b4e95a82c7/0/ANI-20260807074446-600x315.jpg"
+    },
+    {
+      "title": "NEET UG 2026 Paper Leak : CBI Says Questions Were Shared on WhatsApp , Telegram Days Before Exam",
+      "url": "https://www.oneindia.com/india/neet-ug-2026-paper-leak-cbi-says-questions-were-shared-on-whatsapp-telegram-days-before-exam-8169675.html",
+      "domain": "oneindia.com",
+      "seendate": "20260807T134500Z",
+      "image": "https://imagesvs.oneindia.com/img/2026/08/cbseresultreleased-2026-08-07t181100-617-74231786106299.jpg"
+    },
     {
       "title": "Gen Z doesnt need certificate from Bhagwat : Priyanka Gandhi",
       "url": "https://economictimes.indiatimes.com/news/india/gen-z-doesnt-need-certificate-from-bhagwat-priyanka-gandhi/articleshow/133026506.cms",
@@ -57,34 +85,6 @@
       "domain": "hindustantimes.com",
       "seendate": "20260806T090000Z",
       "image": null
-    },
-    {
-      "title": "Dipke backs Jkhand student protest",
-      "url": "https://www.thehitavada.com/Encyc/2026/8/6/dipke-backs-jkhand-students-protest.html",
-      "domain": "thehitavada.com",
-      "seendate": "20260806T073000Z",
-      "image": "https://www.thehitavada.com/Encyc/2026/8/6/Dipke-backs-Jkhand-students-protest_202608061154563449_H@@IGHT_720_W@@IDTH_1240.jpg"
-    },
-    {
-      "title": "CJP to act as pressure group for now : Abhijeet Dipke",
-      "url": "https://kashmirreader.com/2026/08/06/cjp-to-act-as-pressure-group-for-now-abhijeet-dipke/",
-      "domain": "kashmirreader.com",
-      "seendate": "20260806T051500Z",
-      "image": null
-    },
-    {
-      "title": "Jharkhand JPSC - JSSC protest enters Day 12 ; govt invites students for talks , JLKM leader Mahato ends hunger strike",
-      "url": "https://aninews.in/news/national/politics/jharkhand-jpsc-jssc-protest-enters-day-12-govt-invites-students-for-talks-jlkm-leader-mahato-ends-hunger-strike20260805214030/",
-      "domain": "aninews.in",
-      "seendate": "20260805T171500Z",
-      "image": null
-    },
-    {
-      "title": "CJP backs Jharkhand student protest , to act as  pressure group  for accountability",
-      "url": "https://sahilonline.org/cjp-backs-jharkhand-student-protest-to-act-as-pressure-group-for-accountability",
-      "domain": "sahilonline.org",
-      "seendate": "20260805T133000Z",
-      "image": "http://sahilonline.org/storage/2026/aug26/hozo-4bxcaavgcz.jpg"
     }
   ]
 }
