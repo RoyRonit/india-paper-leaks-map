@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-08-06T14:32:19Z",
+  "updated_at": "2026-08-07T00:10:14Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "CJP to launch  kyabolti public  campaign next month , says Dipke",
+      "url": "https://kashmirreader.com/2026/08/07/cjp-to-launch-kyabolti-public-campaign-next-month-says-dipke/",
+      "domain": "kashmirreader.com",
+      "seendate": "20260806T234500Z",
+      "image": null
+    },
+    {
+      "title": "BJP trying to divert attention from Delhi student agitation : Congress MP K Suresh on Jharkhand JPSC - JSSC exam irregularities",
+      "url": "https://news.webindia123.com/news/Articles/India/20260807/4484185.html",
+      "domain": "news.webindia123.com",
+      "seendate": "20260806T223000Z",
+      "image": null
+    },
+    {
+      "title": "Paper leak row : AISA protests at PU , demands exam controller resignation | Patna News",
+      "url": "https://timesofindia.indiatimes.com/city/patna/paper-leak-row-aisa-protests-at-pu-demands-exam-controllers-resignation/articleshow/133008461.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260806T150000Z",
+      "image": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg"
+    },
     {
       "title": "Denied  meeting with CJP , youth protest outside Dipke home",
       "url": "https://www.siasat.com/denied-meeting-with-cjp-youth-protest-outside-dipkes-home-3519827/",
@@ -64,27 +85,6 @@
       "domain": "deccanchronicle.com",
       "seendate": "20260805T094500Z",
       "image": "https://www.deccanchronicle.com/h-upload/2026/07/25/2068338-cjp-founder-abhijit-dipke.jpg"
-    },
-    {
-      "title": "MCC NEET UG 2026 AIQ Counselling Starts : Link , Steps to Apply",
-      "url": "https://www.ummid.com/news/2026/8/5/mcc-neet-ug-2026-aiq-counselling-starts-steps-link-to-apply.html",
-      "domain": "ummid.com",
-      "seendate": "20260805T091500Z",
-      "image": "https://ummid.com/news/2026/8/5/mcc-neet-ug-counselling-2026-round-1.webp"
-    },
-    {
-      "title": "UGC - NET delay leaves aspirants in limbo ; JNUSU writes to UGC , NTA seeking immediate release of answer key , results",
-      "url": "https://aninews.in/news/national/general-news/ugc-net-delay-leaves-aspirants-in-limbo-jnusu-writes-to-ugc-nta-seeking-immediate-release-of-answer-key-results20260805135655/",
-      "domain": "aninews.in",
-      "seendate": "20260805T091500Z",
-      "image": null
-    },
-    {
-      "title": "UGC - NET Results Delayed : JNUSU Seeks Answer Key , Timeline",
-      "url": "https://www.newkerala.com/news/a/ugc-net-delay-leaves-aspirants-limbo-jnusu-writes-ugc-515.htm",
-      "domain": "newkerala.com",
-      "seendate": "20260805T091500Z",
-      "image": "https://one.newkerala.com/images/t/newkerala-com-news250.webp"
     }
   ]
 }
