@@ -1,13 +1,55 @@
 {
-  "updated_at": "2026-08-07T19:08:28Z",
+  "updated_at": "2026-08-08T07:07:29Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Jkhand PSC row : Talks fail , students threaten Aug 10 assembly march",
+      "url": "https://www.rediff.com/news/report/jkhand-psc-row-talks-fail-students-threaten-aug-10-assembly-march/20260808.htm",
+      "domain": "rediff.com",
+      "seendate": "20260808T063000Z",
+      "image": "https://im.rediff.com/1200-630/news/2026/aug/08jharkhand-protest.jpg"
+    },
+    {
+      "title": "NEET paper leak 2026 : How WhatsApp  watch  message , Mygate app helped CBI crack case",
+      "url": "https://economictimes.indiatimes.com/news/india/neet-paper-leak-2026-how-whatsapp-watch-message-mygate-app-helped-cbi-crack-case/articleshow/133047132.cms",
+      "domain": "economictimes.indiatimes.com",
+      "seendate": "20260808T063000Z",
+      "image": "https://img.etimg.com/thumb/msid-133047429,width-1200,height-630,imgsize-74474,overlay-economictimes/articleshow.jpg"
+    },
+    {
+      "title": "NEET Paper Leak Case : CBI Cracks Case With A Simple WhatsApp Message",
+      "url": "https://www.oneindia.com/india/neet-paper-leak-case-cbi-cracks-case-with-a-simple-whatsapp-message-8170217.html",
+      "domain": "oneindia.com",
+      "seendate": "20260808T060000Z",
+      "image": "https://imagesvs.oneindia.com/img/2026/08/cbi-25201786163924.jpg"
+    },
+    {
+      "title": "ABVP questions AISA chief intention behind Ranchi visit ; says ,",
+      "url": "http://www.indiagazette.com/news/279226954/abvp-questions-aisa-chief-intention-behind-ranchi-visit-says-why-do-such-acts-occur-where-aisa-gather",
+      "domain": "indiagazette.com",
+      "seendate": "20260808T004500Z",
+      "image": "https://image.chitra.live/api/v1/wps/cce2fd1/fe085ec9-165c-4ae1-a210-c10c335b4994/0/ANI-20260807232449-600x315.jpg"
+    },
+    {
+      "title": "ABVP questions AISA chief intention behind Ranchi visit ; says ,  why do such acts occur where AISA gather",
+      "url": "https://aninews.in/news/national/general-news/abvp-questions-aisa-chiefs-intention-behind-ranchi-visit-says-why-do-such-acts-occur-where-aisa-gather20260808045517/",
+      "domain": "aninews.in",
+      "seendate": "20260808T004500Z",
+      "image": null
+    },
     {
       "title": "Rahul Gandhi  Chhatron Ki Goonj  in Prayagraj tomorrow : Congress steps up youth outreach over paper leaks , jobs crisis",
       "url": "https://aninews.in/news/national/politics/rahul-gandhis-chhatron-ki-goonj-in-prayagraj-tomorrow-congress-steps-up-youth-outreach-over-paper-leaks-jobs-crisis20260807220517/",
       "domain": "aninews.in",
       "seendate": "20260807T181500Z",
       "image": null
+    },
+    {
+      "title": "NEET UG 2026 Paper Leak : CBI Says Questions Were Shared on WhatsApp , Telegram Days Before Exam",
+      "url": "https://www.oneindia.com/india/neet-ug-2026-paper-leak-cbi-says-questions-were-shared-on-whatsapp-telegram-days-before-exam-8169675.html",
+      "domain": "oneindia.com",
+      "seendate": "20260807T134500Z",
+      "image": "https://imagesvs.oneindia.com/img/2026/08/cbseresultreleased-2026-08-07t181100-617-74231786106299.jpg"
     },
     {
       "title": "Jharkhand Student Protest : Rahul Kranti Hospitalised Amid Hunger Strike Over Recruitment Exam Irregularities",
@@ -22,13 +64,6 @@
       "domain": "indiagazette.com",
       "seendate": "20260807T134500Z",
       "image": "https://image.chitra.live/api/v1/wps/cb7d8ca/8be559d6-dd6e-41e3-847c-b7b4e95a82c7/0/ANI-20260807074446-600x315.jpg"
-    },
-    {
-      "title": "NEET UG 2026 Paper Leak : CBI Says Questions Were Shared on WhatsApp , Telegram Days Before Exam",
-      "url": "https://www.oneindia.com/india/neet-ug-2026-paper-leak-cbi-says-questions-were-shared-on-whatsapp-telegram-days-before-exam-8169675.html",
-      "domain": "oneindia.com",
-      "seendate": "20260807T134500Z",
-      "image": "https://imagesvs.oneindia.com/img/2026/08/cbseresultreleased-2026-08-07t181100-617-74231786106299.jpg"
     },
     {
       "title": "Gen Z doesnt need certificate from Bhagwat : Priyanka Gandhi",
@@ -49,41 +84,6 @@
       "url": "https://kashmirreader.com/2026/08/07/cjp-to-launch-kyabolti-public-campaign-next-month-says-dipke/",
       "domain": "kashmirreader.com",
       "seendate": "20260806T234500Z",
-      "image": null
-    },
-    {
-      "title": "BJP trying to divert attention from Delhi student agitation : Congress MP K Suresh on Jharkhand JPSC - JSSC exam irregularities",
-      "url": "https://news.webindia123.com/news/Articles/India/20260807/4484185.html",
-      "domain": "news.webindia123.com",
-      "seendate": "20260806T223000Z",
-      "image": null
-    },
-    {
-      "title": "Paper leak row : AISA protests at PU , demands exam controller resignation | Patna News",
-      "url": "https://timesofindia.indiatimes.com/city/patna/paper-leak-row-aisa-protests-at-pu-demands-exam-controllers-resignation/articleshow/133008461.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260806T150000Z",
-      "image": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg"
-    },
-    {
-      "title": "Denied  meeting with CJP , youth protest outside Dipke home",
-      "url": "https://www.siasat.com/denied-meeting-with-cjp-youth-protest-outside-dipkes-home-3519827/",
-      "domain": "siasat.com",
-      "seendate": "20260806T111500Z",
-      "image": "https://cdn.siasat.com/wp-content/uploads/2026/08/Protester-outside-Dipkes-residence.jpg"
-    },
-    {
-      "title": "Why are the students protesting in Ranchi ? | Explained",
-      "url": "https://www.thehindu.com/news/national/jharkhand/why-are-the-students-protesting-in-jharkhand-ranchi-explained/article71312517.ece",
-      "domain": "thehindu.com",
-      "seendate": "20260806T090000Z",
-      "image": "https://th-i.thgim.com/public/incoming/9j9pt8/article71312725.ece/alternates/LANDSCAPE_1200/20260805483L.jpg"
-    },
-    {
-      "title": "NEET - UG Exam : CBT mode on hold until Nandan Nilekani task force submits recommendations",
-      "url": "https://www.hindustantimes.com/education/news/neetug-exam-cbt-mode-on-hold-until-nandan-nilekani-task-force-submits-recommendations-101786002913632.html",
-      "domain": "hindustantimes.com",
-      "seendate": "20260806T090000Z",
       "image": null
     }
   ]
