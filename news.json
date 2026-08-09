@@ -1,7 +1,63 @@
 {
-  "updated_at": "2026-08-09T02:20:39Z",
+  "updated_at": "2026-08-09T18:53:46Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Gen Z was provoked by the way you handled Education Ministry : Sanjay Raut hits back at Dharmendra Pradhan remarks",
+      "url": "http://www.indiagazette.com/news/279228131/gen-z-was-provoked-by-the-way-you-handled-education-ministry-sanjay-raut-hits-back-at-dharmendra-pradhan-remarks",
+      "domain": "indiagazette.com",
+      "seendate": "20260809T154500Z",
+      "image": "https://image.chitra.live/api/v1/wps/d1a71c7/1c8eae12-faca-48ca-b574-47c4a0465f16/0/ANI-20260809074418-600x315.jpg"
+    },
+    {
+      "title": "JPSC exam cancellation demand met , say Jharkhand protesters after talks with govt :  will continue stir till ….",
+      "url": "https://www.livemint.com/news/india/jpsc-exam-cancellation-demand-met-say-jharkhand-protesters-after-talks-with-govt-continue-stir-till-ed-probe-students-11786280169792.html",
+      "domain": "livemint.com",
+      "seendate": "20260809T151500Z",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/09/600x338/PTI08-09-2026-000327B-0_1786280869612_1786280876653_20466d6a-ea4b-4438-850b-0c32fd81d13b.jpg"
+    },
+    {
+      "title": "JPSC exam cancellation demand met , but Jharkhand protesters to continue stir for CBI probe",
+      "url": "https://www.hindustantimes.com/india-news/jpsc-exam-cancellation-demand-met-but-jharkhand-protesters-vow-to-continue-stir-for-cbi-probe-101786279245583.html",
+      "domain": "hindustantimes.com",
+      "seendate": "20260809T130000Z",
+      "image": "https://www.hindustantimes.com/ht-img/img/2026/08/09/1600x900/ANI-20260809090-0_1786279475899_1786279490217_61148218-abe9-4bf7-934a-170a2bcf31e2.jpg"
+    },
+    {
+      "title": "Jharkhand Govt Holds Fresh Talks with Protesting Students",
+      "url": "https://www.deccanchronicle.com/nation/jharkhand-govt-holds-fresh-talks-with-students-over-exam-irregularities-1977868",
+      "domain": "deccanchronicle.com",
+      "seendate": "20260809T124500Z",
+      "image": "https://www.deccanchronicle.com/h-upload/2026/08/09/2074218-577ac07f-6001-4425-b667-5e391c650aee.jpg"
+    },
+    {
+      "title": "Voiced student demands , issue gained real momentum : Mallikarjun Kharge hails Rahul Gandhi  Chhatron Ki Goonj  campaign",
+      "url": "http://www.calcuttanews.net/news/279228110/voiced-students-demands-issue-gained-real-momentum-mallikarjun-kharge-hails-rahul-gandhi-chhatron-ki-goonj-campaign",
+      "domain": "calcuttanews.net",
+      "seendate": "20260809T111500Z",
+      "image": "https://image.chitra.live/api/v1/wps/409fd83/7555536a-e999-4906-b4fc-547c8b304bcf/0/ANI-20260809071745-600x315.jpg"
+    },
+    {
+      "title": "Jharkhand govt to hold fresh talks as protester health falls",
+      "url": "https://www.rediff.com/news/report/jharkhand-govt-to-hold-fresh-talks-as-protesters-health-falls/20260809.htm",
+      "domain": "rediff.com",
+      "seendate": "20260809T090000Z",
+      "image": "https://im.rediff.com/1200-630/news/2026/aug/09jharkhand-students-protest.jpg"
+    },
+    {
+      "title": "Gen Z was provoked by the way you handled Education Ministry : Shiv Sena ( UBT ) MP Sanjay Raut hits back at Dharmendra Pradhan remarks",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/gen-z-was-provoked-by-the-way-you-handled-education-ministry-shiv-sena-ubt-mp-sanjay-raut-hits-back-at-dharmendra-pradhans-remarks/articleshow/133064151.cms",
+      "domain": "economictimes.indiatimes.com",
+      "seendate": "20260809T083000Z",
+      "image": "https://img.etimg.com/thumb/msid-133064191,width-1200,height-630,imgsize-66336,overlay-economictimes/articleshow.jpg"
+    },
+    {
+      "title": "Insult , But Pyaar Se : How Gen Z Turned Humour Into Protest Power",
+      "url": "https://www.freepressjournal.in/lifestyle/insult-but-pyaar-se-how-gen-z-turned-humour-into-protest-power",
+      "domain": "freepressjournal.in",
+      "seendate": "20260809T044500Z",
+      "image": "https://media.assettype.com/freepressjournal/2026-08-08/3kvshptp/protest.png"
+    },
     {
       "title": "Jharkhand students warn of massive Assembly march on August 10",
       "url": "https://economictimes.indiatimes.com/news/politics-and-nation/jharkhand-students-warn-of-massive-assembly-march-on-august-10/articleshow/133061308.cms",
@@ -10,81 +66,25 @@
       "image": "https://img.etimg.com/thumb/msid-133061308,width-1200,height-630,imgsize-73678,overlay-economictimes/articleshow.jpg"
     },
     {
-      "title": "MCC NEET UG 2026 AIQ Counselling Schedule Published",
-      "url": "https://www.ummid.com/news/2026/8/1/mcc-neet-ug-2026-aiq-counselling-schedule-published.html",
-      "domain": "ummid.com",
-      "seendate": "20260801T181500Z",
-      "image": "https://ummid.com/news/2026/8/1/mcc-neet-ug-counselling-schedule.webp"
+      "title": "Rahul Gandhi Says India Youth Are Its Greatest Strength , Targets BJP - RSS at Prayagraj Event",
+      "url": "https://www.oneindia.com/india/rahul-gandhi-says-indias-youth-are-its-greatest-strength-targets-bjp-rss-at-prayagraj-event-8170789.html",
+      "domain": "oneindia.com",
+      "seendate": "20260808T203000Z",
+      "image": "https://imagesvs.oneindia.com/img/2026/08/rahulgandhi2-75571786212167.jpg"
     },
     {
-      "title": "From Trust to Test : The Historical Devaluation of Academic Degrees in India",
-      "url": "https://countercurrents.org/2026/08/from-trust-to-test-the-historical-devaluation-of-academic-degrees-in-india/",
-      "domain": "countercurrents.org",
-      "seendate": "20260801T161500Z",
-      "image": "https://cdn.countercurrents.org/2026/06/education-5.jpg"
-    },
-    {
-      "title": "Evening Wrap | August 1 , 2026",
-      "url": "https://www.thehindu.com/newsletter/the-evening-wrap/evening-wrap-august-1-2026/article71295507.ece",
-      "domain": "thehindu.com",
-      "seendate": "20260801T161500Z",
-      "image": "https://www.thehindu.com/theme/images/og-image.png"
-    },
-    {
-      "title": "Why India New Anti - Paper Leak Law Must Be Matched by Systemic Reform",
-      "url": "https://www.ibtimes.co.in/why-indias-new-anti-paper-leak-law-must-be-matched-by-systemic-reform-904359",
-      "domain": "ibtimes.co.in",
-      "seendate": "20260801T160000Z",
-      "image": "https://data1.ibtimes.co.in/en/full/835338/rajya-sabha-passes-anti-paper-leak-bill.jpg"
-    },
-    {
-      "title": "Anti - Paper Leak Law : Explained : What changes after India tougher anti - paper leak law comes into force | India News",
-      "url": "https://timesofindia.indiatimes.com/india/explained-what-changes-after-indias-tougher-anti-paper-leak-law-comes-into-force/articleshow/132787815.cms",
+      "title": "JPSC , E20 , anti - reservation : The issues India is talking about",
+      "url": "https://timesofindia.indiatimes.com/india/jpsc-e20-anti-reservation-the-issues-india-is-talking-about/articleshow/133052957.cms",
       "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260801T114500Z",
-      "image": "https://static.toiimg.com/thumb/msid-132787937,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+      "seendate": "20260808T141500Z",
+      "image": "https://static.toiimg.com/thumb/msid-133053791,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
     },
     {
-      "title": "Question paper leaks malaise not going to leave BJP : Congres Bhakta Charan Das amid Odisha Medical PG exam paper leak row",
-      "url": "http://www.indiagazette.com/news/279218379/question-paper-leaks-malaise-not-going-to-leave-bjp-congress-bhakta-charan-das-amid-odisha-medical-pg-exam-paper-leak-row",
-      "domain": "indiagazette.com",
-      "seendate": "20260801T110000Z",
-      "image": "https://image.chitra.live/api/v1/wps/1b7b131/68a553f3-6c83-4a02-8d25-de6d1b13bd69/0/ANI-20260801045847-600x315.jpg"
-    },
-    {
-      "title": "Lives could have been saved : Congres Hanumantha Rao targets Central govt over NEET protests",
-      "url": "http://www.indiagazette.com/news/279218356/lives-could-have-been-saved-congress-hanumantha-rao-targets-central-govt-over-neet-protests",
-      "domain": "indiagazette.com",
-      "seendate": "20260801T110000Z",
-      "image": "https://image.chitra.live/api/v1/wps/a557f7b/db78d168-bd8f-47c5-8421-22886180da0c/0/ANI-20260801043149-600x315.jpg"
-    },
-    {
-      "title": "DMK says it remains in Opposition , but no longer part of INDIA bloc :  Congress betrayed us",
-      "url": "https://www.moneycontrol.com/news/india/dmk-says-it-remains-in-opposition-but-no-longer-part-of-india-bloc-congress-betrayed-us-13990685.html",
-      "domain": "moneycontrol.com",
-      "seendate": "20260801T043000Z",
-      "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260619131623_Rahul-Stalin-image.jpg"
-    },
-    {
-      "title": "Cancer is not cured by Crocin , Paper Leak is not cured by soundbites : Raghav Chadha on his  silence  over exam paper leaks",
-      "url": "https://www.ibtimes.co.in/cancer-not-cured-by-crocin-paper-leak-not-cured-by-soundbites-raghav-chadha-his-silence-over-904336",
-      "domain": "ibtimes.co.in",
-      "seendate": "20260731T190000Z",
-      "image": "https://data1.ibtimes.co.in/en/full/835370/questions-were-my-weapon-now-solutions-are-my-duty-raghav-chadha-paper-leak-issue.jpg"
-    },
-    {
-      "title": "Bollywood Roundup : Rashmika Mandanna , Adah Sharma , Karisma Kapoor , and more ...",
-      "url": "https://indianewengland.com/bollywood-roundup-rashmika-mandanna-adah-sharma-karisma-kapoor-and-more/",
-      "domain": "indianewengland.com",
-      "seendate": "20260731T190000Z",
-      "image": "https://indianewengland.com/wp-content/uploads/2026/07/Rashmika-Mandanna.png"
-    },
-    {
-      "title": "PM Modi says he forgives students for abusive remarks :  Let guide the misguided",
-      "url": "https://www.livemint.com/news/india/pm-modi-says-he-forgives-students-for-abusive-remarks-let-s-guide-the-misguided-jantar-mantar-instagram-reel-gen-z-11785520914045.html",
-      "domain": "livemint.com",
-      "seendate": "20260731T190000Z",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/31/600x338/PTI07-04-2026-000426B-0_1783170712737_178317119285_1785521354440_1785521354542_b2dfcf10-83f9-48fd-a7f6-ae0554a2ed45.jpg"
+      "title": "Uttar Pradesh : Rahul Gandhi arrives in Prayagraj to address  Chhatron Ki Goonj  student outreach programme",
+      "url": "http://www.calcuttanews.net/news/279227347/uttar-pradesh-rahul-gandhi-arrives-in-prayagraj-to-address-chhatron-ki-goonj-student-outreach-programme",
+      "domain": "calcuttanews.net",
+      "seendate": "20260808T123000Z",
+      "image": "https://image.chitra.live/api/v1/wps/5705b7c/eade4513-e912-4fca-bc12-10d0b2869cd3/0/ANI-20260808081644-600x315.jpg"
     }
   ]
 }
