@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-08-10T02:25:42Z",
+  "updated_at": "2026-08-10T07:57:46Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "In Jharkhand , youth lose years of their lives trying to clear the JPSC exams",
+      "url": "https://scroll.in/article/1094849/in-jharkhand-youth-lose-years-of-their-lives-trying-to-clear-the-jpsc-exams",
+      "domain": "scroll.in",
+      "seendate": "20260810T033000Z",
+      "image": "https://sc0.blr1.cdn.digitaloceanspaces.com/book/214946-swbzuhhiyv-1786070241.jpg"
+    },
+    {
+      "title": "Paper leaks , 3 , 000 error : Odisha Youth Congress targets BJP govt in torch rally | Bhubaneswar News",
+      "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/paper-leaks-3000-errors-odisha-youth-congress-targets-bjp-govt-in-torch-rally/articleshow/133077330.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260810T023000Z",
+      "image": "https://static.toiimg.com/thumb/msid-133077473,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
     {
       "title": "Odisha Youth Congress holds torch rally in Bhubaneswar over errors in school textbooks",
       "url": "https://aninews.in/news/national/politics/odisha-youth-congress-holds-torch-rally-in-bhubaneswar-over-errors-in-school-textbooks20260810055155/",
@@ -71,20 +85,6 @@
       "domain": "freepressjournal.in",
       "seendate": "20260809T044500Z",
       "image": "https://media.assettype.com/freepressjournal/2026-08-08/3kvshptp/protest.png"
-    },
-    {
-      "title": "Jharkhand students warn of massive Assembly march on August 10",
-      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/jharkhand-students-warn-of-massive-assembly-march-on-august-10/articleshow/133061308.cms",
-      "domain": "economictimes.indiatimes.com",
-      "seendate": "20260809T020000Z",
-      "image": "https://img.etimg.com/thumb/msid-133061308,width-1200,height-630,imgsize-73678,overlay-economictimes/articleshow.jpg"
-    },
-    {
-      "title": "Rahul Gandhi Says India Youth Are Its Greatest Strength , Targets BJP - RSS at Prayagraj Event",
-      "url": "https://www.oneindia.com/india/rahul-gandhi-says-indias-youth-are-its-greatest-strength-targets-bjp-rss-at-prayagraj-event-8170789.html",
-      "domain": "oneindia.com",
-      "seendate": "20260808T203000Z",
-      "image": "https://imagesvs.oneindia.com/img/2026/08/rahulgandhi2-75571786212167.jpg"
     }
   ]
 }
