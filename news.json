@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-10T07:57:46Z",
+  "updated_at": "2026-08-10T13:27:52Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "A Student Life Cant Be Held Hostage To A 3 - Hour Performance",
+      "url": "https://www.rediff.com/news/special/a-students-life-cant-be-held-hostage-to-a-3-hour-performance/20260810.htm",
+      "domain": "rediff.com",
+      "seendate": "20260810T083000Z",
+      "image": "https://im.rediff.com/1200-630/getahead/2026/aug/07exam-system1.jpg"
+    },
     {
       "title": "In Jharkhand , youth lose years of their lives trying to clear the JPSC exams",
       "url": "https://scroll.in/article/1094849/in-jharkhand-youth-lose-years-of-their-lives-trying-to-clear-the-jpsc-exams",
@@ -78,13 +85,6 @@
       "domain": "economictimes.indiatimes.com",
       "seendate": "20260809T083000Z",
       "image": "https://img.etimg.com/thumb/msid-133064191,width-1200,height-630,imgsize-66336,overlay-economictimes/articleshow.jpg"
-    },
-    {
-      "title": "Insult , But Pyaar Se : How Gen Z Turned Humour Into Protest Power",
-      "url": "https://www.freepressjournal.in/lifestyle/insult-but-pyaar-se-how-gen-z-turned-humour-into-protest-power",
-      "domain": "freepressjournal.in",
-      "seendate": "20260809T044500Z",
-      "image": "https://media.assettype.com/freepressjournal/2026-08-08/3kvshptp/protest.png"
     }
   ]
 }
