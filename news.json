@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-08-09T18:53:46Z",
+  "updated_at": "2026-08-10T02:25:42Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Odisha Youth Congress holds torch rally in Bhubaneswar over errors in school textbooks",
+      "url": "https://aninews.in/news/national/politics/odisha-youth-congress-holds-torch-rally-in-bhubaneswar-over-errors-in-school-textbooks20260810055155/",
+      "domain": "aninews.in",
+      "seendate": "20260810T004500Z",
+      "image": null
+    },
+    {
+      "title": "Congress leaders have no connection with ground reality : UP Minister Asim Arun hits back at Rahul Gandhi over  Chhatron ki Goonj  remarks",
+      "url": "http://www.indiagazette.com/news/279228325/congress-leaders-have-no-connection-with-ground-reality-up-minister-asim-arun-hits-back-at-rahul-gandhi-over-chhatron-ki-goonj-remarks",
+      "domain": "indiagazette.com",
+      "seendate": "20260809T200000Z",
+      "image": "https://image.chitra.live/api/v1/wps/a5f3902/7df00e63-043a-46cb-a3c1-59cb628e58f9/0/ANI-20260809121115-600x315.jpg"
+    },
     {
       "title": "Gen Z was provoked by the way you handled Education Ministry : Sanjay Raut hits back at Dharmendra Pradhan remarks",
       "url": "http://www.indiagazette.com/news/279228131/gen-z-was-provoked-by-the-way-you-handled-education-ministry-sanjay-raut-hits-back-at-dharmendra-pradhan-remarks",
@@ -71,20 +85,6 @@
       "domain": "oneindia.com",
       "seendate": "20260808T203000Z",
       "image": "https://imagesvs.oneindia.com/img/2026/08/rahulgandhi2-75571786212167.jpg"
-    },
-    {
-      "title": "JPSC , E20 , anti - reservation : The issues India is talking about",
-      "url": "https://timesofindia.indiatimes.com/india/jpsc-e20-anti-reservation-the-issues-india-is-talking-about/articleshow/133052957.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260808T141500Z",
-      "image": "https://static.toiimg.com/thumb/msid-133053791,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "Uttar Pradesh : Rahul Gandhi arrives in Prayagraj to address  Chhatron Ki Goonj  student outreach programme",
-      "url": "http://www.calcuttanews.net/news/279227347/uttar-pradesh-rahul-gandhi-arrives-in-prayagraj-to-address-chhatron-ki-goonj-student-outreach-programme",
-      "domain": "calcuttanews.net",
-      "seendate": "20260808T123000Z",
-      "image": "https://image.chitra.live/api/v1/wps/5705b7c/eade4513-e912-4fca-bc12-10d0b2869cd3/0/ANI-20260808081644-600x315.jpg"
     }
   ]
 }
