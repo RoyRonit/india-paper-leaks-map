@@ -1,7 +1,35 @@
 {
-  "updated_at": "2026-08-11T02:18:54Z",
+  "updated_at": "2026-08-11T19:12:53Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Protests grip Ranchi : ABVP workers detained after clash with police during march , BJP enforces bandh following police action on JPSC - JSSC aspirants",
+      "url": "https://aninews.in/news/national/general-news/protests-grip-ranchi-abvp-workers-detained-after-clash-with-police-during-bjp-enforces-bandh-following-police-action-on-jpsc-jssc-aspirants20260811222955/",
+      "domain": "aninews.in",
+      "seendate": "20260811T184500Z",
+      "image": null
+    },
+    {
+      "title": "A resolve for nation - building : BJP MP Bansuri Swaraj on concept of  Mangal Milan",
+      "url": "https://ianslive.in/bjp-mp-bansuri-swaraj-explains-the-concept-of-mangal-milan--20260811213928",
+      "domain": "ianslive.in",
+      "seendate": "20260811T171500Z",
+      "image": "https://d2lnbwhcsmj8tp.cloudfront.net/ianslive_watermark/202608113900419.jpg"
+    },
+    {
+      "title": "Fitch retains India BBB - rating on robust growth outlook , flags fiscal risks from youth protests",
+      "url": "https://www.thehindu.com/business/Economy/fitch-retains-indias-bbb-rating-on-robust-growth-outlook-flags-fiscal-risks-from-youth-protests/article71333641.ece",
+      "domain": "thehindu.com",
+      "seendate": "20260811T170000Z",
+      "image": "https://th-i.thgim.com/public/incoming/a52jzi/article71333672.ece/alternates/LANDSCAPE_1200/2026-08-11T084722Z_1266351438_RC2YJCAC7H3Y_RTRMADP_3_INDIA-RATINGS-FITCH.JPG"
+    },
+    {
+      "title": "Paper leaks are the symptom . India jobs gold rush is the disease .",
+      "url": "https://timesofindia.indiatimes.com/toi-blogs/nation-notes/paper-leaks-are-the-symptom-indias-jobs-gold-rush-is-the-disease-/articleshow/133141017.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260811T040000Z",
+      "image": "https://static.toiimg.com/thumb/msid-133141076,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
     {
       "title": "A Student Life Cant Be Held Hostage To A 3 - Hour Performance",
       "url": "https://www.rediff.com/news/special/a-students-life-cant-be-held-hostage-to-a-3-hour-performance/20260810.htm",
@@ -57,34 +85,6 @@
       "domain": "hindustantimes.com",
       "seendate": "20260809T130000Z",
       "image": "https://www.hindustantimes.com/ht-img/img/2026/08/09/1600x900/ANI-20260809090-0_1786279475899_1786279490217_61148218-abe9-4bf7-934a-170a2bcf31e2.jpg"
-    },
-    {
-      "title": "Jharkhand Govt Holds Fresh Talks with Protesting Students",
-      "url": "https://www.deccanchronicle.com/nation/jharkhand-govt-holds-fresh-talks-with-students-over-exam-irregularities-1977868",
-      "domain": "deccanchronicle.com",
-      "seendate": "20260809T124500Z",
-      "image": "https://www.deccanchronicle.com/h-upload/2026/08/09/2074218-577ac07f-6001-4425-b667-5e391c650aee.jpg"
-    },
-    {
-      "title": "Voiced student demands , issue gained real momentum : Mallikarjun Kharge hails Rahul Gandhi  Chhatron Ki Goonj  campaign",
-      "url": "http://www.calcuttanews.net/news/279228110/voiced-students-demands-issue-gained-real-momentum-mallikarjun-kharge-hails-rahul-gandhi-chhatron-ki-goonj-campaign",
-      "domain": "calcuttanews.net",
-      "seendate": "20260809T111500Z",
-      "image": "https://image.chitra.live/api/v1/wps/409fd83/7555536a-e999-4906-b4fc-547c8b304bcf/0/ANI-20260809071745-600x315.jpg"
-    },
-    {
-      "title": "Jharkhand govt to hold fresh talks as protester health falls",
-      "url": "https://www.rediff.com/news/report/jharkhand-govt-to-hold-fresh-talks-as-protesters-health-falls/20260809.htm",
-      "domain": "rediff.com",
-      "seendate": "20260809T090000Z",
-      "image": "https://im.rediff.com/1200-630/news/2026/aug/09jharkhand-students-protest.jpg"
-    },
-    {
-      "title": "Gen Z was provoked by the way you handled Education Ministry : Shiv Sena ( UBT ) MP Sanjay Raut hits back at Dharmendra Pradhan remarks",
-      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/gen-z-was-provoked-by-the-way-you-handled-education-ministry-shiv-sena-ubt-mp-sanjay-raut-hits-back-at-dharmendra-pradhans-remarks/articleshow/133064151.cms",
-      "domain": "economictimes.indiatimes.com",
-      "seendate": "20260809T083000Z",
-      "image": "https://img.etimg.com/thumb/msid-133064191,width-1200,height-630,imgsize-66336,overlay-economictimes/articleshow.jpg"
     }
   ]
 }
