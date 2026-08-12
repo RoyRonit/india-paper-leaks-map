@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-08-11T19:12:53Z",
+  "updated_at": "2026-08-12T07:46:03Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Kangana Ranaut Slams Naseeruddin Shah Over Silence On Jharkhand Protests , Calls Him  Fox",
+      "url": "https://www.oneindia.com/entertainment/kangana-ranaut-slams-naseeruddin-shah-over-silence-on-jharkhand-protests-calls-him-fox-8173805.html",
+      "domain": "oneindia.com",
+      "seendate": "20260812T063000Z",
+      "image": "https://imagesvs.oneindia.com/img/2026/08/kangana-ranaut-naseeruddin-shah-02-90021786508087.jpg"
+    },
+    {
+      "title": "JSSC Junior Engineer paper leak case : Key agency operator arrested in Mumbai by SIT",
+      "url": "http://www.indiagazette.com/news/279234787/jssc-junior-engineer-paper-leak-case-key-agency-operator-arrested-in-mumbai-by-sit",
+      "domain": "indiagazette.com",
+      "seendate": "20260811T224500Z",
+      "image": "https://image.chitra.live/api/v1/wps/86bfed0/23c175bf-a889-4342-ad50-6760cd2aea50/0/ANI-20260811134203-600x315.jpg"
+    },
     {
       "title": "Protests grip Ranchi : ABVP workers detained after clash with police during march , BJP enforces bandh following police action on JPSC - JSSC aspirants",
       "url": "https://aninews.in/news/national/general-news/protests-grip-ranchi-abvp-workers-detained-after-clash-with-police-during-bjp-enforces-bandh-following-police-action-on-jpsc-jssc-aspirants20260811222955/",
@@ -71,20 +85,6 @@
       "domain": "indiagazette.com",
       "seendate": "20260809T154500Z",
       "image": "https://image.chitra.live/api/v1/wps/d1a71c7/1c8eae12-faca-48ca-b574-47c4a0465f16/0/ANI-20260809074418-600x315.jpg"
-    },
-    {
-      "title": "JPSC exam cancellation demand met , say Jharkhand protesters after talks with govt :  will continue stir till ….",
-      "url": "https://www.livemint.com/news/india/jpsc-exam-cancellation-demand-met-say-jharkhand-protesters-after-talks-with-govt-continue-stir-till-ed-probe-students-11786280169792.html",
-      "domain": "livemint.com",
-      "seendate": "20260809T151500Z",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/09/600x338/PTI08-09-2026-000327B-0_1786280869612_1786280876653_20466d6a-ea4b-4438-850b-0c32fd81d13b.jpg"
-    },
-    {
-      "title": "JPSC exam cancellation demand met , but Jharkhand protesters to continue stir for CBI probe",
-      "url": "https://www.hindustantimes.com/india-news/jpsc-exam-cancellation-demand-met-but-jharkhand-protesters-vow-to-continue-stir-for-cbi-probe-101786279245583.html",
-      "domain": "hindustantimes.com",
-      "seendate": "20260809T130000Z",
-      "image": "https://www.hindustantimes.com/ht-img/img/2026/08/09/1600x900/ANI-20260809090-0_1786279475899_1786279490217_61148218-abe9-4bf7-934a-170a2bcf31e2.jpg"
     }
   ]
 }
