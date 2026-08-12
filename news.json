@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-08-12T07:46:03Z",
+  "updated_at": "2026-08-12T19:13:38Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Frustrated , disappointed : Kiren Rijiju slams Opposition for  running away  from debates in Parliament",
+      "url": "https://www.hindustantimes.com/india-news/kiren-rijiju-frustrated-disappointed-amit-shah-parliament-lok-sabha-debate-students-protest-opposition-monsoon-session-101786533483168.html",
+      "domain": "hindustantimes.com",
+      "seendate": "20260812T123000Z",
+      "image": null
+    },
+    {
+      "title": "UGC NET June 2026 Answer Key This Week : Where to Check",
+      "url": "https://www.ummid.com/news/2026/8/12/ugc-net-june-2026-answer-key-this-week-where-to-check.html",
+      "domain": "ummid.com",
+      "seendate": "20260812T104500Z",
+      "image": "https://ummid.com/news/2026/8/12/ugc-net-answer-key.webp"
+    },
+    {
+      "title": "State PSCs under scrutiny as exam irregularities , delays erode trust",
+      "url": "https://www.thehindu.com/education/state-pscs-under-scrutiny-as-exam-irregularities-delays-erode-trust/article71335589.ece",
+      "domain": "thehindu.com",
+      "seendate": "20260812T101500Z",
+      "image": "https://th-i.thgim.com/public/education/ud1l87/article71335837.ece/alternates/LANDSCAPE_1200/image%202.jpg"
+    },
     {
       "title": "Kangana Ranaut Slams Naseeruddin Shah Over Silence On Jharkhand Protests , Calls Him  Fox",
       "url": "https://www.oneindia.com/entertainment/kangana-ranaut-slams-naseeruddin-shah-over-silence-on-jharkhand-protests-calls-him-fox-8173805.html",
@@ -64,27 +85,6 @@
       "domain": "timesofindia.indiatimes.com",
       "seendate": "20260810T023000Z",
       "image": "https://static.toiimg.com/thumb/msid-133077473,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "Odisha Youth Congress holds torch rally in Bhubaneswar over errors in school textbooks",
-      "url": "https://aninews.in/news/national/politics/odisha-youth-congress-holds-torch-rally-in-bhubaneswar-over-errors-in-school-textbooks20260810055155/",
-      "domain": "aninews.in",
-      "seendate": "20260810T004500Z",
-      "image": null
-    },
-    {
-      "title": "Congress leaders have no connection with ground reality : UP Minister Asim Arun hits back at Rahul Gandhi over  Chhatron ki Goonj  remarks",
-      "url": "http://www.indiagazette.com/news/279228325/congress-leaders-have-no-connection-with-ground-reality-up-minister-asim-arun-hits-back-at-rahul-gandhi-over-chhatron-ki-goonj-remarks",
-      "domain": "indiagazette.com",
-      "seendate": "20260809T200000Z",
-      "image": "https://image.chitra.live/api/v1/wps/a5f3902/7df00e63-043a-46cb-a3c1-59cb628e58f9/0/ANI-20260809121115-600x315.jpg"
-    },
-    {
-      "title": "Gen Z was provoked by the way you handled Education Ministry : Sanjay Raut hits back at Dharmendra Pradhan remarks",
-      "url": "http://www.indiagazette.com/news/279228131/gen-z-was-provoked-by-the-way-you-handled-education-ministry-sanjay-raut-hits-back-at-dharmendra-pradhan-remarks",
-      "domain": "indiagazette.com",
-      "seendate": "20260809T154500Z",
-      "image": "https://image.chitra.live/api/v1/wps/d1a71c7/1c8eae12-faca-48ca-b574-47c4a0465f16/0/ANI-20260809074418-600x315.jpg"
     }
   ]
 }
