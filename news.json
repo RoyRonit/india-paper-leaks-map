@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-08-14T13:23:26Z",
+  "updated_at": "2026-08-14T19:04:40Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Public exams gateways to opportunities , govt taking steps to curb unfair means : Murmu on I - Day eve",
+      "url": "https://www.hindustantimes.com/india-news/public-exams-gateways-to-opportunities-govt-taking-comprehensive-steps-murmu-on-i-day-eve-101786729130907.html",
+      "domain": "hindustantimes.com",
+      "seendate": "20260814T181500Z",
+      "image": null
+    },
+    {
+      "title": "President Murmu Highlights Government Push for Transparent , Leak - Free Public Exams | Education News",
+      "url": "https://www.jagranjosh.com/news/president-murmu-highlights-governments-push-for-transparent-leak-free-public-exams-186518",
+      "domain": "jagranjosh.com",
+      "seendate": "20260814T174500Z",
+      "image": "https://img.jagranjosh.com/images/2026/08/14/article/image/ChatGPT-Image-Aug-14,-2026,-09_54_45-PM-1786724719826.webp"
+    },
+    {
+      "title": "MP Man Injured in Jharkhand Police Lathicharge , in HDU",
+      "url": "https://dailypioneer.com/news/mp-man-injured-jharkhand-police-lathicharge-treatment",
+      "domain": "dailypioneer.com",
+      "seendate": "20260814T153000Z",
+      "image": "https://dailypioneer.com/uploads/2026/story/images/big/police-lathicharge-leaves-student-protester-injured-2026-08-14.jpg"
+    },
     {
       "title": "DMK Decade of Solidarity and TVK Silence : How Tamil Nadu Anti - NEET Legacy Was Broken",
       "url": "https://countercurrents.org/2026/08/dmks-decade-of-solidarity-and-tvks-silence-how-tamil-nadus-anti-neet-legacy-was-broken/",
@@ -64,27 +85,6 @@
       "domain": "thehindu.com",
       "seendate": "20260811T170000Z",
       "image": "https://th-i.thgim.com/public/incoming/a52jzi/article71333672.ece/alternates/LANDSCAPE_1200/2026-08-11T084722Z_1266351438_RC2YJCAC7H3Y_RTRMADP_3_INDIA-RATINGS-FITCH.JPG"
-    },
-    {
-      "title": "Paper leaks are the symptom . India jobs gold rush is the disease .",
-      "url": "https://timesofindia.indiatimes.com/toi-blogs/nation-notes/paper-leaks-are-the-symptom-indias-jobs-gold-rush-is-the-disease-/articleshow/133141017.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260811T040000Z",
-      "image": "https://static.toiimg.com/thumb/msid-133141076,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "A Student Life Cant Be Held Hostage To A 3 - Hour Performance",
-      "url": "https://www.rediff.com/news/special/a-students-life-cant-be-held-hostage-to-a-3-hour-performance/20260810.htm",
-      "domain": "rediff.com",
-      "seendate": "20260810T083000Z",
-      "image": "https://im.rediff.com/1200-630/getahead/2026/aug/07exam-system1.jpg"
-    },
-    {
-      "title": "In Jharkhand , youth lose years of their lives trying to clear the JPSC exams",
-      "url": "https://scroll.in/article/1094849/in-jharkhand-youth-lose-years-of-their-lives-trying-to-clear-the-jpsc-exams",
-      "domain": "scroll.in",
-      "seendate": "20260810T033000Z",
-      "image": "https://sc0.blr1.cdn.digitaloceanspaces.com/book/214946-swbzuhhiyv-1786070241.jpg"
     }
   ]
 }
