@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-14T02:33:49Z",
+  "updated_at": "2026-08-14T13:23:26Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "DMK Decade of Solidarity and TVK Silence : How Tamil Nadu Anti - NEET Legacy Was Broken",
+      "url": "https://countercurrents.org/2026/08/dmks-decade-of-solidarity-and-tvks-silence-how-tamil-nadus-anti-neet-legacy-was-broken/",
+      "domain": "countercurrents.org",
+      "seendate": "20260814T094500Z",
+      "image": "https://cdn.countercurrents.org/2026/08/DMK-NEET-766x1024.jpg"
+    },
     {
       "title": "Frustrated , disappointed : Kiren Rijiju slams Opposition for  running away  from debates in Parliament",
       "url": "https://www.hindustantimes.com/india-news/kiren-rijiju-frustrated-disappointed-amit-shah-parliament-lok-sabha-debate-students-protest-opposition-monsoon-session-101786533483168.html",
@@ -78,13 +85,6 @@
       "domain": "scroll.in",
       "seendate": "20260810T033000Z",
       "image": "https://sc0.blr1.cdn.digitaloceanspaces.com/book/214946-swbzuhhiyv-1786070241.jpg"
-    },
-    {
-      "title": "Paper leaks , 3 , 000 error : Odisha Youth Congress targets BJP govt in torch rally | Bhubaneswar News",
-      "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/paper-leaks-3000-errors-odisha-youth-congress-targets-bjp-govt-in-torch-rally/articleshow/133077330.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260810T023000Z",
-      "image": "https://static.toiimg.com/thumb/msid-133077473,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
     }
   ]
 }
