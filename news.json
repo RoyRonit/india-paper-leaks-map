@@ -1,7 +1,35 @@
 {
-  "updated_at": "2026-08-16T12:54:09Z",
+  "updated_at": "2026-08-16T18:39:20Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "NTA admits  defect in 3 UGC - NET papers , orders re - tests in September : All you need to know",
+      "url": "https://www.theweek.in/news/india/2026/08/16/nta-admits-defects-in-3-ugc-net-papers-orders-re-tests-in-september-all-you-need-to-know.html",
+      "domain": "theweek.in",
+      "seendate": "20260816T180000Z",
+      "image": "https://img.theweek.in/content/dam/week/en/archive/news/india/images/2026/8/16/ugc-net-aspirants-ani.jpg"
+    },
+    {
+      "title": "Jharkhand protest : Govt invites students for talks tomorrow as protesters announce Aug 20 gherao of CM Soren residence",
+      "url": "https://aninews.in/news/national/politics/jharkhand-protest-govt-invites-students-for-talks-tomorrow-as-protesters-announce-aug-20-gherao-of-cm-sorens-residence20260816223823/",
+      "domain": "aninews.in",
+      "seendate": "20260816T180000Z",
+      "image": null
+    },
+    {
+      "title": "UGC - NET 2026 : NTA orders re - exam for English , Commerce , Sociology over question paper errors",
+      "url": "https://www.livemint.com/education/news/ugcnet-2026-nta-orders-re-exam-for-english-commerce-sociology-over-question-paper-errors-11786893671476.html",
+      "domain": "livemint.com",
+      "seendate": "20260816T170000Z",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/16/600x338/ANI-20260625375-0_1786894111052_1786894123203_c0c61ebc-73d7-47a2-9126-e5bf447ac1f5.jpg"
+    },
+    {
+      "title": "We were never seen as a mind , only as a vote : Neha Bora on India student resistance and the fight for democracy",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/we-were-never-seen-as-a-mind-only-as-a-vote-neha-bora-on-indias-student-resistance-and-the-fight-for-democracy/article71353537.ece",
+      "domain": "thehindu.com",
+      "seendate": "20260816T164500Z",
+      "image": "https://th-i.thgim.com/public/incoming/7sstsw/article71353650.ece/alternates/LANDSCAPE_1200/_DSC3099.JPG"
+    },
     {
       "title": "BILKUL ONLINE The Weekly News Wrap - Bilkul Online",
       "url": "https://bilkulonline.com/2026/08/16/bilkul-online-the-weekly-news-wrap-8/",
@@ -57,34 +85,6 @@
       "domain": "hindustantimes.com",
       "seendate": "20260812T123000Z",
       "image": null
-    },
-    {
-      "title": "UGC NET June 2026 Answer Key This Week : Where to Check",
-      "url": "https://www.ummid.com/news/2026/8/12/ugc-net-june-2026-answer-key-this-week-where-to-check.html",
-      "domain": "ummid.com",
-      "seendate": "20260812T104500Z",
-      "image": "https://ummid.com/news/2026/8/12/ugc-net-answer-key.webp"
-    },
-    {
-      "title": "State PSCs under scrutiny as exam irregularities , delays erode trust",
-      "url": "https://www.thehindu.com/education/state-pscs-under-scrutiny-as-exam-irregularities-delays-erode-trust/article71335589.ece",
-      "domain": "thehindu.com",
-      "seendate": "20260812T101500Z",
-      "image": "https://th-i.thgim.com/public/education/ud1l87/article71335837.ece/alternates/LANDSCAPE_1200/image%202.jpg"
-    },
-    {
-      "title": "Kangana Ranaut Slams Naseeruddin Shah Over Silence On Jharkhand Protests , Calls Him  Fox",
-      "url": "https://www.oneindia.com/entertainment/kangana-ranaut-slams-naseeruddin-shah-over-silence-on-jharkhand-protests-calls-him-fox-8173805.html",
-      "domain": "oneindia.com",
-      "seendate": "20260812T063000Z",
-      "image": "https://imagesvs.oneindia.com/img/2026/08/kangana-ranaut-naseeruddin-shah-02-90021786508087.jpg"
-    },
-    {
-      "title": "JSSC Junior Engineer paper leak case : Key agency operator arrested in Mumbai by SIT",
-      "url": "http://www.indiagazette.com/news/279234787/jssc-junior-engineer-paper-leak-case-key-agency-operator-arrested-in-mumbai-by-sit",
-      "domain": "indiagazette.com",
-      "seendate": "20260811T224500Z",
-      "image": "https://image.chitra.live/api/v1/wps/86bfed0/23c175bf-a889-4342-ad50-6760cd2aea50/0/ANI-20260811134203-600x315.jpg"
     }
   ]
 }
