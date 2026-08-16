@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-16T06:53:17Z",
+  "updated_at": "2026-08-16T12:54:09Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "BILKUL ONLINE The Weekly News Wrap - Bilkul Online",
+      "url": "https://bilkulonline.com/2026/08/16/bilkul-online-the-weekly-news-wrap-8/",
+      "domain": "bilkulonline.com",
+      "seendate": "20260816T064500Z",
+      "image": null
+    },
     {
       "title": "Jharkhand Police stops Devendra Mahto from joining Tiranga Rally",
       "url": "https://www.siasat.com/jharkhand-police-stops-devendra-mahto-from-joining-tiranga-rally-3525146/",
@@ -78,13 +85,6 @@
       "domain": "indiagazette.com",
       "seendate": "20260811T224500Z",
       "image": "https://image.chitra.live/api/v1/wps/86bfed0/23c175bf-a889-4342-ad50-6760cd2aea50/0/ANI-20260811134203-600x315.jpg"
-    },
-    {
-      "title": "Protests grip Ranchi : ABVP workers detained after clash with police during march , BJP enforces bandh following police action on JPSC - JSSC aspirants",
-      "url": "https://aninews.in/news/national/general-news/protests-grip-ranchi-abvp-workers-detained-after-clash-with-police-during-bjp-enforces-bandh-following-police-action-on-jpsc-jssc-aspirants20260811222955/",
-      "domain": "aninews.in",
-      "seendate": "20260811T184500Z",
-      "image": null
     }
   ]
 }
