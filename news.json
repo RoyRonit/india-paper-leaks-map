@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-08-16T18:39:20Z",
+  "updated_at": "2026-08-17T01:48:27Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "AISA demands dissolution of NTA as three UGC - NET papers to be re - conducted amid  errors",
+      "url": "https://news.webindia123.com/news/Articles/India/20260817/4487733.html",
+      "domain": "news.webindia123.com",
+      "seendate": "20260817T011500Z",
+      "image": null
+    },
+    {
+      "title": "MCC NEET UG Round 1 Result 2026 Date Changed",
+      "url": "https://www.ummid.com/news/2026/8/16/mcc-neet-ug-round-1-result-2026-date-changed.html",
+      "domain": "ummid.com",
+      "seendate": "20260816T210000Z",
+      "image": "https://ummid.com/news/2026/8/16/mcc-neet-ug-2026-revised-schedule.webp"
+    },
     {
       "title": "NTA admits  defect in 3 UGC - NET papers , orders re - tests in September : All you need to know",
       "url": "https://www.theweek.in/news/india/2026/08/16/nta-admits-defects-in-3-ugc-net-papers-orders-re-tests-in-september-all-you-need-to-know.html",
@@ -71,20 +85,6 @@
       "domain": "dailypioneer.com",
       "seendate": "20260814T153000Z",
       "image": "https://dailypioneer.com/uploads/2026/story/images/big/police-lathicharge-leaves-student-protester-injured-2026-08-14.jpg"
-    },
-    {
-      "title": "DMK Decade of Solidarity and TVK Silence : How Tamil Nadu Anti - NEET Legacy Was Broken",
-      "url": "https://countercurrents.org/2026/08/dmks-decade-of-solidarity-and-tvks-silence-how-tamil-nadus-anti-neet-legacy-was-broken/",
-      "domain": "countercurrents.org",
-      "seendate": "20260814T094500Z",
-      "image": "https://cdn.countercurrents.org/2026/08/DMK-NEET-766x1024.jpg"
-    },
-    {
-      "title": "Frustrated , disappointed : Kiren Rijiju slams Opposition for  running away  from debates in Parliament",
-      "url": "https://www.hindustantimes.com/india-news/kiren-rijiju-frustrated-disappointed-amit-shah-parliament-lok-sabha-debate-students-protest-opposition-monsoon-session-101786533483168.html",
-      "domain": "hindustantimes.com",
-      "seendate": "20260812T123000Z",
-      "image": null
     }
   ]
 }
