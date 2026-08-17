@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-17T01:48:27Z",
+  "updated_at": "2026-08-17T07:09:25Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "AISA demands dissolution of NTA as three UGC - NET papers to be re - conducted amid",
+      "url": "http://www.indiagazette.com/news/279245865/aisa-demands-dissolution-of-nta-as-three-ugc-net-papers-to-be-re-conducted-amid-errors",
+      "domain": "indiagazette.com",
+      "seendate": "20260817T023000Z",
+      "image": "https://image.chitra.live/api/v1/wps/0a14c6e/775f85c9-8c2d-4711-a9a0-0bd7d452799a/0/ANI-20260816230401-600x315.jpg"
+    },
     {
       "title": "AISA demands dissolution of NTA as three UGC - NET papers to be re - conducted amid  errors",
       "url": "https://news.webindia123.com/news/Articles/India/20260817/4487733.html",
@@ -78,13 +85,6 @@
       "domain": "jagranjosh.com",
       "seendate": "20260814T174500Z",
       "image": "https://img.jagranjosh.com/images/2026/08/14/article/image/ChatGPT-Image-Aug-14,-2026,-09_54_45-PM-1786724719826.webp"
-    },
-    {
-      "title": "MP Man Injured in Jharkhand Police Lathicharge , in HDU",
-      "url": "https://dailypioneer.com/news/mp-man-injured-jharkhand-police-lathicharge-treatment",
-      "domain": "dailypioneer.com",
-      "seendate": "20260814T153000Z",
-      "image": "https://dailypioneer.com/uploads/2026/story/images/big/police-lathicharge-leaves-student-protester-injured-2026-08-14.jpg"
     }
   ]
 }
