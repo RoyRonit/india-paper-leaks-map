@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-17T07:09:25Z",
+  "updated_at": "2026-08-17T12:59:29Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Disruption by Opposition , Eagerness for a Functioning Parliament in Power : The Double Standards of Indian Politics",
+      "url": "https://countercurrents.org/2026/08/disruption-by-opposition-eagerness-for-a-functioning-parliament-in-power-the-double-standards-of-indian-politics/",
+      "domain": "countercurrents.org",
+      "seendate": "20260817T084500Z",
+      "image": "https://cdn.countercurrents.org/2026/08/parliament-disruption.jpg"
+    },
     {
       "title": "AISA demands dissolution of NTA as three UGC - NET papers to be re - conducted amid",
       "url": "http://www.indiagazette.com/news/279245865/aisa-demands-dissolution-of-nta-as-three-ugc-net-papers-to-be-re-conducted-amid-errors",
@@ -78,13 +85,6 @@
       "domain": "hindustantimes.com",
       "seendate": "20260814T181500Z",
       "image": null
-    },
-    {
-      "title": "President Murmu Highlights Government Push for Transparent , Leak - Free Public Exams | Education News",
-      "url": "https://www.jagranjosh.com/news/president-murmu-highlights-governments-push-for-transparent-leak-free-public-exams-186518",
-      "domain": "jagranjosh.com",
-      "seendate": "20260814T174500Z",
-      "image": "https://img.jagranjosh.com/images/2026/08/14/article/image/ChatGPT-Image-Aug-14,-2026,-09_54_45-PM-1786724719826.webp"
     }
   ]
 }
