@@ -1,7 +1,35 @@
 {
-  "updated_at": "2026-08-17T12:59:29Z",
+  "updated_at": "2026-08-18T01:44:22Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Žero accountability , the new normal",
+      "url": "https://www.tribuneindia.com/news/comment/zero-accountability-the-new-normal/",
+      "domain": "tribuneindia.com",
+      "seendate": "20260817T214500Z",
+      "image": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTA2ZjhhMGYwLTlhNzMtMTFmMS1iNmVmLTk1MTQwZTcyYzNlZi5qcGc="
+    },
+    {
+      "title": "NTA sacks more staff , brings in professionals after UGC - NET errors spark protests",
+      "url": "https://www.newindianexpress.com/india/2026/Aug/17/nta-sacks-more-staff-brings-in-professionals-after-ugc-net-errors-spark-protests",
+      "domain": "newindianexpress.com",
+      "seendate": "20260817T210000Z",
+      "image": "https://cf-images.assettype.com/newindianexpress%2F2026-08-17%2F7k685shb%2FPTI08172026000391B.jpg?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
+    },
+    {
+      "title": "Student bodies protest UGC - NET re - exam , demand inquiry into NTA failures",
+      "url": "https://www.rediff.com/news/report/student-bodies-protest-ugc-net-re-exam-demand-inquiry-into-ntas-failures/20260817.htm",
+      "domain": "rediff.com",
+      "seendate": "20260817T131500Z",
+      "image": "https://im.rediff.com/1200-630/news/2026/aug/17nta.jpg"
+    },
+    {
+      "title": "NTA Staff Changes And Protocol Overhaul Address Exam Concerns",
+      "url": "https://www.rediff.com/news/report/nta-staff-changes-and-protocol-overhaul-address-exam-concerns/20260817.htm",
+      "domain": "rediff.com",
+      "seendate": "20260817T131500Z",
+      "image": "https://im.rediff.com/1200-630/news/2026/aug/17nsui-protest.jpg"
+    },
     {
       "title": "Disruption by Opposition , Eagerness for a Functioning Parliament in Power : The Double Standards of Indian Politics",
       "url": "https://countercurrents.org/2026/08/disruption-by-opposition-eagerness-for-a-functioning-parliament-in-power-the-double-standards-of-indian-politics/",
@@ -57,34 +85,6 @@
       "domain": "thehindu.com",
       "seendate": "20260816T164500Z",
       "image": "https://th-i.thgim.com/public/incoming/7sstsw/article71353650.ece/alternates/LANDSCAPE_1200/_DSC3099.JPG"
-    },
-    {
-      "title": "BILKUL ONLINE The Weekly News Wrap - Bilkul Online",
-      "url": "https://bilkulonline.com/2026/08/16/bilkul-online-the-weekly-news-wrap-8/",
-      "domain": "bilkulonline.com",
-      "seendate": "20260816T064500Z",
-      "image": null
-    },
-    {
-      "title": "Jharkhand Police stops Devendra Mahto from joining Tiranga Rally",
-      "url": "https://www.siasat.com/jharkhand-police-stops-devendra-mahto-from-joining-tiranga-rally-3525146/",
-      "domain": "siasat.com",
-      "seendate": "20260815T103000Z",
-      "image": "https://cdn.siasat.com/wp-content/uploads/2026/08/Untitled-design-2026-08-15T141252.889.jpg"
-    },
-    {
-      "title": "Jharkhand Job Aspirants Hold  Tiranga Yatra  as Exam Protest Enters Day 22",
-      "url": "https://www.deccanchronicle.com/nation/jharkhand-job-aspirants-hold-tiranga-yatra-as-exam-protest-enters-day-22-1979385",
-      "domain": "deccanchronicle.com",
-      "seendate": "20260815T103000Z",
-      "image": "https://www.deccanchronicle.com/h-upload/2026/08/15/2076552-untitled-design-2026-08-15t153826563.jpg"
-    },
-    {
-      "title": "Public exams gateways to opportunities , govt taking steps to curb unfair means : Murmu on I - Day eve",
-      "url": "https://www.hindustantimes.com/india-news/public-exams-gateways-to-opportunities-govt-taking-comprehensive-steps-murmu-on-i-day-eve-101786729130907.html",
-      "domain": "hindustantimes.com",
-      "seendate": "20260814T181500Z",
-      "image": null
     }
   ]
 }
