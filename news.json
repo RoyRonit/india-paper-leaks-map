@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-08-18T06:57:49Z",
+  "updated_at": "2026-08-18T18:52:03Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Gen Z challenged the system , now teachers must ask what part they played",
+      "url": "https://www.thenewsminute.com/opinion/gen-z-challenged-the-system-now-teachers-must-ask-what-part-they-played",
+      "domain": "thenewsminute.com",
+      "seendate": "20260818T104500Z",
+      "image": "https://cf-images.assettype.com/thenewsminute%2F2026-07-23%2F42zmkjz1%2FCJPprotestHyderabad2.png?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
+    },
+    {
+      "title": "Is India Ready For Digital NEET ?",
+      "url": "https://www.rediff.com/news/column/is-india-ready-for-digital-neet/20260818.htm",
+      "domain": "rediff.com",
+      "seendate": "20260818T074500Z",
+      "image": "https://im.rediff.com/1200-630/news/2026/may/12neet-exam.jpg"
+    },
     {
       "title": "Not a single person was harmed : Kiren Rijiju defends law enforcement handling of Gen Z protest",
       "url": "http://www.calcuttanews.net/news/279248480/not-a-single-person-was-harmed-kiren-rijiju-defends-law-enforcement-handling-of-gen-z-protest",
@@ -71,20 +85,6 @@
       "domain": "ummid.com",
       "seendate": "20260816T210000Z",
       "image": "https://ummid.com/news/2026/8/16/mcc-neet-ug-2026-revised-schedule.webp"
-    },
-    {
-      "title": "NTA admits  defect in 3 UGC - NET papers , orders re - tests in September : All you need to know",
-      "url": "https://www.theweek.in/news/india/2026/08/16/nta-admits-defects-in-3-ugc-net-papers-orders-re-tests-in-september-all-you-need-to-know.html",
-      "domain": "theweek.in",
-      "seendate": "20260816T180000Z",
-      "image": "https://img.theweek.in/content/dam/week/en/archive/news/india/images/2026/8/16/ugc-net-aspirants-ani.jpg"
-    },
-    {
-      "title": "Jharkhand protest : Govt invites students for talks tomorrow as protesters announce Aug 20 gherao of CM Soren residence",
-      "url": "https://aninews.in/news/national/politics/jharkhand-protest-govt-invites-students-for-talks-tomorrow-as-protesters-announce-aug-20-gherao-of-cm-sorens-residence20260816223823/",
-      "domain": "aninews.in",
-      "seendate": "20260816T180000Z",
-      "image": null
     }
   ]
 }
