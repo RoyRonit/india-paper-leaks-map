@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-20T06:58:18Z",
+  "updated_at": "2026-08-20T18:52:07Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Evening news wrap : Jkhand HC stays JPSC cancellation order ; SC forms panel to probe police action in NEET stir & more",
+      "url": "https://timesofindia.indiatimes.com/india/evening-news-wrap-jkhand-hc-stays-jpsc-cancellation-order-sc-forms-panel-to-probe-police-action-in-neet-stir-more/articleshow/133378717.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260820T134500Z",
+      "image": "https://static.toiimg.com/thumb/msid-133379005,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
     {
       "title": "India rush to expand medical education may put patient safety at risk",
       "url": "https://www.thehindu.com/education/indias-rush-to-expand-medical-education-may-put-patient-safety-at-risk/article71356608.ece",
@@ -78,13 +85,6 @@
       "domain": "dailyexcelsior.com",
       "seendate": "20260819T091500Z",
       "image": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYWJjNGYxNTcwLTliYTMtMTFmMS1iNmVmLTk1MTQwZTcyYzNlZi5qcGc="
-    },
-    {
-      "title": "NTA plans to end adhocism in three months , hiring underway : Officials",
-      "url": "https://aninews.in/news/national/general-news/nta-plans-to-end-adhocism-in-three-months-hiring-underway-officials20260819133118/",
-      "domain": "aninews.in",
-      "seendate": "20260819T091500Z",
-      "image": null
     }
   ]
 }
