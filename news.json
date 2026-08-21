@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-20T18:52:07Z",
+  "updated_at": "2026-08-21T01:49:29Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Can free public technology break the private coaching industry ?",
+      "url": "https://www.thehindu.com/opinion/op-ed/can-free-public-technology-break-the-private-coaching-industry/article71370554.ece",
+      "domain": "thehindu.com",
+      "seendate": "20260820T190000Z",
+      "image": "https://th-i.thgim.com/public/incoming/f9nvjk/article71370794.ece/alternates/LANDSCAPE_1200/vjkvg-students%205.JPG"
+    },
     {
       "title": "Evening news wrap : Jkhand HC stays JPSC cancellation order ; SC forms panel to probe police action in NEET stir & more",
       "url": "https://timesofindia.indiatimes.com/india/evening-news-wrap-jkhand-hc-stays-jpsc-cancellation-order-sc-forms-panel-to-probe-police-action-in-neet-stir-more/articleshow/133378717.cms",
@@ -78,13 +85,6 @@
       "domain": "barandbench.com",
       "seendate": "20260819T100000Z",
       "image": "https://cf-images.assettype.com/barandbench%2F2024-06%2F05e55af3-1d9d-47ae-bacf-6681027d9440%2FDELHI%20%20WEB%20PAGE%201600x900.jpg?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
-    },
-    {
-      "title": "NEET : SC Directs NTA To Inform On Steps Taken To Implement Recommendations Of Radhakrishnan Panel",
-      "url": "https://www.dailyexcelsior.com/neet-sc-directs-nta-to-inform-on-steps-taken-to-implement-recommendations-of-radhakrishnan-panel/",
-      "domain": "dailyexcelsior.com",
-      "seendate": "20260819T091500Z",
-      "image": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYWJjNGYxNTcwLTliYTMtMTFmMS1iNmVmLTk1MTQwZTcyYzNlZi5qcGc="
     }
   ]
 }
