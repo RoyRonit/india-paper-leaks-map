@@ -1,7 +1,35 @@
 {
-  "updated_at": "2026-08-21T01:49:29Z",
+  "updated_at": "2026-08-21T18:48:53Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Supreme Court cuts mandatory legal practice for civil judge aspirants from 3 years to 1 : What it means for them",
+      "url": "https://www.livemint.com/news/india/supreme-court-cuts-mandatory-legal-practice-for-civil-judge-aspirants-3-years-to-1-what-it-means-them-eligibility-news-11787301350450.html",
+      "domain": "livemint.com",
+      "seendate": "20260821T100000Z",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/21/600x338/ANI-20250522260-0_1747987279567_1787304380733_0e9ca545-6e1e-4141-898f-5c2dd9fc087f.jpg"
+    },
+    {
+      "title": "Scrap the NTA ? The Case for a National Examination Commission",
+      "url": "https://countercurrents.org/2026/08/scrap-the-nta-the-case-for-a-national-examination-commission/",
+      "domain": "countercurrents.org",
+      "seendate": "20260821T070000Z",
+      "image": "https://cdn.countercurrents.org/2026/08/National-Testing-Agency-NTA.jpg"
+    },
+    {
+      "title": "English a foreign or indigenous language ? Supreme Court asks during CBSE 3 - language rule hearing",
+      "url": "https://www.livemint.com/news/india/english-foreign-or-indigeneous-language-supreme-court-asks-during-cbse-3-language-rule-hearing-rule-cji-surya-kant-11787275042017.html",
+      "domain": "livemint.com",
+      "seendate": "20260821T031500Z",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/21/600x338/PTI08-13-2026-000567B-0_1787276159221_1787276173192_872a0b8e-3fc7-4ef7-a132-21e8abf6f30a.jpg"
+    },
+    {
+      "title": "NTA Answer Key Challenge Fee Refund Policy",
+      "url": "https://www.divyabhaskar.co.in/national/news/nta-answer-key-challenge-fee-refund-policy-update-138789122.html",
+      "domain": "divyabhaskar.co.in",
+      "seendate": "20260821T030000Z",
+      "image": "https://images.bhaskarassets.com/thumb/730x0/web2images/960/2026/08/21/cover_1787255978243.jpg"
+    },
     {
       "title": "Can free public technology break the private coaching industry ?",
       "url": "https://www.thehindu.com/opinion/op-ed/can-free-public-technology-break-the-private-coaching-industry/article71370554.ece",
@@ -57,34 +85,6 @@
       "domain": "business-standard.com",
       "seendate": "20260819T143000Z",
       "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-12/16/thumb/fitandfill/1200X628/1765862778-4018.jpg"
-    },
-    {
-      "title": "World Photography Day : Photos that have defined 2026 so far",
-      "url": "https://www.siasat.com/world-photography-day-photos-that-have-defined-2026-so-far-3527138/",
-      "domain": "siasat.com",
-      "seendate": "20260819T134500Z",
-      "image": "https://cdn.siasat.com/wp-content/uploads/2026/08/World-photography-day.jpg"
-    },
-    {
-      "title": "There a need for major reforms in National Testing Agency : SC",
-      "url": "https://www.siasat.com/theres-a-need-for-major-reforms-in-national-testing-agency-sc-3527298/",
-      "domain": "siasat.com",
-      "seendate": "20260819T134500Z",
-      "image": "https://cdn.siasat.com/wp-content/uploads/2026/08/Supreme-Court-NTA.jpg"
-    },
-    {
-      "title": "Why doctor body FAIMA is questioning new Nandan Nilekani task force on NTA exam reforms",
-      "url": "https://www.moneycontrol.com/news/india/why-doctors-body-faima-is-questioning-new-nandan-nilekani-task-force-on-nta-exam-reforms-14010507.html",
-      "domain": "moneycontrol.com",
-      "seendate": "20260819T124500Z",
-      "image": "https://images.moneycontrol.com/static-mcnews/2024/12/20241218054824_Supreme-Court.jpg"
-    },
-    {
-      "title": "NEET paper leak : Supreme Court says NTA needs to be institutionalised , tech changes needed",
-      "url": "https://www.barandbench.com/news/neet-paper-leak-supreme-court-says-nta-needs-to-be-institutionalised-tech-changes-needed",
-      "domain": "barandbench.com",
-      "seendate": "20260819T100000Z",
-      "image": "https://cf-images.assettype.com/barandbench%2F2024-06%2F05e55af3-1d9d-47ae-bacf-6681027d9440%2FDELHI%20%20WEB%20PAGE%201600x900.jpg?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
     }
   ]
 }
