@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-08-22T06:53:03Z",
+  "updated_at": "2026-08-22T18:41:50Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "NTA Needs Deep Structural Strengthening , Replacement Not Solution : Former UGC Chief Mamidala Jagadesh Kumar",
+      "url": "https://www.freepressjournal.in/education/nta-needs-deep-structural-strengthening-replacement-not-solution-former-ugc-chief-mamidala-jagadesh-kumar",
+      "domain": "freepressjournal.in",
+      "seendate": "20260822T163000Z",
+      "image": "https://media.assettype.com/freepressjournal/2026-08-22/eemkqvwn/Untitled-design-44.jpg"
+    },
+    {
+      "title": "Chhattisgarh : 6 accused arrested in IGKV paper leak case , CM vishnu Deo Sai confirms",
+      "url": "https://aninews.in/news/national/general-news/chhattisgarh-6-accused-arrested-in-igkv-paper-leak-case-cm-vishnu-deo-sai-confirms20260822182528/",
+      "domain": "aninews.in",
+      "seendate": "20260822T133000Z",
+      "image": null
+    },
     {
       "title": "Sanjeev Sanyal calls coaching system  mafia , backs NEET",
       "url": "https://organiser.org/2026/08/22/376399/bharat/sanjeev-sanyal-calls-indias-coaching-system-a-mafia-says-neet-should-be-strengthened-instead-of-scrapped/",
@@ -71,20 +85,6 @@
       "domain": "newindianexpress.com",
       "seendate": "20260819T203000Z",
       "image": "https://cf-images.assettype.com/newindianexpress%2F2026-08-19%2Fakcyldb9%2Fafpfinal.jpg?rect=0%2C0%2C2691%2C1413&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
-    },
-    {
-      "title": "Institutionalise NTA & introduce tech changes : Supreme Court",
-      "url": "https://economictimes.indiatimes.com/news/india/institutionalise-nta-introduce-tech-changes-supreme-court/articleshow/133358529.cms",
-      "domain": "economictimes.indiatimes.com",
-      "seendate": "20260819T201500Z",
-      "image": "https://img.etimg.com/thumb/msid-133358561,width-1200,height-630,imgsize-124664,overlay-economictimes/articleshow.jpg"
-    },
-    {
-      "title": "SC advises meaningful continuity in NTA reforms , not committee - hopping",
-      "url": "https://www.thehindubusinessline.com/news/sc-advises-meaningful-continuity-in-nta-reforms-not-committee-hopping/article71365730.ece",
-      "domain": "thehindubusinessline.com",
-      "seendate": "20260819T160000Z",
-      "image": "https://bl-i.thgim.com/public/incoming/rf7lvx/article71365757.ece/alternates/LANDSCAPE_1200/IMG_Suprem_Court_3_1_KGGCRNVB.jpg"
     }
   ]
 }
