@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-21T18:48:53Z",
+  "updated_at": "2026-08-22T06:53:03Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Sanjeev Sanyal calls coaching system  mafia , backs NEET",
+      "url": "https://organiser.org/2026/08/22/376399/bharat/sanjeev-sanyal-calls-indias-coaching-system-a-mafia-says-neet-should-be-strengthened-instead-of-scrapped/",
+      "domain": "organiser.org",
+      "seendate": "20260822T053000Z",
+      "image": "https://organiser.org/wp-content/uploads/2026/08/whatsapp-image-2026-08-22-at-8.42.38-am.webp"
+    },
     {
       "title": "Supreme Court cuts mandatory legal practice for civil judge aspirants from 3 years to 1 : What it means for them",
       "url": "https://www.livemint.com/news/india/supreme-court-cuts-mandatory-legal-practice-for-civil-judge-aspirants-3-years-to-1-what-it-means-them-eligibility-news-11787301350450.html",
@@ -78,13 +85,6 @@
       "domain": "thehindubusinessline.com",
       "seendate": "20260819T160000Z",
       "image": "https://bl-i.thgim.com/public/incoming/rf7lvx/article71365757.ece/alternates/LANDSCAPE_1200/IMG_Suprem_Court_3_1_KGGCRNVB.jpg"
-    },
-    {
-      "title": "Indian medical body questions NTA anti - paper leak measures in SC",
-      "url": "https://www.business-standard.com/india-news/indian-medical-body-questions-nta-s-anti-paper-leak-measures-in-sc-126081900951_1.html",
-      "domain": "business-standard.com",
-      "seendate": "20260819T143000Z",
-      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-12/16/thumb/fitandfill/1200X628/1765862778-4018.jpg"
     }
   ]
 }
