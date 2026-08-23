@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-08-22T18:41:50Z",
+  "updated_at": "2026-08-23T01:52:03Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "CJP has effectively become  Congress Janata Party : Shaik Baji on alleged attack on delegation in Rajasthan",
+      "url": "http://www.indiagazette.com/news/279258370/cjp-has-effectively-become-congress-janata-party-shaik-baji-on-alleged-attack-on-delegation-in-rajasthan",
+      "domain": "indiagazette.com",
+      "seendate": "20260822T213000Z",
+      "image": "https://image.chitra.live/api/v1/wps/2e491cf/7f8a8e89-3280-40a1-ac02-c9cbecb9008a/0/ANI-20260822111935-600x315.jpg"
+    },
+    {
+      "title": "Smash patriarchy : Rahul says 70cr women India biggest asset | Pune News",
+      "url": "https://timesofindia.indiatimes.com/city/pune/smash-patriarchy-rahul-says-70cr-women-indias-biggest-asset/articleshow/133430851.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260822T204500Z",
+      "image": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg"
+    },
     {
       "title": "NTA Needs Deep Structural Strengthening , Replacement Not Solution : Former UGC Chief Mamidala Jagadesh Kumar",
       "url": "https://www.freepressjournal.in/education/nta-needs-deep-structural-strengthening-replacement-not-solution-former-ugc-chief-mamidala-jagadesh-kumar",
@@ -71,20 +85,6 @@
       "domain": "thehindu.com",
       "seendate": "20260820T030000Z",
       "image": "https://th-i.thgim.com/public/education/tp44k0/article71356747.ece/alternates/LANDSCAPE_1200/iStock-1188549365.jpg"
-    },
-    {
-      "title": "Supreme Court asks NTA where things stand on 2024 exam reforms plan",
-      "url": "https://www.hindustantimes.com/india-news/supreme-court-nta-sc-neet-ug-paper-leak-student-protests-radhakrishnan-committee-2024-2026-101787183558276.html",
-      "domain": "hindustantimes.com",
-      "seendate": "20260820T014500Z",
-      "image": null
-    },
-    {
-      "title": "Tomorrow doctors stressed today",
-      "url": "https://www.newindianexpress.com/opinion/2026/Aug/19/tomorrows-doctors-stressed-today",
-      "domain": "newindianexpress.com",
-      "seendate": "20260819T203000Z",
-      "image": "https://cf-images.assettype.com/newindianexpress%2F2026-08-19%2Fakcyldb9%2Fafpfinal.jpg?rect=0%2C0%2C2691%2C1413&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
     }
   ]
 }
