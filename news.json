@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-23T01:52:03Z",
+  "updated_at": "2026-08-23T12:54:39Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "No problem when boys do it but PM Modi gets  cultural shock  if girls use cuss word : Rahul Gandhi in Pune | Pune News",
+      "url": "https://timesofindia.indiatimes.com/city/pune/no-problem-when-boys-do-it-but-pm-modi-gets-cultural-shock-if-girls-use-cuss-words-rahul-gandhi-in-pune/articleshow/133433816.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260823T040000Z",
+      "image": "https://static.toiimg.com/thumb/msid-133433820,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
     {
       "title": "CJP has effectively become  Congress Janata Party : Shaik Baji on alleged attack on delegation in Rajasthan",
       "url": "http://www.indiagazette.com/news/279258370/cjp-has-effectively-become-congress-janata-party-shaik-baji-on-alleged-attack-on-delegation-in-rajasthan",
@@ -78,13 +85,6 @@
       "domain": "timesofindia.indiatimes.com",
       "seendate": "20260820T134500Z",
       "image": "https://static.toiimg.com/thumb/msid-133379005,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "India rush to expand medical education may put patient safety at risk",
-      "url": "https://www.thehindu.com/education/indias-rush-to-expand-medical-education-may-put-patient-safety-at-risk/article71356608.ece",
-      "domain": "thehindu.com",
-      "seendate": "20260820T030000Z",
-      "image": "https://th-i.thgim.com/public/education/tp44k0/article71356747.ece/alternates/LANDSCAPE_1200/iStock-1188549365.jpg"
     }
   ]
 }
