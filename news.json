@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-24T13:06:31Z",
+  "updated_at": "2026-08-24T18:51:50Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "CJP calls for Sept 5 march over Centre failed promises",
+      "url": "https://www.siasat.com/cjp-calls-for-sep-5-march-over-centres-failed-promises-3530095/",
+      "domain": "siasat.com",
+      "seendate": "20260824T163000Z",
+      "image": "https://cdn.siasat.com/wp-content/uploads/2026/08/CJP-1-1.jpg"
+    },
     {
       "title": "No problem when boys do it but PM Modi gets  cultural shock  if girls use cuss word : Rahul Gandhi in Pune | Pune News",
       "url": "https://timesofindia.indiatimes.com/city/pune/no-problem-when-boys-do-it-but-pm-modi-gets-cultural-shock-if-girls-use-cuss-words-rahul-gandhi-in-pune/articleshow/133433816.cms",
@@ -78,13 +85,6 @@
       "domain": "thehindu.com",
       "seendate": "20260820T190000Z",
       "image": "https://th-i.thgim.com/public/incoming/f9nvjk/article71370794.ece/alternates/LANDSCAPE_1200/vjkvg-students%205.JPG"
-    },
-    {
-      "title": "Evening news wrap : Jkhand HC stays JPSC cancellation order ; SC forms panel to probe police action in NEET stir & more",
-      "url": "https://timesofindia.indiatimes.com/india/evening-news-wrap-jkhand-hc-stays-jpsc-cancellation-order-sc-forms-panel-to-probe-police-action-in-neet-stir-more/articleshow/133378717.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260820T134500Z",
-      "image": "https://static.toiimg.com/thumb/msid-133379005,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
     }
   ]
 }
