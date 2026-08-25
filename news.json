@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-25T01:46:09Z",
+  "updated_at": "2026-08-25T07:00:43Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "CJP calls for Sep 5 march in Delhi , accuses Centre of reneging on promises",
+      "url": "https://theshillongtimes.com/2026/08/25/cjp-calls-for-sep-5-march-in-delhi-accuses-centre-of-reneging-on-promises/",
+      "domain": "theshillongtimes.com",
+      "seendate": "20260825T051500Z",
+      "image": null
+    },
     {
       "title": "CJP calls for Sept 5 march over Centre failed promises",
       "url": "https://www.siasat.com/cjp-calls-for-sep-5-march-over-centres-failed-promises-3530095/",
@@ -78,13 +85,6 @@
       "domain": "divyabhaskar.co.in",
       "seendate": "20260821T030000Z",
       "image": "https://images.bhaskarassets.com/thumb/730x0/web2images/960/2026/08/21/cover_1787255978243.jpg"
-    },
-    {
-      "title": "Can free public technology break the private coaching industry ?",
-      "url": "https://www.thehindu.com/opinion/op-ed/can-free-public-technology-break-the-private-coaching-industry/article71370554.ece",
-      "domain": "thehindu.com",
-      "seendate": "20260820T190000Z",
-      "image": "https://th-i.thgim.com/public/incoming/f9nvjk/article71370794.ece/alternates/LANDSCAPE_1200/vjkvg-students%205.JPG"
     }
   ]
 }
