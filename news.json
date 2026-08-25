@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-25T07:00:43Z",
+  "updated_at": "2026-08-25T18:52:27Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Evening news wrap : Xi expected to visit India for Brics summit ; Mojtaba makes rare appearance & more",
+      "url": "https://timesofindia.indiatimes.com/india/evening-news-wrap-xi-expected-to-visit-india-for-brics-summit-mojtaba-makes-rare-appearance-more/articleshow/133508359.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260825T123000Z",
+      "image": "https://static.toiimg.com/thumb/msid-133508359,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
     {
       "title": "CJP calls for Sep 5 march in Delhi , accuses Centre of reneging on promises",
       "url": "https://theshillongtimes.com/2026/08/25/cjp-calls-for-sep-5-march-in-delhi-accuses-centre-of-reneging-on-promises/",
@@ -78,13 +85,6 @@
       "domain": "livemint.com",
       "seendate": "20260821T031500Z",
       "image": "https://www.livemint.com/lm-img/img/2026/08/21/600x338/PTI08-13-2026-000567B-0_1787276159221_1787276173192_872a0b8e-3fc7-4ef7-a132-21e8abf6f30a.jpg"
-    },
-    {
-      "title": "NTA Answer Key Challenge Fee Refund Policy",
-      "url": "https://www.divyabhaskar.co.in/national/news/nta-answer-key-challenge-fee-refund-policy-update-138789122.html",
-      "domain": "divyabhaskar.co.in",
-      "seendate": "20260821T030000Z",
-      "image": "https://images.bhaskarassets.com/thumb/730x0/web2images/960/2026/08/21/cover_1787255978243.jpg"
     }
   ]
 }
