@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-08-26T07:01:07Z",
+  "updated_at": "2026-08-26T13:08:06Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Maharashtra : Opposition leaders slam Fadnavis Govt after MPSC cancels Drug Inspector recruitment exam",
+      "url": "https://aninews.in/news/national/politics/maharashtra-opposition-leaders-slam-fadnavis-govt-after-mpsc-cancels-drug-inspector-recruitment-exam20260826114954/",
+      "domain": "aninews.in",
+      "seendate": "20260826T073000Z",
+      "image": null
+    },
+    {
+      "title": "AISA backs CJP September 5 Delhi march , demands justice for students and firing probe",
+      "url": "https://www.newindianexpress.com/india/2026/Aug/26/aisa-backs-cjps-september-5-delhi-march-demands-justice-for-students-and-firing-probe",
+      "domain": "newindianexpress.com",
+      "seendate": "20260826T071500Z",
+      "image": "https://cf-images.assettype.com/newindianexpress%2F2026-08-18%2F0de222ju%2FC_40_1_CH1456_36648632.jpg?rect=0%2C0%2C729%2C383&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
+    },
+    {
+      "title": "AISA backs CJP September 5 Delhi march ; seeks withdrawal of FIRs , probe into pellet firing",
+      "url": "https://www.thehindu.com/news/national/aisa-backs-cjps-september-5-delhi-march-seeks-withdrawal-of-firs-probe-into-pellet-firing/article71391689.ece",
+      "domain": "thehindu.com",
+      "seendate": "20260826T070000Z",
+      "image": "https://th-i.thgim.com/public/incoming/ipjziu/article71391724.ece/alternates/LANDSCAPE_1200/PTI08_25_2026_000319B.jpg"
+    },
     {
       "title": "Evening news wrap : Xi expected to visit India for Brics summit ; Mojtaba makes rare appearance & more",
       "url": "https://timesofindia.indiatimes.com/india/evening-news-wrap-xi-expected-to-visit-india-for-brics-summit-mojtaba-makes-rare-appearance-more/articleshow/133508359.cms",
@@ -64,27 +85,6 @@
       "domain": "organiser.org",
       "seendate": "20260822T053000Z",
       "image": "https://organiser.org/wp-content/uploads/2026/08/whatsapp-image-2026-08-22-at-8.42.38-am.webp"
-    },
-    {
-      "title": "Supreme Court cuts mandatory legal practice for civil judge aspirants from 3 years to 1 : What it means for them",
-      "url": "https://www.livemint.com/news/india/supreme-court-cuts-mandatory-legal-practice-for-civil-judge-aspirants-3-years-to-1-what-it-means-them-eligibility-news-11787301350450.html",
-      "domain": "livemint.com",
-      "seendate": "20260821T100000Z",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/21/600x338/ANI-20250522260-0_1747987279567_1787304380733_0e9ca545-6e1e-4141-898f-5c2dd9fc087f.jpg"
-    },
-    {
-      "title": "Scrap the NTA ? The Case for a National Examination Commission",
-      "url": "https://countercurrents.org/2026/08/scrap-the-nta-the-case-for-a-national-examination-commission/",
-      "domain": "countercurrents.org",
-      "seendate": "20260821T070000Z",
-      "image": "https://cdn.countercurrents.org/2026/08/National-Testing-Agency-NTA.jpg"
-    },
-    {
-      "title": "English a foreign or indigenous language ? Supreme Court asks during CBSE 3 - language rule hearing",
-      "url": "https://www.livemint.com/news/india/english-foreign-or-indigeneous-language-supreme-court-asks-during-cbse-3-language-rule-hearing-rule-cji-surya-kant-11787275042017.html",
-      "domain": "livemint.com",
-      "seendate": "20260821T031500Z",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/21/600x338/PTI08-13-2026-000567B-0_1787276159221_1787276173192_872a0b8e-3fc7-4ef7-a132-21e8abf6f30a.jpg"
     }
   ]
 }
