@@ -1,7 +1,35 @@
 {
-  "updated_at": "2026-08-26T13:08:06Z",
+  "updated_at": "2026-08-26T19:56:14Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Free Coaching Will Not Fix The Main Problem In Indian Education",
+      "url": "https://www.freepressjournal.in/analysis/free-coaching-will-not-fix-the-main-problem-in-indian-education",
+      "domain": "freepressjournal.in",
+      "seendate": "20260826T163000Z",
+      "image": "https://media.assettype.com/freepressjournal/2026-08-26/cwhrr635/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Queen-Of-All-Mayhem-2026-08-26T212142.877.jpg"
+    },
+    {
+      "title": "FMGE Transparency Debate Grows as Dr Vivek Jain Calls for Fair Evaluation",
+      "url": "https://www.oneindia.com/india/fmge-transparency-debate-grows-as-dr-vivek-jain-calls-for-fair-evaluation-8187571.html",
+      "domain": "oneindia.com",
+      "seendate": "20260826T163000Z",
+      "image": "https://imagesvs.oneindia.com/img/2026/08/fmg-47471787748204.jpg"
+    },
+    {
+      "title": "Family seeks NTA overhaul after Hyderabad NEET aspirant death",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/family-seeks-nta-overhaul-after-hyderabad-neet-aspirants-death/article71393166.ece",
+      "domain": "thehindu.com",
+      "seendate": "20260826T150000Z",
+      "image": "https://th-i.thgim.com/public/incoming/xas62x/article71393339.ece/alternates/LANDSCAPE_1200/DSC8366.jpg"
+    },
+    {
+      "title": "AISA supports CJP Sept 5 Delhi march , demands FIR withdrawal and probe into pellet firing",
+      "url": "https://sahilonline.org/aisa-supports-cjps-sept-5-delhi-march-demands-fir-withdrawal-and-probe-into-pellet-firing",
+      "domain": "sahilonline.org",
+      "seendate": "20260826T150000Z",
+      "image": "http://sahilonline.org/storage/2026/aug26/neha-bora-mumbai-cjp.JPG"
+    },
     {
       "title": "Maharashtra : Opposition leaders slam Fadnavis Govt after MPSC cancels Drug Inspector recruitment exam",
       "url": "https://aninews.in/news/national/politics/maharashtra-opposition-leaders-slam-fadnavis-govt-after-mpsc-cancels-drug-inspector-recruitment-exam20260826114954/",
@@ -57,34 +85,6 @@
       "domain": "indiagazette.com",
       "seendate": "20260822T213000Z",
       "image": "https://image.chitra.live/api/v1/wps/2e491cf/7f8a8e89-3280-40a1-ac02-c9cbecb9008a/0/ANI-20260822111935-600x315.jpg"
-    },
-    {
-      "title": "Smash patriarchy : Rahul says 70cr women India biggest asset | Pune News",
-      "url": "https://timesofindia.indiatimes.com/city/pune/smash-patriarchy-rahul-says-70cr-women-indias-biggest-asset/articleshow/133430851.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260822T204500Z",
-      "image": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg"
-    },
-    {
-      "title": "NTA Needs Deep Structural Strengthening , Replacement Not Solution : Former UGC Chief Mamidala Jagadesh Kumar",
-      "url": "https://www.freepressjournal.in/education/nta-needs-deep-structural-strengthening-replacement-not-solution-former-ugc-chief-mamidala-jagadesh-kumar",
-      "domain": "freepressjournal.in",
-      "seendate": "20260822T163000Z",
-      "image": "https://media.assettype.com/freepressjournal/2026-08-22/eemkqvwn/Untitled-design-44.jpg"
-    },
-    {
-      "title": "Chhattisgarh : 6 accused arrested in IGKV paper leak case , CM vishnu Deo Sai confirms",
-      "url": "https://aninews.in/news/national/general-news/chhattisgarh-6-accused-arrested-in-igkv-paper-leak-case-cm-vishnu-deo-sai-confirms20260822182528/",
-      "domain": "aninews.in",
-      "seendate": "20260822T133000Z",
-      "image": null
-    },
-    {
-      "title": "Sanjeev Sanyal calls coaching system  mafia , backs NEET",
-      "url": "https://organiser.org/2026/08/22/376399/bharat/sanjeev-sanyal-calls-indias-coaching-system-a-mafia-says-neet-should-be-strengthened-instead-of-scrapped/",
-      "domain": "organiser.org",
-      "seendate": "20260822T053000Z",
-      "image": "https://organiser.org/wp-content/uploads/2026/08/whatsapp-image-2026-08-22-at-8.42.38-am.webp"
     }
   ]
 }
