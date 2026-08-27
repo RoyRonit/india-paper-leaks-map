@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-26T19:56:14Z",
+  "updated_at": "2026-08-27T09:20:48Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "AISA backs CJP Sep 5 Delhi march ; seeks withdrawal of FIRs , probe into pellet firing",
+      "url": "https://kashmirreader.com/2026/08/27/aisa-backs-cjps-sep-5-delhi-march-seeks-withdrawal-of-firs-probe-into-pellet-firing/",
+      "domain": "kashmirreader.com",
+      "seendate": "20260826T223000Z",
+      "image": null
+    },
     {
       "title": "Free Coaching Will Not Fix The Main Problem In Indian Education",
       "url": "https://www.freepressjournal.in/analysis/free-coaching-will-not-fix-the-main-problem-in-indian-education",
@@ -78,13 +85,6 @@
       "domain": "timesofindia.indiatimes.com",
       "seendate": "20260823T040000Z",
       "image": "https://static.toiimg.com/thumb/msid-133433820,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "CJP has effectively become  Congress Janata Party : Shaik Baji on alleged attack on delegation in Rajasthan",
-      "url": "http://www.indiagazette.com/news/279258370/cjp-has-effectively-become-congress-janata-party-shaik-baji-on-alleged-attack-on-delegation-in-rajasthan",
-      "domain": "indiagazette.com",
-      "seendate": "20260822T213000Z",
-      "image": "https://image.chitra.live/api/v1/wps/2e491cf/7f8a8e89-3280-40a1-ac02-c9cbecb9008a/0/ANI-20260822111935-600x315.jpg"
     }
   ]
 }
