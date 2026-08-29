@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-29T06:54:52Z",
+  "updated_at": "2026-08-29T16:40:58Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Nilekani Panel Invites Exam Reform Suggestions",
+      "url": "https://www.rediff.com/news/report/nilekani-panel-invites-exam-reform-suggestions/20260829.htm",
+      "domain": "rediff.com",
+      "seendate": "20260829T081500Z",
+      "image": "https://im.rediff.com/1200-630/getahead/2026/aug/29exam-reform1.jpg"
+    },
     {
       "title": "Nilekani task force invites suggestions till September 13",
       "url": "https://organiser.org/2026/08/29/377587/bharat/nta-exam-reforms-nilekani-task-force-invites-public-suggestions-till-september-13/",
@@ -78,13 +85,6 @@
       "domain": "timesofindia.indiatimes.com",
       "seendate": "20260825T123000Z",
       "image": "https://static.toiimg.com/thumb/msid-133508359,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "CJP calls for Sep 5 march in Delhi , accuses Centre of reneging on promises",
-      "url": "https://theshillongtimes.com/2026/08/25/cjp-calls-for-sep-5-march-in-delhi-accuses-centre-of-reneging-on-promises/",
-      "domain": "theshillongtimes.com",
-      "seendate": "20260825T051500Z",
-      "image": null
     }
   ]
 }
