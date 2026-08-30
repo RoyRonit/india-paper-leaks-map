@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-08-30T05:09:44Z",
+  "updated_at": "2026-08-30T11:47:11Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "NEET PG exam rescheduled for nearly 300 candidates over power outage in Jaipur",
+      "url": "https://www.hindustantimes.com/india-news/neet-pg-exam-rescheduled-for-nearly-300-candidates-over-power-outage-in-jaipur-101788078328238.html",
+      "domain": "hindustantimes.com",
+      "seendate": "20260830T090000Z",
+      "image": null
+    },
+    {
+      "title": "NEET PG 2026 examination underway across country ; over 2 . 73 lakh candidates registered",
+      "url": "https://aninews.in/news/national/general-news/neet-pg-2026-examination-underway-across-country-over-273-lakh-candidates-registered20260830103407/",
+      "domain": "aninews.in",
+      "seendate": "20260830T081500Z",
+      "image": null
+    },
+    {
+      "title": "Neet PG 2026 begins with over 273 , 000 medical graduates appearing",
+      "url": "https://www.business-standard.com/india-news/neet-pg-2026-begins-with-over-273-000-medical-graduates-appearing-126083000133_1.html",
+      "domain": "business-standard.com",
+      "seendate": "20260830T074500Z",
+      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/27/thumb/featurecrop/1200X628/1785142929-907.jpeg"
+    },
     {
       "title": "Nilekani Panel Invites Exam Reform Suggestions",
       "url": "https://www.rediff.com/news/report/nilekani-panel-invites-exam-reform-suggestions/20260829.htm",
@@ -64,27 +85,6 @@
       "domain": "aninews.in",
       "seendate": "20260826T073000Z",
       "image": null
-    },
-    {
-      "title": "AISA backs CJP September 5 Delhi march , demands justice for students and firing probe",
-      "url": "https://www.newindianexpress.com/india/2026/Aug/26/aisa-backs-cjps-september-5-delhi-march-demands-justice-for-students-and-firing-probe",
-      "domain": "newindianexpress.com",
-      "seendate": "20260826T071500Z",
-      "image": "https://cf-images.assettype.com/newindianexpress%2F2026-08-18%2F0de222ju%2FC_40_1_CH1456_36648632.jpg?rect=0%2C0%2C729%2C383&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
-    },
-    {
-      "title": "AISA backs CJP September 5 Delhi march ; seeks withdrawal of FIRs , probe into pellet firing",
-      "url": "https://www.thehindu.com/news/national/aisa-backs-cjps-september-5-delhi-march-seeks-withdrawal-of-firs-probe-into-pellet-firing/article71391689.ece",
-      "domain": "thehindu.com",
-      "seendate": "20260826T070000Z",
-      "image": "https://th-i.thgim.com/public/incoming/ipjziu/article71391724.ece/alternates/LANDSCAPE_1200/PTI08_25_2026_000319B.jpg"
-    },
-    {
-      "title": "Evening news wrap : Xi expected to visit India for Brics summit ; Mojtaba makes rare appearance & more",
-      "url": "https://timesofindia.indiatimes.com/india/evening-news-wrap-xi-expected-to-visit-india-for-brics-summit-mojtaba-makes-rare-appearance-more/articleshow/133508359.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260825T123000Z",
-      "image": "https://static.toiimg.com/thumb/msid-133508359,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
     }
   ]
 }
