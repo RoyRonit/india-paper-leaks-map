@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-30T11:47:11Z",
+  "updated_at": "2026-08-30T16:34:08Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "NEET - PG exam at Jaipur centre rescheduled to September 5 over power outage concerns : NBEMS sources",
+      "url": "http://www.indiagazette.com/news/279274450/neet-pg-exam-at-jaipur-centre-rescheduled-to-september-5-over-power-outage-concerns-nbems-sources",
+      "domain": "indiagazette.com",
+      "seendate": "20260830T154500Z",
+      "image": "https://image.chitra.live/api/v1/wps/ea7ba5f/2eb37f38-19b5-4e14-9ccb-04f89ed96a1d/0/ANI-20260830080923-600x315.jpg"
+    },
     {
       "title": "NEET PG exam rescheduled for nearly 300 candidates over power outage in Jaipur",
       "url": "https://www.hindustantimes.com/india-news/neet-pg-exam-rescheduled-for-nearly-300-candidates-over-power-outage-in-jaipur-101788078328238.html",
@@ -78,13 +85,6 @@
       "domain": "sahilonline.org",
       "seendate": "20260826T150000Z",
       "image": "http://sahilonline.org/storage/2026/aug26/neha-bora-mumbai-cjp.JPG"
-    },
-    {
-      "title": "Maharashtra : Opposition leaders slam Fadnavis Govt after MPSC cancels Drug Inspector recruitment exam",
-      "url": "https://aninews.in/news/national/politics/maharashtra-opposition-leaders-slam-fadnavis-govt-after-mpsc-cancels-drug-inspector-recruitment-exam20260826114954/",
-      "domain": "aninews.in",
-      "seendate": "20260826T073000Z",
-      "image": null
     }
   ]
 }
