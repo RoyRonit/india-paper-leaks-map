@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-08-30T20:56:45Z",
+  "updated_at": "2026-08-31T05:18:23Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "India Healthcare Racket : Can ABHA and NEET Reforms Fix the System ?",
+      "url": "https://dailypioneer.com/news/viksit-bharat-demands-annihilation-of-sick-racket",
+      "domain": "dailypioneer.com",
+      "seendate": "20260831T014500Z",
+      "image": "https://dailypioneer.com/uploads/2026/story/images/big/viksit-bharat-demands-annihilation-of-sick-racket-2026-08-31.jpg"
+    },
     {
       "title": "NEET - PG exam at Jaipur centre rescheduled to September 5 over power outage concerns : NBEMS sources",
       "url": "http://www.indiagazette.com/news/279274450/neet-pg-exam-at-jaipur-centre-rescheduled-to-september-5-over-power-outage-concerns-nbems-sources",
@@ -78,13 +85,6 @@
       "domain": "thehindu.com",
       "seendate": "20260826T150000Z",
       "image": "https://th-i.thgim.com/public/incoming/xas62x/article71393339.ece/alternates/LANDSCAPE_1200/DSC8366.jpg"
-    },
-    {
-      "title": "AISA supports CJP Sept 5 Delhi march , demands FIR withdrawal and probe into pellet firing",
-      "url": "https://sahilonline.org/aisa-supports-cjps-sept-5-delhi-march-demands-fir-withdrawal-and-probe-into-pellet-firing",
-      "domain": "sahilonline.org",
-      "seendate": "20260826T150000Z",
-      "image": "http://sahilonline.org/storage/2026/aug26/neha-bora-mumbai-cjp.JPG"
     }
   ]
 }
