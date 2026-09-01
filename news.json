@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-09-01T11:34:24Z",
+  "updated_at": "2026-09-01T16:29:49Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "FIRs against student protesters to be withdrawn ; youth welfare govt utmost priority : Nadda",
+      "url": "https://www.thehindubusinessline.com/news/firs-against-student-protesters-to-be-withdrawn-youth-welfare-govts-utmost-priority-nadda/article71415508.ece",
+      "domain": "thehindubusinessline.com",
+      "seendate": "20260901T141500Z",
+      "image": "https://bl-i.thgim.com/public/incoming/2aqaam/article71305900.ece/alternates/LANDSCAPE_1200/2026-08-03T063304Z_1523281573_RC22HMA0OCVV_RTRMADP_3_INDIA-POLITICS-YOUTH.JPG"
+    },
+    {
+      "title": "SC quashes FIRs against NEET protesters , allows fresh FIR against 2 , 873 people",
+      "url": "https://economictimes.indiatimes.com/news/india/sc-quashes-firs-against-neet-protesters-allows-fresh-fir-against-2873-people/articleshow/133678347.cms",
+      "domain": "economictimes.indiatimes.com",
+      "seendate": "20260901T113000Z",
+      "image": "https://img.etimg.com/thumb/msid-133678660,width-1200,height-630,imgsize-130088,overlay-economictimes/articleshow.jpg"
+    },
     {
       "title": "India Healthcare Racket : Can ABHA and NEET Reforms Fix the System ?",
       "url": "https://dailypioneer.com/news/viksit-bharat-demands-annihilation-of-sick-racket",
@@ -71,20 +85,6 @@
       "domain": "freepressjournal.in",
       "seendate": "20260826T163000Z",
       "image": "https://media.assettype.com/freepressjournal/2026-08-26/cwhrr635/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Queen-Of-All-Mayhem-2026-08-26T212142.877.jpg"
-    },
-    {
-      "title": "FMGE Transparency Debate Grows as Dr Vivek Jain Calls for Fair Evaluation",
-      "url": "https://www.oneindia.com/india/fmge-transparency-debate-grows-as-dr-vivek-jain-calls-for-fair-evaluation-8187571.html",
-      "domain": "oneindia.com",
-      "seendate": "20260826T163000Z",
-      "image": "https://imagesvs.oneindia.com/img/2026/08/fmg-47471787748204.jpg"
-    },
-    {
-      "title": "Family seeks NTA overhaul after Hyderabad NEET aspirant death",
-      "url": "https://www.thehindu.com/news/cities/Hyderabad/family-seeks-nta-overhaul-after-hyderabad-neet-aspirants-death/article71393166.ece",
-      "domain": "thehindu.com",
-      "seendate": "20260826T150000Z",
-      "image": "https://th-i.thgim.com/public/incoming/xas62x/article71393339.ece/alternates/LANDSCAPE_1200/DSC8366.jpg"
     }
   ]
 }
