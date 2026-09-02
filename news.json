@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-02T11:08:47Z",
+  "updated_at": "2026-09-02T16:30:08Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Take steps on formulating SOP for arresting transgender person : HC to Centre , Delhi Police",
+      "url": "https://economictimes.indiatimes.com/news/india/take-steps-on-formulating-sop-for-arresting-transgender-person-hc-to-centre-delhi-police/articleshow/133707751.cms",
+      "domain": "economictimes.indiatimes.com",
+      "seendate": "20260902T113000Z",
+      "image": "https://img.etimg.com/thumb/msid-133707851,width-1200,height-630,imgsize-123514,overlay-economictimes/articleshow.jpg"
+    },
     {
       "title": "SC quashes all FIRs against CJP protestors",
       "url": "https://kashmirreader.com/2026/09/02/sc-quashes-all-firs-against-cjp-protestors/",
@@ -78,13 +85,6 @@
       "domain": "oneindia.com",
       "seendate": "20260828T160000Z",
       "image": "https://imagesvs.oneindia.com/img/2026/08/cbseresultreleased-2026-08-28t184708-780-13881787922798.jpg"
-    },
-    {
-      "title": "AISA backs CJP Sep 5 Delhi march ; seeks withdrawal of FIRs , probe into pellet firing",
-      "url": "https://kashmirreader.com/2026/08/27/aisa-backs-cjps-sep-5-delhi-march-seeks-withdrawal-of-firs-probe-into-pellet-firing/",
-      "domain": "kashmirreader.com",
-      "seendate": "20260826T223000Z",
-      "image": null
     }
   ]
 }
