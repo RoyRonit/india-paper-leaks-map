@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-02T16:30:08Z",
+  "updated_at": "2026-09-02T20:56:05Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "ED makes twin arrests in CGPSC , DMF probes ; alleges Rs 3cr paper leak racket , Rs 31cr commission trail",
+      "url": "https://timesofindia.indiatimes.com/city/raipur/ed-makes-twin-arrests-in-cgpsc-dmf-probes-alleges-rs-3cr-paper-leak-racket-rs-31cr-commission-trail/articleshow/133715524.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260902T171500Z",
+      "image": "https://static.toiimg.com/thumb/msid-133715694,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
     {
       "title": "Take steps on formulating SOP for arresting transgender person : HC to Centre , Delhi Police",
       "url": "https://economictimes.indiatimes.com/news/india/take-steps-on-formulating-sop-for-arresting-transgender-person-hc-to-centre-delhi-police/articleshow/133707751.cms",
@@ -78,13 +85,6 @@
       "domain": "organiser.org",
       "seendate": "20260829T063000Z",
       "image": "https://organiser.org/wp-content/uploads/2026/08/whatsapp-image-2026-08-29-at-10.08.29.webp"
-    },
-    {
-      "title": "Nandan Nilekani - Led Task Force Seeks Suggestions From Students , Parents On Public Exam Reforms Amid Paper Leak Concerns",
-      "url": "https://www.oneindia.com/india/nandan-nilekani-led-task-force-seeks-suggestions-from-students-parents-on-public-exam-reforms-amid-8189623.html",
-      "domain": "oneindia.com",
-      "seendate": "20260828T160000Z",
-      "image": "https://imagesvs.oneindia.com/img/2026/08/cbseresultreleased-2026-08-28t184708-780-13881787922798.jpg"
     }
   ]
 }
