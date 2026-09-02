@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-01T16:29:49Z",
+  "updated_at": "2026-09-02T04:16:30Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "SC quashes all FIRs against CJP protestors",
+      "url": "https://kashmirreader.com/2026/09/02/sc-quashes-all-firs-against-cjp-protestors/",
+      "domain": "kashmirreader.com",
+      "seendate": "20260902T024500Z",
+      "image": "https://kashmirreader.com/wp-content/uploads/2019/10/supreme-court-of-india-2.jpg"
+    },
     {
       "title": "FIRs against student protesters to be withdrawn ; youth welfare govt utmost priority : Nadda",
       "url": "https://www.thehindubusinessline.com/news/firs-against-student-protesters-to-be-withdrawn-youth-welfare-govts-utmost-priority-nadda/article71415508.ece",
@@ -78,13 +85,6 @@
       "domain": "kashmirreader.com",
       "seendate": "20260826T223000Z",
       "image": null
-    },
-    {
-      "title": "Free Coaching Will Not Fix The Main Problem In Indian Education",
-      "url": "https://www.freepressjournal.in/analysis/free-coaching-will-not-fix-the-main-problem-in-indian-education",
-      "domain": "freepressjournal.in",
-      "seendate": "20260826T163000Z",
-      "image": "https://media.assettype.com/freepressjournal/2026-08-26/cwhrr635/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Queen-Of-All-Mayhem-2026-08-26T212142.877.jpg"
     }
   ]
 }
