@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-03T11:06:18Z",
+  "updated_at": "2026-09-03T16:19:18Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "NTA looks for exam centres for computer based NEET - UG ; seeks help from AICTE",
+      "url": "https://www.dailyexcelsior.com/nta-looks-for-exam-centres-for-computer-based-neet-ug-seeks-help-from-aicte/",
+      "domain": "dailyexcelsior.com",
+      "seendate": "20260903T140000Z",
+      "image": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYTUxMGYxYzMwLWE3OTAtMTFmMS05YjIwLTgzZThkYzhhYjE2YS5qcGc="
+    },
     {
       "title": "ED makes twin arrests in CGPSC , DMF probes ; alleges Rs 3cr paper leak racket , Rs 31cr commission trail",
       "url": "https://timesofindia.indiatimes.com/city/raipur/ed-makes-twin-arrests-in-cgpsc-dmf-probes-alleges-rs-3cr-paper-leak-racket-rs-31cr-commission-trail/articleshow/133715524.cms",
@@ -78,13 +85,6 @@
       "domain": "rediff.com",
       "seendate": "20260829T081500Z",
       "image": "https://im.rediff.com/1200-630/getahead/2026/aug/29exam-reform1.jpg"
-    },
-    {
-      "title": "Nilekani task force invites suggestions till September 13",
-      "url": "https://organiser.org/2026/08/29/377587/bharat/nta-exam-reforms-nilekani-task-force-invites-public-suggestions-till-september-13/",
-      "domain": "organiser.org",
-      "seendate": "20260829T063000Z",
-      "image": "https://organiser.org/wp-content/uploads/2026/08/whatsapp-image-2026-08-29-at-10.08.29.webp"
     }
   ]
 }
