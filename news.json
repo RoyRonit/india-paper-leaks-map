@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-09-03T16:19:18Z",
+  "updated_at": "2026-09-04T20:42:10Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "UPSC NDA , CDS 2 admit card out : How download it ? Check entry timings and other details ahead of 13 September exam",
+      "url": "https://www.livemint.com/education/upsc-nda-cds-2-admit-card-out-how-download-it-check-entry-timings-and-other-details-ahead-of-13-september-exam-11788532547040.html",
+      "domain": "livemint.com",
+      "seendate": "20260904T164500Z",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/04/600x338/Untitled_design_1788535158021_38c86d3f-f078-447b-908e-42931ed8ff27_1788535161914_8aa6d534-1b3d-4b42-b1cd-1331ec571984_d75975b3-c684-4679-9d36-34dcaa59120c_cf39f5b3-39bb-4e0c-bc15-b9b7c3a2922e.png"
+    },
+    {
+      "title": "NEET UG 2027 CBT : NTA Asks AICTE To Identify Government Colleges For Computer - Based Testing Centres Across India",
+      "url": "https://www.freepressjournal.in/education/neet-ug-2027-cbt-nta-asks-aicte-to-identify-government-colleges-for-computer-based-testing-centres-across-india",
+      "domain": "freepressjournal.in",
+      "seendate": "20260904T070000Z",
+      "image": "https://media.assettype.com/freepressjournal/2023-07/05eb9b0d-2cd7-46c5-90d4-4b2f09a9d5bd/Untitled_design___2023_07_05T145739_189.jpg"
+    },
     {
       "title": "NTA looks for exam centres for computer based NEET - UG ; seeks help from AICTE",
       "url": "https://www.dailyexcelsior.com/nta-looks-for-exam-centres-for-computer-based-neet-ug-seeks-help-from-aicte/",
@@ -71,20 +85,6 @@
       "domain": "aninews.in",
       "seendate": "20260830T081500Z",
       "image": null
-    },
-    {
-      "title": "Neet PG 2026 begins with over 273 , 000 medical graduates appearing",
-      "url": "https://www.business-standard.com/india-news/neet-pg-2026-begins-with-over-273-000-medical-graduates-appearing-126083000133_1.html",
-      "domain": "business-standard.com",
-      "seendate": "20260830T074500Z",
-      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/27/thumb/featurecrop/1200X628/1785142929-907.jpeg"
-    },
-    {
-      "title": "Nilekani Panel Invites Exam Reform Suggestions",
-      "url": "https://www.rediff.com/news/report/nilekani-panel-invites-exam-reform-suggestions/20260829.htm",
-      "domain": "rediff.com",
-      "seendate": "20260829T081500Z",
-      "image": "https://im.rediff.com/1200-630/getahead/2026/aug/29exam-reform1.jpg"
     }
   ]
 }
