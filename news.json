@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-04T20:42:10Z",
+  "updated_at": "2026-09-05T10:28:26Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Shouldnt be viewed from political or religious angle : BJP on Saharanpur mosque demolition",
+      "url": "https://www.prokerala.com/news/articles/a1808776.html",
+      "domain": "prokerala.com",
+      "seendate": "20260905T094500Z",
+      "image": null
+    },
     {
       "title": "UPSC NDA , CDS 2 admit card out : How download it ? Check entry timings and other details ahead of 13 September exam",
       "url": "https://www.livemint.com/education/upsc-nda-cds-2-admit-card-out-how-download-it-check-entry-timings-and-other-details-ahead-of-13-september-exam-11788532547040.html",
@@ -77,13 +84,6 @@
       "url": "https://www.hindustantimes.com/india-news/neet-pg-exam-rescheduled-for-nearly-300-candidates-over-power-outage-in-jaipur-101788078328238.html",
       "domain": "hindustantimes.com",
       "seendate": "20260830T090000Z",
-      "image": null
-    },
-    {
-      "title": "NEET PG 2026 examination underway across country ; over 2 . 73 lakh candidates registered",
-      "url": "https://aninews.in/news/national/general-news/neet-pg-2026-examination-underway-across-country-over-273-lakh-candidates-registered20260830103407/",
-      "domain": "aninews.in",
-      "seendate": "20260830T081500Z",
       "image": null
     }
   ]
