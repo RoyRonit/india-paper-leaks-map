@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-09-05T10:28:26Z",
+  "updated_at": "2026-09-06T04:21:40Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
     {
-      "title": "Shouldnt be viewed from political or religious angle : BJP on Saharanpur mosque demolition",
-      "url": "https://www.prokerala.com/news/articles/a1808776.html",
-      "domain": "prokerala.com",
-      "seendate": "20260905T094500Z",
+      "title": "Modi Govt paralysed , systematically gutted education over the last 12 years : Kharge",
+      "url": "https://aninews.in/news/national/general-news/modi-govt-paralysed-systematically-gutted-education-over-the-last-12-years-kharge20260905223356/",
+      "domain": "aninews.in",
+      "seendate": "20260905T190000Z",
       "image": null
+    },
+    {
+      "title": "Shouldnt be viewed from political or religious angle : BJP on Saharanpur mosque demolition",
+      "url": "https://ianslive.in/shouldnt-be-viewed-from-political-or-religious-angle-bjp-on-saharanpur-demolition--20260905134733",
+      "domain": "ianslive.in",
+      "seendate": "20260905T113000Z",
+      "image": "https://d2lnbwhcsmj8tp.cloudfront.net/ianslive_watermark/202609053931007.jpg"
     },
     {
       "title": "UPSC NDA , CDS 2 admit card out : How download it ? Check entry timings and other details ahead of 13 September exam",
@@ -78,13 +85,6 @@
       "domain": "indiagazette.com",
       "seendate": "20260830T154500Z",
       "image": "https://image.chitra.live/api/v1/wps/ea7ba5f/2eb37f38-19b5-4e14-9ccb-04f89ed96a1d/0/ANI-20260830080923-600x315.jpg"
-    },
-    {
-      "title": "NEET PG exam rescheduled for nearly 300 candidates over power outage in Jaipur",
-      "url": "https://www.hindustantimes.com/india-news/neet-pg-exam-rescheduled-for-nearly-300-candidates-over-power-outage-in-jaipur-101788078328238.html",
-      "domain": "hindustantimes.com",
-      "seendate": "20260830T090000Z",
-      "image": null
     }
   ]
 }
