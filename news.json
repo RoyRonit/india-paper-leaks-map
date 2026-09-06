@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-09-06T04:21:40Z",
+  "updated_at": "2026-09-06T15:24:29Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Popularity was never my goal ; what matters is public health : Tukaram Mundhe",
+      "url": "https://www.thehindu.com/news/national/maharashtra/popularity-was-never-my-goal-what-matters-is-public-health-tukaram-mundhe/article71434746.ece",
+      "domain": "thehindu.com",
+      "seendate": "20260906T073000Z",
+      "image": "https://th-i.thgim.com/public/incoming/ty8ksh/article71434780.ece/alternates/LANDSCAPE_1200/PTI08_08_2026_000398B.jpg"
+    },
+    {
+      "title": "Popularity was never my goal , what matters is public health : Tukaram Mundhe",
+      "url": "https://www.business-standard.com/india-news/popularity-was-never-my-goal-what-matters-is-public-health-tukaram-mundhe-126090600152_1.html",
+      "domain": "business-standard.com",
+      "seendate": "20260906T070000Z",
+      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/18/thumb/fitandfill/1200X628/1787031514-9241.jpg"
+    },
+    {
+      "title": "Popularity was never my goal ; what matters is public health : FDA Commissioner Tukaram Mundhe",
+      "url": "https://economictimes.indiatimes.com/news/india/popularity-was-never-my-goal-what-matters-is-public-health-fda-commissioner-tukaram-mundhe/articleshow/133827598.cms",
+      "domain": "economictimes.indiatimes.com",
+      "seendate": "20260906T064500Z",
+      "image": "https://img.etimg.com/thumb/msid-133827695,width-1200,height-630,imgsize-92998,overlay-economictimes/articleshow.jpg"
+    },
     {
       "title": "Modi Govt paralysed , systematically gutted education over the last 12 years : Kharge",
       "url": "https://aninews.in/news/national/general-news/modi-govt-paralysed-systematically-gutted-education-over-the-last-12-years-kharge20260905223356/",
@@ -64,27 +85,6 @@
       "domain": "thehindubusinessline.com",
       "seendate": "20260901T141500Z",
       "image": "https://bl-i.thgim.com/public/incoming/2aqaam/article71305900.ece/alternates/LANDSCAPE_1200/2026-08-03T063304Z_1523281573_RC22HMA0OCVV_RTRMADP_3_INDIA-POLITICS-YOUTH.JPG"
-    },
-    {
-      "title": "SC quashes FIRs against NEET protesters , allows fresh FIR against 2 , 873 people",
-      "url": "https://economictimes.indiatimes.com/news/india/sc-quashes-firs-against-neet-protesters-allows-fresh-fir-against-2873-people/articleshow/133678347.cms",
-      "domain": "economictimes.indiatimes.com",
-      "seendate": "20260901T113000Z",
-      "image": "https://img.etimg.com/thumb/msid-133678660,width-1200,height-630,imgsize-130088,overlay-economictimes/articleshow.jpg"
-    },
-    {
-      "title": "India Healthcare Racket : Can ABHA and NEET Reforms Fix the System ?",
-      "url": "https://dailypioneer.com/news/viksit-bharat-demands-annihilation-of-sick-racket",
-      "domain": "dailypioneer.com",
-      "seendate": "20260831T014500Z",
-      "image": "https://dailypioneer.com/uploads/2026/story/images/big/viksit-bharat-demands-annihilation-of-sick-racket-2026-08-31.jpg"
-    },
-    {
-      "title": "NEET - PG exam at Jaipur centre rescheduled to September 5 over power outage concerns : NBEMS sources",
-      "url": "http://www.indiagazette.com/news/279274450/neet-pg-exam-at-jaipur-centre-rescheduled-to-september-5-over-power-outage-concerns-nbems-sources",
-      "domain": "indiagazette.com",
-      "seendate": "20260830T154500Z",
-      "image": "https://image.chitra.live/api/v1/wps/ea7ba5f/2eb37f38-19b5-4e14-9ccb-04f89ed96a1d/0/ANI-20260830080923-600x315.jpg"
     }
   ]
 }
