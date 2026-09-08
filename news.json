@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-06T20:19:51Z",
+  "updated_at": "2026-09-08T04:19:57Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "When School Ruins Learning – Chennaionline",
+      "url": "https://www.chennaionline.com/news/when-school-ruins-learning/",
+      "domain": "chennaionline.com",
+      "seendate": "20260907T064500Z",
+      "image": null
+    },
     {
       "title": "Popularity was never my goal ; what matters is public health : Tukaram Mundhe",
       "url": "https://www.thehindu.com/news/national/maharashtra/popularity-was-never-my-goal-what-matters-is-public-health-tukaram-mundhe/article71434746.ece",
@@ -78,13 +85,6 @@
       "domain": "kashmirreader.com",
       "seendate": "20260902T024500Z",
       "image": "https://kashmirreader.com/wp-content/uploads/2019/10/supreme-court-of-india-2.jpg"
-    },
-    {
-      "title": "FIRs against student protesters to be withdrawn ; youth welfare govt utmost priority : Nadda",
-      "url": "https://www.thehindubusinessline.com/news/firs-against-student-protesters-to-be-withdrawn-youth-welfare-govts-utmost-priority-nadda/article71415508.ece",
-      "domain": "thehindubusinessline.com",
-      "seendate": "20260901T141500Z",
-      "image": "https://bl-i.thgim.com/public/incoming/2aqaam/article71305900.ece/alternates/LANDSCAPE_1200/2026-08-03T063304Z_1523281573_RC22HMA0OCVV_RTRMADP_3_INDIA-POLITICS-YOUTH.JPG"
     }
   ]
 }
