@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-09T20:53:05Z",
+  "updated_at": "2026-09-10T04:22:54Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Nandan Nilekani , heading exam reform panel , named in SIR  no - mapping  category | India News",
+      "url": "https://timesofindia.indiatimes.com/india/nandan-nilekani-heading-exam-reform-panel-named-in-sirs-no-mapping-category/articleshow/133992437.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "seendate": "20260910T040000Z",
+      "image": "https://static.toiimg.com/thumb/msid-133992612,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
     {
       "title": "When School Ruins Learning – Chennaionline",
       "url": "https://www.chennaionline.com/news/when-school-ruins-learning/",
@@ -78,13 +85,6 @@
       "domain": "economictimes.indiatimes.com",
       "seendate": "20260902T113000Z",
       "image": "https://img.etimg.com/thumb/msid-133707851,width-1200,height-630,imgsize-123514,overlay-economictimes/articleshow.jpg"
-    },
-    {
-      "title": "SC quashes all FIRs against CJP protestors",
-      "url": "https://kashmirreader.com/2026/09/02/sc-quashes-all-firs-against-cjp-protestors/",
-      "domain": "kashmirreader.com",
-      "seendate": "20260902T024500Z",
-      "image": "https://kashmirreader.com/wp-content/uploads/2019/10/supreme-court-of-india-2.jpg"
     }
   ]
 }
