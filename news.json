@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-10T16:17:25Z",
+  "updated_at": "2026-09-10T20:45:57Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "MCC NEET UG Round 2 Result 2026 Released : Link to Check",
+      "url": "https://www.ummid.com/news/2026/9/10/mcc-neet-ug-round-2-result-2026-released-link-to-check.html",
+      "domain": "ummid.com",
+      "seendate": "20260910T181500Z",
+      "image": "https://ummid.com/news/2026/9/10/mcc-neet-ug-round-2-result.webp"
+    },
     {
       "title": "Nandan Nilekani , Infosys co - founder , named in SIR  no - mapping  category",
       "url": "https://economictimes.indiatimes.com/news/india/infosys-co-founder-nandan-nilekani-named-in-bengaluru-sir-electoral-roll-no-mapping-category/articleshow/133993356.cms",
@@ -78,13 +85,6 @@
       "domain": "dailyexcelsior.com",
       "seendate": "20260903T140000Z",
       "image": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYTUxMGYxYzMwLWE3OTAtMTFmMS05YjIwLTgzZThkYzhhYjE2YS5qcGc="
-    },
-    {
-      "title": "ED makes twin arrests in CGPSC , DMF probes ; alleges Rs 3cr paper leak racket , Rs 31cr commission trail",
-      "url": "https://timesofindia.indiatimes.com/city/raipur/ed-makes-twin-arrests-in-cgpsc-dmf-probes-alleges-rs-3cr-paper-leak-racket-rs-31cr-commission-trail/articleshow/133715524.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20260902T171500Z",
-      "image": "https://static.toiimg.com/thumb/msid-133715694,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
     }
   ]
 }
