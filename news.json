@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-10T04:22:54Z",
+  "updated_at": "2026-09-10T11:06:51Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Nandan Nilekani , Infosys co - founder , named in SIR  no - mapping  category",
+      "url": "https://economictimes.indiatimes.com/news/india/infosys-co-founder-nandan-nilekani-named-in-bengaluru-sir-electoral-roll-no-mapping-category/articleshow/133993356.cms",
+      "domain": "economictimes.indiatimes.com",
+      "seendate": "20260910T044500Z",
+      "image": "https://img.etimg.com/thumb/msid-133993493,width-1200,height-630,imgsize-41670,overlay-economictimes/articleshow.jpg"
+    },
     {
       "title": "Nandan Nilekani , heading exam reform panel , named in SIR  no - mapping  category | India News",
       "url": "https://timesofindia.indiatimes.com/india/nandan-nilekani-heading-exam-reform-panel-named-in-sirs-no-mapping-category/articleshow/133992437.cms",
@@ -78,13 +85,6 @@
       "domain": "timesofindia.indiatimes.com",
       "seendate": "20260902T171500Z",
       "image": "https://static.toiimg.com/thumb/msid-133715694,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "Take steps on formulating SOP for arresting transgender person : HC to Centre , Delhi Police",
-      "url": "https://economictimes.indiatimes.com/news/india/take-steps-on-formulating-sop-for-arresting-transgender-person-hc-to-centre-delhi-police/articleshow/133707751.cms",
-      "domain": "economictimes.indiatimes.com",
-      "seendate": "20260902T113000Z",
-      "image": "https://img.etimg.com/thumb/msid-133707851,width-1200,height-630,imgsize-123514,overlay-economictimes/articleshow.jpg"
     }
   ]
 }
