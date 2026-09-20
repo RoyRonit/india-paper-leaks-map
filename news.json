@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-19T20:30:00Z",
+  "updated_at": "2026-09-20T15:57:14Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Came with microphone , manufactured  System vs Student narrative : Dharmendra Pradhan hits out at Rahul Gandhi after  Chhatron ki Goonj  in Indore",
+      "url": "https://news.webindia123.com/news/Articles/India/20260920/4500868.html",
+      "domain": "news.webindia123.com",
+      "seendate": "20260920T001500Z",
+      "image": null
+    },
     {
       "title": "MCC NEET UG Round 2 Result 2026 Released : Link to Check",
       "url": "https://www.ummid.com/news/2026/9/10/mcc-neet-ug-round-2-result-2026-released-link-to-check.html",
@@ -78,13 +85,6 @@
       "domain": "freepressjournal.in",
       "seendate": "20260904T070000Z",
       "image": "https://media.assettype.com/freepressjournal/2023-07/05eb9b0d-2cd7-46c5-90d4-4b2f09a9d5bd/Untitled_design___2023_07_05T145739_189.jpg"
-    },
-    {
-      "title": "NTA looks for exam centres for computer based NEET - UG ; seeks help from AICTE",
-      "url": "https://www.dailyexcelsior.com/nta-looks-for-exam-centres-for-computer-based-neet-ug-seeks-help-from-aicte/",
-      "domain": "dailyexcelsior.com",
-      "seendate": "20260903T140000Z",
-      "image": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYTUxMGYxYzMwLWE3OTAtMTFmMS05YjIwLTgzZThkYzhhYjE2YS5qcGc="
     }
   ]
 }
