@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-09-24T04:30:13Z",
+  "updated_at": "2026-09-24T11:34:33Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "ABVP seeks complete overhaul of NTA , calls for permanent staff",
+      "url": "https://www.orissapost.com/abvp-seeks-complete-overhaul-of-nta-calls-for-permanent-staff/",
+      "domain": "orissapost.com",
+      "seendate": "20260924T081500Z",
+      "image": null
+    },
+    {
+      "title": "NTA needs complete overhaul , permanent staff to ensure foolproof exams : ABVP",
+      "url": "https://www.hindustantimes.com/education/news/nta-needs-complete-overhaul-permanent-staff-to-ensure-foolproof-exams-abvp-101790232932135.html",
+      "domain": "hindustantimes.com",
+      "seendate": "20260924T071500Z",
+      "image": null
+    },
     {
       "title": "NTA is hiring  untainted  Subject Matter Experts . What else is needed to plug paper leaks ?",
       "url": "https://www.thehindu.com/education/nta-is-hiring-untainted-subject-matter-experts-what-else-is-needed-to-plug-paper-leaks/article71484593.ece",
@@ -71,20 +85,6 @@
       "domain": "aninews.in",
       "seendate": "20260905T190000Z",
       "image": null
-    },
-    {
-      "title": "Shouldnt be viewed from political or religious angle : BJP on Saharanpur mosque demolition",
-      "url": "https://ianslive.in/shouldnt-be-viewed-from-political-or-religious-angle-bjp-on-saharanpur-demolition--20260905134733",
-      "domain": "ianslive.in",
-      "seendate": "20260905T113000Z",
-      "image": "https://d2lnbwhcsmj8tp.cloudfront.net/ianslive_watermark/202609053931007.jpg"
-    },
-    {
-      "title": "UPSC NDA , CDS 2 admit card out : How download it ? Check entry timings and other details ahead of 13 September exam",
-      "url": "https://www.livemint.com/education/upsc-nda-cds-2-admit-card-out-how-download-it-check-entry-timings-and-other-details-ahead-of-13-september-exam-11788532547040.html",
-      "domain": "livemint.com",
-      "seendate": "20260904T164500Z",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/04/600x338/Untitled_design_1788535158021_38c86d3f-f078-447b-908e-42931ed8ff27_1788535161914_8aa6d534-1b3d-4b42-b1cd-1331ec571984_d75975b3-c684-4679-9d36-34dcaa59120c_cf39f5b3-39bb-4e0c-bc15-b9b7c3a2922e.png"
     }
   ]
 }
