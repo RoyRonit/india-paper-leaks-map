@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-09-26T21:02:04Z",
+  "updated_at": "2026-09-27T11:55:19Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "CISF To Guard NTA Premises , Confidential Areas To Face Stricter Monitoring",
+      "url": "https://thenorthlines.com/cisf-to-guard-nta-premises-confidential-areas-to-face-stricter-monitoring/",
+      "domain": "thenorthlines.com",
+      "seendate": "20260927T090000Z",
+      "image": "https://thenorthlines.com/wp-content/uploads/2026/05/NTA.jpg"
+    },
+    {
+      "title": "After NEET paper leak , NTA tightens security at new office : 39 CISF personnel deployed , confidential areas under strict monitoring",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/after-neet-paper-leak-nta-tightens-security-at-new-office-39-cisf-personnel-deployed-confidential-areas-under-strict-monitoring/articleshow/134516639.cms",
+      "domain": "economictimes.indiatimes.com",
+      "seendate": "20260927T083000Z",
+      "image": "https://img.etimg.com/thumb/msid-134516695,width-1200,height-630,imgsize-42536,overlay-economictimes/articleshow.jpg"
+    },
+    {
+      "title": "CISF to guard NTA office amid paper leak concerns",
+      "url": "https://www.siasat.com/cisf-to-guard-nta-office-amid-paper-leak-concerns-3548980/",
+      "domain": "siasat.com",
+      "seendate": "20260927T081500Z",
+      "image": "https://cdn.siasat.com/wp-content/uploads/2026/09/CISF-and-NTA.jpg"
+    },
     {
       "title": "ABVP seeks complete overhaul of NTA , calls for permanent staff",
       "url": "https://www.orissapost.com/abvp-seeks-complete-overhaul-of-nta-calls-for-permanent-staff/",
@@ -64,27 +85,6 @@
       "domain": "thehindu.com",
       "seendate": "20260906T073000Z",
       "image": "https://th-i.thgim.com/public/incoming/ty8ksh/article71434780.ece/alternates/LANDSCAPE_1200/PTI08_08_2026_000398B.jpg"
-    },
-    {
-      "title": "Popularity was never my goal , what matters is public health : Tukaram Mundhe",
-      "url": "https://www.business-standard.com/india-news/popularity-was-never-my-goal-what-matters-is-public-health-tukaram-mundhe-126090600152_1.html",
-      "domain": "business-standard.com",
-      "seendate": "20260906T070000Z",
-      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/18/thumb/fitandfill/1200X628/1787031514-9241.jpg"
-    },
-    {
-      "title": "Popularity was never my goal ; what matters is public health : FDA Commissioner Tukaram Mundhe",
-      "url": "https://economictimes.indiatimes.com/news/india/popularity-was-never-my-goal-what-matters-is-public-health-fda-commissioner-tukaram-mundhe/articleshow/133827598.cms",
-      "domain": "economictimes.indiatimes.com",
-      "seendate": "20260906T064500Z",
-      "image": "https://img.etimg.com/thumb/msid-133827695,width-1200,height-630,imgsize-92998,overlay-economictimes/articleshow.jpg"
-    },
-    {
-      "title": "Modi Govt paralysed , systematically gutted education over the last 12 years : Kharge",
-      "url": "https://aninews.in/news/national/general-news/modi-govt-paralysed-systematically-gutted-education-over-the-last-12-years-kharge20260905223356/",
-      "domain": "aninews.in",
-      "seendate": "20260905T190000Z",
-      "image": null
     }
   ]
 }
