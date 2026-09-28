@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-27T16:52:20Z",
+  "updated_at": "2026-09-28T05:09:04Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "NEET leak fallout : CISF to guard NTA  confidential  areas",
+      "url": "https://www.rediff.com/news/report/neet-leak-fallout-cisf-to-guard-ntas-confidential-areas/20260927.htm",
+      "domain": "rediff.com",
+      "seendate": "20260927T191500Z",
+      "image": "https://im.rediff.com/1200-630/news/2026/sep/27ntneet-row.jpg"
+    },
     {
       "title": "NEET leak fallout : CISF to guard NTA confidential exam areas | India News",
       "url": "https://timesofindia.indiatimes.com/india/neet-leak-fallout-cisf-to-guard-ntas-confidential-exam-areas/articleshow/134519895.cms",
@@ -78,13 +85,6 @@
       "domain": "timesofindia.indiatimes.com",
       "seendate": "20260910T040000Z",
       "image": "https://static.toiimg.com/thumb/msid-133992612,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-    },
-    {
-      "title": "When School Ruins Learning – Chennaionline",
-      "url": "https://www.chennaionline.com/news/when-school-ruins-learning/",
-      "domain": "chennaionline.com",
-      "seendate": "20260907T064500Z",
-      "image": null
     }
   ]
 }
