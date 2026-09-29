@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-29T05:33:17Z",
+  "updated_at": "2026-09-29T22:09:21Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "NTA exam reforms : Nilekani - led panel consults ex - ISRO chief Radhakrishnan , who led committee set up after 2024 NEET paper leak",
+      "url": "https://www.moneycontrol.com/education/nta-exam-reforms-nilekani-led-panel-consults-ex-isro-chief-radhakrishnan-who-led-committee-set-up-after-2024-neet-paper-leak-article-14040764.html",
+      "domain": "moneycontrol.com",
+      "seendate": "20260929T070000Z",
+      "image": "https://images.moneycontrol.com/static-mcnews/2022/02/pjimage-4.jpg"
+    },
     {
       "title": "Nandan Nilekani Task Force Consults Former ISRO Chairman K Radhakrishnan On NTA Reforms To Strengthen Exam Security After NEET Paper Leak",
       "url": "https://www.freepressjournal.in/education/nandan-nilekani-task-force-consults-former-isro-chairman-k-radhakrishnan-on-nta-reforms-to-strengthen-exam-security-after-neet-paper-leak",
@@ -78,13 +85,6 @@
       "domain": "news.webindia123.com",
       "seendate": "20260920T001500Z",
       "image": null
-    },
-    {
-      "title": "MCC NEET UG Round 2 Result 2026 Released : Link to Check",
-      "url": "https://www.ummid.com/news/2026/9/10/mcc-neet-ug-round-2-result-2026-released-link-to-check.html",
-      "domain": "ummid.com",
-      "seendate": "20260910T181500Z",
-      "image": "https://ummid.com/news/2026/9/10/mcc-neet-ug-round-2-result.webp"
     }
   ]
 }
