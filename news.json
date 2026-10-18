@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-10-18T10:53:34Z",
+  "updated_at": "2026-10-18T15:45:25Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Ravi Kishan Says Gen Z Is Patriotic , Well - Informed Amid CJP Jantar Mantar Protests",
+      "url": "https://www.oneindia.com/india/ravi-kishan-says-gen-z-is-patriotic-well-informed-amid-cjp-s-jantar-mantar-protests-8239019.html",
+      "domain": "oneindia.com",
+      "seendate": "20261018T143000Z",
+      "image": "https://imagesvs.oneindia.com/img/2026/10/ravikishan-65011792320632.jpg"
+    },
     {
       "title": "Here are the big stories from Karnataka today",
       "url": "https://www.thehindu.com/newsletter/karnataka-today/here-are-the-big-stories-from-karnataka-today/article71528186.ece",
@@ -78,13 +85,6 @@
       "domain": "hindustantimes.com",
       "seendate": "20260924T071500Z",
       "image": null
-    },
-    {
-      "title": "NTA is hiring  untainted  Subject Matter Experts . What else is needed to plug paper leaks ?",
-      "url": "https://www.thehindu.com/education/nta-is-hiring-untainted-subject-matter-experts-what-else-is-needed-to-plug-paper-leaks/article71484593.ece",
-      "domain": "thehindu.com",
-      "seendate": "20260921T040000Z",
-      "image": "https://th-i.thgim.com/public/education/h96bep/article71484713.ece/alternates/LANDSCAPE_1200/image%202.jpg"
     }
   ]
 }
