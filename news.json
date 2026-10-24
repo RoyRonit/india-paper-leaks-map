@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-10-23T16:56:14Z",
+  "updated_at": "2026-10-24T10:46:34Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "Digitality and Articulation of Dissent",
+      "url": "https://www.epw.in/journal/2026/43/commentary/digitality-and-articulation-dissent.html",
+      "domain": "epw.in",
+      "seendate": "20261024T064500Z",
+      "image": null
+    },
     {
       "title": "Will Rahul Gandhi Learn Any Lessons from This ? - The Times of India",
       "url": "https://timesofindia.indiatimes.com/toi-blogs/nation-notes/will-rahul-gandhi-learn-any-lessons-from-this/articleshow/135040852.cms",
@@ -78,13 +85,6 @@
       "domain": "siasat.com",
       "seendate": "20260927T081500Z",
       "image": "https://cdn.siasat.com/wp-content/uploads/2026/09/CISF-and-NTA.jpg"
-    },
-    {
-      "title": "ABVP seeks complete overhaul of NTA , calls for permanent staff",
-      "url": "https://www.orissapost.com/abvp-seeks-complete-overhaul-of-nta-calls-for-permanent-staff/",
-      "domain": "orissapost.com",
-      "seendate": "20260924T081500Z",
-      "image": null
     }
   ]
 }
