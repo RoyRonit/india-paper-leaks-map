@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-20T06:58:19Z",
+  "updated_at": "2026-11-20T19:58:54Z",
   "source": "GDELT DOC 2.0 — query: \"paper leak\" india exam sourcecountry:in",
   "items": [
+    {
+      "title": "NEET leak : Delhi court observes NTA is a public authority , says subject experts cheated lakhs of students",
+      "url": "https://www.hindustantimes.com/india-news/neet-leak-delhi-court-observes-nta-is-a-public-authority-says-subject-experts-cheated-lakhs-of-students-101795154730825.html",
+      "domain": "hindustantimes.com",
+      "seendate": "20261120T064500Z",
+      "image": null
+    },
     {
       "title": "Digitality and Articulation of Dissent",
       "url": "https://www.epw.in/journal/2026/43/commentary/digitality-and-articulation-dissent.html",
@@ -78,13 +85,6 @@
       "domain": "economictimes.indiatimes.com",
       "seendate": "20260927T083000Z",
       "image": "https://img.etimg.com/thumb/msid-134516695,width-1200,height-630,imgsize-42536,overlay-economictimes/articleshow.jpg"
-    },
-    {
-      "title": "CISF to guard NTA office amid paper leak concerns",
-      "url": "https://www.siasat.com/cisf-to-guard-nta-office-amid-paper-leak-concerns-3548980/",
-      "domain": "siasat.com",
-      "seendate": "20260927T081500Z",
-      "image": "https://cdn.siasat.com/wp-content/uploads/2026/09/CISF-and-NTA.jpg"
     }
   ]
 }
